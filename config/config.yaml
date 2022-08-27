@@ -29,7 +29,7 @@ slide_player:
     
 lights:
   l_left_outlane:
-    start_channel: 0-0      # you could also use number: 0
+    number: 0      # you could also use number: 0
     subtype: led
     type: grb
   l_left_inlane:
@@ -260,6 +260,15 @@ lights:
     previous: l_4x
     subtype: led
     type: grb
+    
+    
+  l_shoot_again:
+    number: 64      
+    subtype: led
+    type: grb
+    
+  l_
+    
 
 
 
