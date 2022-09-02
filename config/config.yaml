@@ -261,13 +261,9 @@ lights:
     subtype: led
     type: grb
     
+
     
-  l_shoot_again:
-    number: 64      
-    subtype: led
-    type: grb
-    
-  l_
+
     
 
 

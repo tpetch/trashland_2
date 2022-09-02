@@ -317,3 +317,117 @@
 2022-08-27 09:44:46,680 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
 2022-08-27 09:44:46,680 : INFO : EventManager : Event: ======'drop_target_right_right_up'====== Args={'device': <drop_target.right_right>}
 2022-08-27 09:44:46,681 : INFO : EventManager : Event: ======'drop_target_bank_right_up'====== Args={}
+2022-08-29 04:48:29,704 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2022-08-29 04:48:29,833 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2022-08-29 04:48:29,833 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2022-08-29 04:48:29,835 : INFO : BallController : Known balls: 0
+2022-08-29 04:48:29,835 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2022-08-29 04:48:29,835 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2022-08-29 04:48:29,835 : INFO : BallController : Triggering ball search.
+2022-08-29 04:48:30,063 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2022-08-29 04:48:31,845 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-08-29 04:48:32,015 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-08-29 04:48:32,255 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-08-29 04:48:32,954 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-08-29 04:48:35,885 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-08-29 04:48:36,023 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-08-29 04:48:36,243 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-08-29 04:48:36,734 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-08-29 04:48:37,924 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2022-08-29 04:48:38,014 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2022-08-29 04:48:38,124 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2022-08-29 04:48:38,304 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2022-08-29 04:48:38,364 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2022-08-29 04:48:38,844 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2022-08-29 04:48:40,715 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2022-08-29 04:48:40,715 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-08-29 04:48:40,716 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-08-29 04:48:40,716 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-08-29 04:48:41,004 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2022-08-29 04:48:41,164 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2022-08-29 04:48:41,164 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-08-29 04:48:41,165 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-08-29 04:48:41,165 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-08-29 04:48:41,394 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2022-08-29 04:48:41,504 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2022-08-29 04:48:41,504 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-08-29 04:48:41,505 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-08-29 04:48:41,505 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-08-29 04:48:41,894 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2022-08-29 04:48:42,064 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2022-08-29 04:48:42,064 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-08-29 04:48:42,065 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-08-29 04:48:42,065 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-08-29 04:48:42,194 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2022-08-29 04:48:42,374 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2022-08-29 04:48:42,374 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-08-29 04:48:42,375 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-08-29 04:48:42,375 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-08-29 04:48:42,534 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2022-08-29 04:48:42,664 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2022-08-29 04:48:42,664 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-08-29 04:48:42,665 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-08-29 04:48:42,665 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-08-29 04:48:42,823 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2022-08-29 04:48:42,944 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2022-08-29 04:48:42,944 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-08-29 04:48:42,944 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-08-29 04:48:42,944 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-08-29 04:48:44,324 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2022-08-29 04:48:44,465 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2022-08-29 04:48:44,465 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-08-29 04:48:44,466 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-08-29 04:48:44,466 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-08-29 04:48:45,784 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2022-08-29 04:48:46,204 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2022-08-29 04:48:46,204 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-08-29 04:48:46,204 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-08-29 04:48:46,205 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-08-29 04:48:46,354 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2022-08-29 04:48:46,774 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2022-08-29 04:48:46,774 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-08-29 04:48:46,774 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-08-29 04:48:46,774 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-08-29 04:48:47,254 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2022-08-29 04:48:47,354 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2022-08-29 04:48:47,354 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-08-29 04:48:47,354 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-08-29 04:48:47,354 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-08-29 04:48:47,734 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2022-08-29 04:48:47,874 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2022-08-29 04:48:47,874 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-08-29 04:48:47,874 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-08-29 04:48:47,875 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-08-29 04:48:47,974 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2022-08-29 04:48:48,104 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2022-08-29 04:48:48,104 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-08-29 04:48:48,105 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-08-29 04:48:48,105 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-08-29 04:48:48,715 : INFO : SwitchController : <<<<<<< 's_right_inlane' active >>>>>>>
+2022-08-29 04:48:48,715 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-08-29 04:48:48,715 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-08-29 04:48:48,715 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-08-29 04:48:48,845 : INFO : SwitchController : <<<<<<< 's_right_inlane' inactive >>>>>>>
+2022-08-29 04:48:48,924 : INFO : SwitchController : <<<<<<< 's_right_inlane' active >>>>>>>
+2022-08-29 04:48:48,924 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-08-29 04:48:48,925 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-08-29 04:48:48,925 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-08-29 04:48:49,054 : INFO : SwitchController : <<<<<<< 's_right_inlane' inactive >>>>>>>
+2022-08-29 04:48:50,754 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-08-29 04:48:50,883 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-08-29 04:48:51,364 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-08-29 04:48:52,294 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-08-29 04:48:53,415 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2022-08-29 04:48:53,415 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2022-08-29 04:48:53,416 : INFO : BallController : Known balls: 0
+2022-08-29 04:48:53,416 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2022-08-29 04:48:53,416 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2022-08-29 04:48:53,416 : INFO : BallController : Triggering ball search.
+2022-08-29 04:48:53,555 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2022-08-29 04:48:53,934 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2022-08-29 04:48:53,934 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2022-08-29 04:48:53,935 : INFO : BallController : Known balls: 0
+2022-08-29 04:48:53,935 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2022-08-29 04:48:53,935 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2022-08-29 04:48:53,935 : INFO : BallController : Triggering ball search.
+2022-08-29 04:48:56,955 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
