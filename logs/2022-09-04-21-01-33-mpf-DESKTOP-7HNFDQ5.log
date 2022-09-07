@@ -1,0 +1,102 @@
+2022-09-04 21:01:33,809 : INFO : root : Loading config.
+2022-09-04 21:01:33,812 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-04 21:01:33,812 : WARNING : ConfigProcessor : Config file in cache changed: c:\trashland_2\config\config.yaml
+2022-09-04 21:01:33,812 : INFO : ConfigProcessor : Loading config from file c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml.
+2022-09-04 21:01:33,884 : INFO : ConfigProcessor : Loading config: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml
+2022-09-04 21:01:33,885 : INFO : ConfigProcessor : Loading config from file c:\trashland_2\config\config.yaml.
+2022-09-04 21:01:33,977 : INFO : ConfigProcessor : Loading config: c:\trashland_2\config\config.yaml
+2022-09-04 21:01:33,980 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\a6762098cb994b55cb03a478b26022ee.mpf_cache
+2022-09-04 21:01:34,044 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\ec172e3d2b0d14c1982139d23248bb88.mpf_cache
+2022-09-04 21:01:34,044 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-09-04 21:01:34,045 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-04 21:01:34,045 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-04-21-01-33-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-04 21:01:34,045 : INFO : Machine : MPF path: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-09-04 21:01:34,045 : INFO : Machine : Machine path: c:\trashland_2
+2022-09-04 21:01:34,045 : INFO : Machine : Platform: win32
+2022-09-04 21:01:34,045 : INFO : Machine : Python executable location: c:\users\tanner\appdata\local\programs\python\python37\python.exe
+2022-09-04 21:01:34,045 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-09-04 21:01:34,047 : INFO : Machine : Initialise MPF.
+2022-09-04 21:01:34,298 : INFO : FAST : Connecting to com20 at 921600bps
+2022-09-04 21:01:34,409 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.00
+2022-09-04 21:01:34,409 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.00', 'prev_value': None, 'change': True}
+2022-09-04 21:01:34,409 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-09-04 21:01:39,392 : WARNING : FAST : Reset of NET CPU failed. This might be a firmware bug in your version.
+2022-09-04 21:01:39,998 : INFO : FAST : Connecting to com21 at 921600bps
+2022-09-04 21:01:40,109 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2022-09-04 21:01:40,109 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '01.00', 'prev_value': None, 'change': True}
+2022-09-04 21:01:40,109 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-09-04 21:01:40,110 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-09-04 21:01:40,155 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-09-04 21:01:40,155 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-09-04 21:01:40,155 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-09-04 21:01:40,156 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2022-09-04 21:01:40,156 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2022-09-04 21:01:40,156 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-09-04 21:01:40,156 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-09-04 21:01:40,156 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2022-09-04 21:01:40,156 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-09-04 21:01:40,156 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-09-04 21:01:40,185 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2022-09-04 21:01:40,186 : INFO : EventManager : Event: ======'drop_target_bank_right_up'====== Args={}
+2022-09-04 21:01:40,208 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_6 in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 669, in configure_switch
+    "FAST platform.".format(config.name, number), 8)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\logging.py", line 173, in raise_config_error
+    from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in FAST: Could not parse switch number s_trough_6/3-8S. Seems to be not a valid switch number for the FAST platform. Error Code: CFE-FAST-8 (https://docs.missionpinball.org/en/0.55/logs/CFE-FAST-8.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_6 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-04 21:01:40,222 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-09-04 21:01:40,222 : INFO : Machine : Starting the main run loop.
+2022-09-04 21:01:40,223 : INFO : Machine : Shutting down...
+2022-09-04 21:01:40,223 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-04 21:01:40,224 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...te 'number'")>) at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py:112
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...te 'number'")>) at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py:112>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\switch_controller.py", line 82, in _initialize_switches
+    await self.update_switches_from_hw()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\switch_controller.py", line 104, in update_switches_from_hw
+    switches.add((switch, switch.hw_switch.number))
+AttributeError: 'NoneType' object has no attribute 'number'
+2022-09-04 21:01:40,317 : ERROR : FAST : Stop called on serial connection com20
+2022-09-04 21:01:40,317 : ERROR : FAST : Stop called on serial connection com21
+2022-09-04 21:01:40,556 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending coro=<Event.wait() running at c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\locks.py:293> wait_for=<Future cancelled>>
+2022-09-04 21:01:40,556 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending coro=<Event.wait() running at c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\locks.py:293> wait_for=<Future cancelled>>
+2022-09-04 21:01:40,558 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 669, in configure_switch
+    "FAST platform.".format(config.name, number), 8)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\logging.py", line 173, in raise_config_error
+    from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in FAST: Could not parse switch number s_trough_6/3-8S. Seems to be not a valid switch number for the FAST platform. Error Code: CFE-FAST-8 (https://docs.missionpinball.org/en/0.55/logs/CFE-FAST-8.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_6 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-04 21:01:58,025 : INFO : root : MPF run loop ended.

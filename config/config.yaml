@@ -305,7 +305,7 @@ lights:
     subtype: led
     type: grb
   l_upper_r:
-    previous: l_uppert_t
+    previous: l_upper_t
     subtype: led
     type: grb
   l_upper_a:
@@ -415,6 +415,8 @@ switches:
     
   s_sling_left:
     number: 2-2
+  s_sling_right:
+    number: 2-15
     
   s_vuk_back:
     number: 2-12
@@ -513,7 +515,7 @@ coils:
 
 # Board 1 - Backbox and Upper Mini
 
-  c_back_flipper:
+  #c_back_flipper:
 
 # Board 2 - Main
 
@@ -540,9 +542,9 @@ coils:
    number: 2-8
    default_pulse_ms: 50
    default_pulse_power: 0.7
-  c_drop_mid_left:
-   number: 2-5
-   default_pulse_power: 0.5
+  #c_drop_mid_left:
+   #number: 2-5
+   #default_pulse_power: 0.5
   c_drop_mid_mid:
    number: 2-6
    default_pulse_power: 0.5
@@ -565,30 +567,32 @@ coils:
    
   c_left_sling:
    number: 2-3
+  c_right_sling:
+   number: 2-5
   
 # Board 3 - Lower Third
 
   c_flipper_left:
-    number: 3-5
-    default_pulse_ms: 30
-  c_flipper_left_hold:
     number: 3-4
+    default_pulse_ms: 40
+  c_flipper_left_hold:
+    number: 3-5
     allow_enable: true
     default_hold_power: 1.0
     
   c_flipper_right:
-    number: 3-3
-    default_pulse_ms: 30
-  c_flipper_right_hold:
     number: 3-2
+    default_pulse_ms: 40
+  c_flipper_right_hold:
+    number: 3-3
     allow_enable: true
     default_hold_power: 1.0
     
   c_flipper_left_top:
-    number: 3-7
-    default_pulse_ms: 30
-  c_flipper_left_top_hold:
     number: 3-6
+    default_pulse_ms: 40
+  c_flipper_left_top_hold:
+    number: 3-7
     allow_enable: true
     default_hold_power: 1.0
     
@@ -609,16 +613,16 @@ coils:
         
         
   c_bot_top_flipper:
-    number: 1
+    number: 4-1
     allow_enable: true
     default_hold_power: 0.125
   c_bot_bot_flipper:
-    number: 1
+    number: 4-0
     allow_enable: true
     default_hold_power: 0.125
     
   c_bot_vuk:
-    number:
+    number: 4-2
 
 
 drop_targets:
