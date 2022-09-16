@@ -1,0 +1,149 @@
+2022-09-12 11:04:17,320 : INFO : root : Loading config.
+2022-09-12 11:04:17,323 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-12 11:04:17,324 : WARNING : ConfigProcessor : Config file in cache changed: c:\trashland_2\config\config.yaml
+2022-09-12 11:04:17,324 : INFO : ConfigProcessor : Loading config from file c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml.
+2022-09-12 11:04:17,398 : INFO : ConfigProcessor : Loading config: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml
+2022-09-12 11:04:17,399 : INFO : ConfigProcessor : Loading config from file c:\trashland_2\config\config.yaml.
+2022-09-12 11:04:17,498 : INFO : ConfigProcessor : Loading config: c:\trashland_2\config\config.yaml
+2022-09-12 11:04:17,501 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\a6762098cb994b55cb03a478b26022ee.mpf_cache
+2022-09-12 11:04:17,572 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-09-12 11:04:17,573 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-09-12 11:04:17,574 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\abaa92c43d134e3392cbb2346e6a16be.mpf_cache
+2022-09-12 11:04:17,575 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fc46d53fcb9fe6b8abf783d9c813390a.mpf_cache
+2022-09-12 11:04:17,576 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-12 11:04:17,576 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-12-11-04-17-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-12 11:04:17,576 : INFO : Machine : MPF path: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-09-12 11:04:17,576 : INFO : Machine : Machine path: c:\trashland_2
+2022-09-12 11:04:17,576 : INFO : Machine : Platform: win32
+2022-09-12 11:04:17,577 : INFO : Machine : Python executable location: c:\users\tanner\appdata\local\programs\python\python37\python.exe
+2022-09-12 11:04:17,577 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-09-12 11:04:17,578 : INFO : Machine : Initialise MPF.
+2022-09-12 11:04:17,868 : INFO : FAST : Connecting to com20 at 921600bps
+2022-09-12 11:04:24,636 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.00
+2022-09-12 11:04:24,636 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.00', 'prev_value': None, 'change': True}
+2022-09-12 11:04:24,636 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-09-12 11:04:25,131 : WARNING : FAST : Got unexpected message from FAST: 
+2022-09-12 11:04:25,131 : WARNING : FAST : Got unexpected message from FAST: !B:00
+2022-09-12 11:04:25,131 : WARNING : FAST : Got unexpected message from FAST: XX:F
+2022-09-12 11:04:25,131 : WARNING : FAST : Got unexpected message from FAST: XX:F
+2022-09-12 11:04:25,131 : WARNING : FAST : Got unexpected message from FAST: XX:F
+2022-09-12 11:04:25,131 : WARNING : FAST : Got unexpected message from FAST: XX:F
+2022-09-12 11:04:25,131 : WARNING : FAST : Got unexpected message from FAST: !B:02
+2022-09-12 11:04:25,131 : WARNING : FAST : Got unexpected message from FAST: 
+2022-09-12 11:04:25,131 : WARNING : FAST : Got unexpected message from FAST: !B:00
+2022-09-12 11:04:25,147 : WARNING : FAST : Got unexpected message from FAST: XX:F
+2022-09-12 11:04:26,585 : WARNING : FAST : Got unexpected message from FAST: !B:02
+2022-09-12 11:04:26,809 : WARNING : FAST : Got unexpected message from FAST: -N:33
+2022-09-12 11:04:26,809 : WARNING : FAST : Got unexpected message from FAST: -N:34
+2022-09-12 11:04:26,809 : WARNING : FAST : Got unexpected message from FAST: -N:38
+2022-09-12 11:04:26,809 : WARNING : FAST : Got unexpected message from FAST: -N:3B
+2022-09-12 11:04:26,809 : WARNING : FAST : Got unexpected message from FAST: -N:3C
+2022-09-12 11:04:26,809 : WARNING : FAST : Got unexpected message from FAST: -N:40
+2022-09-12 11:04:26,809 : WARNING : FAST : Got unexpected message from FAST: -N:41
+2022-09-12 11:04:26,810 : WARNING : FAST : Got unexpected message from FAST: -N:42
+2022-09-12 11:04:26,810 : WARNING : FAST : Got unexpected message from FAST: -N:43
+2022-09-12 11:04:26,810 : WARNING : FAST : Got unexpected message from FAST: -N:44
+2022-09-12 11:04:27,433 : WARNING : FAST : Got unexpected message from FAST: 
+2022-09-12 11:04:27,433 : WARNING : FAST : Got unexpected message from FAST: !B:00
+2022-09-12 11:04:29,033 : WARNING : FAST : Got unexpected message from FAST: !B:02
+2022-09-12 11:04:29,273 : WARNING : FAST : Got unexpected message from FAST: -N:33
+2022-09-12 11:04:29,273 : WARNING : FAST : Got unexpected message from FAST: -N:34
+2022-09-12 11:04:29,273 : WARNING : FAST : Got unexpected message from FAST: -N:38
+2022-09-12 11:04:29,273 : WARNING : FAST : Got unexpected message from FAST: -N:3B
+2022-09-12 11:04:29,273 : WARNING : FAST : Got unexpected message from FAST: -N:3C
+2022-09-12 11:04:29,273 : WARNING : FAST : Got unexpected message from FAST: -N:40
+2022-09-12 11:04:29,273 : WARNING : FAST : Got unexpected message from FAST: -N:41
+2022-09-12 11:04:29,273 : WARNING : FAST : Got unexpected message from FAST: -N:42
+2022-09-12 11:04:29,273 : WARNING : FAST : Got unexpected message from FAST: -N:43
+2022-09-12 11:04:29,274 : WARNING : FAST : Got unexpected message from FAST: -N:44
+2022-09-12 11:04:30,696 : WARNING : FAST : Got unexpected message from FAST: 
+2022-09-12 11:04:30,696 : WARNING : FAST : Got unexpected message from FAST: !B:00
+2022-09-12 11:04:32,291 : WARNING : FAST : Got unexpected message from FAST: !B:02
+2022-09-12 11:04:32,763 : WARNING : FAST : Got unexpected message from FAST: 
+2022-09-12 11:04:32,763 : WARNING : FAST : Got unexpected message from FAST: !B:00
+2022-09-12 11:04:34,369 : WARNING : FAST : Got unexpected message from FAST: !B:02
+2022-09-12 11:04:34,858 : WARNING : FAST : Got unexpected message from FAST: 
+2022-09-12 11:04:34,858 : WARNING : FAST : Got unexpected message from FAST: !B:00
+2022-09-12 11:04:36,465 : WARNING : FAST : Got unexpected message from FAST: !B:02
+2022-09-12 11:04:36,686 : WARNING : FAST : Got unexpected message from FAST: -N:00
+2022-09-12 11:04:36,686 : WARNING : FAST : Got unexpected message from FAST: -N:33
+2022-09-12 11:04:36,686 : WARNING : FAST : Got unexpected message from FAST: -N:34
+2022-09-12 11:04:36,702 : WARNING : FAST : Got unexpected message from FAST: -N:38
+2022-09-12 11:04:36,702 : WARNING : FAST : Got unexpected message from FAST: -N:3B
+2022-09-12 11:04:36,702 : WARNING : FAST : Got unexpected message from FAST: -N:3C
+2022-09-12 11:04:36,702 : WARNING : FAST : Got unexpected message from FAST: -N:40
+2022-09-12 11:04:36,702 : WARNING : FAST : Got unexpected message from FAST: -N:41
+2022-09-12 11:04:36,702 : WARNING : FAST : Got unexpected message from FAST: -N:42
+2022-09-12 11:04:36,702 : WARNING : FAST : Got unexpected message from FAST: -N:43
+2022-09-12 11:04:36,702 : WARNING : FAST : Got unexpected message from FAST: -N:44
+2022-09-12 11:04:36,735 : WARNING : FAST : Got unexpected message from FAST: /N:00
+2022-09-12 11:04:36,766 : WARNING : FAST : Got unexpected message from FAST: -N:04
+2022-09-12 11:04:37,162 : WARNING : FAST : Got unexpected message from FAST: 
+2022-09-12 11:04:37,162 : WARNING : FAST : Got unexpected message from FAST: !B:00
+2022-09-12 11:04:38,763 : WARNING : FAST : Got unexpected message from FAST: !B:02
+2022-09-12 11:04:39,016 : WARNING : FAST : Got unexpected message from FAST: -N:00
+2022-09-12 11:04:39,016 : WARNING : FAST : Got unexpected message from FAST: -N:04
+2022-09-12 11:04:39,016 : WARNING : FAST : Got unexpected message from FAST: -N:33
+2022-09-12 11:04:39,016 : WARNING : FAST : Got unexpected message from FAST: -N:34
+2022-09-12 11:04:39,016 : WARNING : FAST : Got unexpected message from FAST: -N:38
+2022-09-12 11:04:39,016 : WARNING : FAST : Got unexpected message from FAST: -N:3B
+2022-09-12 11:04:39,016 : WARNING : FAST : Got unexpected message from FAST: -N:3C
+2022-09-12 11:04:39,016 : WARNING : FAST : Got unexpected message from FAST: -N:40
+2022-09-12 11:04:39,016 : WARNING : FAST : Got unexpected message from FAST: -N:41
+2022-09-12 11:04:39,016 : WARNING : FAST : Got unexpected message from FAST: -N:42
+2022-09-12 11:04:39,017 : WARNING : FAST : Got unexpected message from FAST: -N:43
+2022-09-12 11:04:39,017 : WARNING : FAST : Got unexpected message from FAST: -N:44
+2022-09-12 11:04:39,063 : WARNING : FAST : Got unexpected message from FAST: /N:00
+2022-09-12 11:04:39,094 : WARNING : FAST : Got unexpected message from FAST: /N:04
+2022-09-12 11:04:39,854 : WARNING : FAST : Got unexpected message from FAST: 
+2022-09-12 11:04:39,854 : WARNING : FAST : Got unexpected message from FAST: !B:00
+2022-09-12 11:04:41,453 : WARNING : FAST : Got unexpected message from FAST: !B:02
+2022-09-12 11:04:41,692 : WARNING : FAST : Got unexpected message from FAST: -N:33
+2022-09-12 11:04:41,692 : WARNING : FAST : Got unexpected message from FAST: -N:34
+2022-09-12 11:04:41,692 : WARNING : FAST : Got unexpected message from FAST: -N:38
+2022-09-12 11:04:41,692 : WARNING : FAST : Got unexpected message from FAST: -N:3B
+2022-09-12 11:04:41,692 : WARNING : FAST : Got unexpected message from FAST: -N:3C
+2022-09-12 11:04:41,692 : WARNING : FAST : Got unexpected message from FAST: -N:40
+2022-09-12 11:04:41,692 : WARNING : FAST : Got unexpected message from FAST: -N:41
+2022-09-12 11:04:41,692 : WARNING : FAST : Got unexpected message from FAST: -N:42
+2022-09-12 11:04:41,692 : WARNING : FAST : Got unexpected message from FAST: -N:43
+2022-09-12 11:04:41,692 : WARNING : FAST : Got unexpected message from FAST: -N:44
+2022-09-12 11:04:41,996 : WARNING : FAST : Got unexpected message from FAST: 
+2022-09-12 11:04:41,996 : WARNING : FAST : Got unexpected message from FAST: !B:00
+2022-09-12 11:04:43,608 : WARNING : FAST : Got unexpected message from FAST: !B:02
+2022-09-12 11:04:43,847 : WARNING : FAST : Got unexpected message from FAST: -N:33
+2022-09-12 11:04:43,847 : WARNING : FAST : Got unexpected message from FAST: -N:34
+2022-09-12 11:04:43,847 : WARNING : FAST : Got unexpected message from FAST: -N:38
+2022-09-12 11:04:43,847 : WARNING : FAST : Got unexpected message from FAST: -N:3B
+2022-09-12 11:04:43,847 : WARNING : FAST : Got unexpected message from FAST: -N:3C
+2022-09-12 11:04:43,847 : WARNING : FAST : Got unexpected message from FAST: -N:40
+2022-09-12 11:04:43,847 : WARNING : FAST : Got unexpected message from FAST: -N:41
+2022-09-12 11:04:43,847 : WARNING : FAST : Got unexpected message from FAST: -N:42
+2022-09-12 11:04:43,848 : WARNING : FAST : Got unexpected message from FAST: -N:43
+2022-09-12 11:04:43,848 : WARNING : FAST : Got unexpected message from FAST: -N:44
+2022-09-12 11:04:49,352 : ERROR : asyncio : Exception in callback SerialTransport._poll_read()
+handle: <TimerHandle when=1190407.2815 SerialTransport._poll_read()>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 275, in _poll_read
+    if self.serial.in_waiting:
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-09-12 11:04:49,354 : INFO : Machine : Starting the main run loop.
+2022-09-12 11:04:49,357 : INFO : Machine : Shutting down...
+2022-09-12 11:04:49,365 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-12 11:04:49,479 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 275, in _poll_read
+    if self.serial.in_waiting:
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-09-12 11:04:49,539 : ERROR : root : ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-09-12 11:05:50,862 : INFO : root : MPF run loop ended.

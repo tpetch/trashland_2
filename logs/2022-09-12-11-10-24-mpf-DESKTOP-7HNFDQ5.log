@@ -1,0 +1,20 @@
+2022-09-12 11:10:24,844 : INFO : root : Loading config.
+2022-09-12 11:10:24,848 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-12 11:10:24,848 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\a6762098cb994b55cb03a478b26022ee.mpf_cache
+2022-09-12 11:10:24,922 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-09-12 11:10:24,923 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-09-12 11:10:24,924 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\abaa92c43d134e3392cbb2346e6a16be.mpf_cache
+2022-09-12 11:10:24,925 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fc46d53fcb9fe6b8abf783d9c813390a.mpf_cache
+2022-09-12 11:10:24,925 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-12 11:10:24,925 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-12-11-10-24-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-12 11:10:24,925 : INFO : Machine : MPF path: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-09-12 11:10:24,926 : INFO : Machine : Machine path: c:\trashland_2
+2022-09-12 11:10:24,926 : INFO : Machine : Platform: win32
+2022-09-12 11:10:24,926 : INFO : Machine : Python executable location: c:\users\tanner\appdata\local\programs\python\python37\python.exe
+2022-09-12 11:10:24,926 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-09-12 11:10:24,927 : INFO : Machine : Initialise MPF.
+2022-09-12 11:10:25,197 : INFO : FAST : Connecting to com20 at 921600bps
+2022-09-12 11:10:38,153 : INFO : Machine : Starting the main run loop.
+2022-09-12 11:10:38,153 : INFO : Machine : Shutting down...
+2022-09-12 11:10:38,153 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-12 11:10:38,265 : INFO : root : MPF run loop ended.

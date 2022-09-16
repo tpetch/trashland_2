@@ -7,7 +7,10 @@ player:
     top: []
     total: 0
 switches:
-  s_autolauncher: 69
+  s_autolauncher: 73
+  s_back_pop: 0
+  s_back_rollover: 0
+  s_back_stationary: 0
   s_bot_back: 0
   s_bot_big: 0
   s_bot_left: 0
@@ -17,32 +20,38 @@ switches:
   s_drop_mid_left: 45
   s_drop_mid_mid: 46
   s_drop_mid_right: 5
-  s_drop_right_left: 7
-  s_drop_right_right: 6
+  s_drop_right_left: 10
+  s_drop_right_right: 9
   s_drop_single: 40
-  s_eos_left: 26
-  s_eos_left_top: 24
-  s_eos_right: 0
-  s_launch: 0
-  s_left_flipper: 47
+  s_eos_left: 71
+  s_eos_left_top: 63
+  s_eos_right: 96
+  s_launch: 10
+  s_left_flipper: 86
   s_left_inlane: 0
   s_left_outlane: 0
-  s_pop_left: 8
-  s_pop_lower: 20
-  s_pop_right: 26
-  s_right_flipper: 44
+  s_pop_left: 21
+  s_pop_lower: 29
+  s_pop_right: 27
+  s_right_flipper: 103
   s_right_inlane: 0
   s_right_outlane: 1
   s_rollover_left: 3
   s_rollover_right: 1
-  s_sling_left: 3
+  s_sling_left: 11
+  s_sling_right: 0
   s_start: 86
-  s_trough_1: 56
-  s_trough_2: 46
-  s_trough_3: 45
-  s_trough_4: 46
-  s_trough_5: 49
-  s_trough_6: 52
-  s_trough_jam: 107
-  s_vuk_back: 0
-  s_vuk_right: 0
+  s_tilt: 9
+  s_transfer_rollover: 0
+  s_trough_1: 57
+  s_trough_2: 53
+  s_trough_3: 46
+  s_trough_4: 47
+  s_trough_5: 50
+  s_trough_6: 55
+  s_trough_jam: 108
+  s_upper_drop: 0
+  s_upper_rollover: 0
+  s_upper_stationary: 0
+  s_vuk_back: 1
+  s_vuk_right: 2

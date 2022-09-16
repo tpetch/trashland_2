@@ -7,10 +7,11 @@ hardware:
 
 fast:
   ports: com20, com21
+  rgb_buffer: 3
   
 playfields:
   playfield:
-    default_source_device: None
+    default_source_device: bd_plunger
     tags: default
     
 displays:
@@ -29,7 +30,7 @@ slide_player:
     
 lights:
   l_left_outlane:
-    number: 0      # you could also use number: 0
+    start_channel: 0-0     # you could also use number: 0
     subtype: led
     type: grb
   l_left_inlane:
@@ -337,6 +338,43 @@ lights:
     subtype: led
     type: grb
     
+  l_upper_left_rollover:
+    previous: l_upper_d
+    subtype: led
+    type: grb
+  l_upper_middle_arrow:
+    previous: l_upper_left_rollover
+    subtype: led
+    type: grb
+  l_back_arrow:
+    previous: l_upper_middle_arrow
+    subtype: led
+    type: grb
+  l_back_target:
+    previous: l_back_arrow
+    subtype: led
+    type: grb
+  l_back_orbit_1:
+    previous: l_back_target
+    subtype: led
+    type: grb
+  l_back_orbit_2:
+    previous: l_back_orbit_1
+    subtype: led
+    type: grb
+  l_back_orbit_3:
+    previous: l_back_orbit_2
+    subtype: led
+    type: grb
+  l_back_orbit_4:
+    previous: l_back_orbit_3
+    subtype: led
+    type: grb
+  l_back_orbit_5:
+    previous: l_back_orbit_4
+    subtype: led
+    type: grb
+    
   
     
 
@@ -363,6 +401,10 @@ switches:
   s_launch:
     number: 0-1
     tags:
+    
+  s_tilt:
+    number: 0-5
+    tags: tilt_warning
     
 # Board 1 - Backboard and Upper Mini Playfield
 
@@ -502,6 +544,7 @@ switches:
     
   s_bot_vuk:
     number: 4-5
+    type: 'NC'
     
     
 coils:
@@ -556,7 +599,7 @@ coils:
    number: 2-11
   c_drop_single_knockdown:
    number: 2-12
-   default_pulse_power: 0.25
+   default_pulse_power: 0.6
    
   c_post_inlane:
    number: 2-1
@@ -578,7 +621,7 @@ coils:
   c_flipper_left_hold:
     number: 3-5
     allow_enable: true
-    default_hold_power: 1.0
+    default_hold_power: 0.9
     
   c_flipper_right:
     number: 3-2
@@ -586,7 +629,7 @@ coils:
   c_flipper_right_hold:
     number: 3-3
     allow_enable: true
-    default_hold_power: 1.0
+    default_hold_power: 0.9
     
   c_flipper_left_top:
     number: 3-6
@@ -594,12 +637,12 @@ coils:
   c_flipper_left_top_hold:
     number: 3-7
     allow_enable: true
-    default_hold_power: 1.0
+    default_hold_power: 0.9
     
   c_autolauncher:
     number: 3-0
     default_pulse_ms: 20
-    default_pulse_power: 0.95
+    default_pulse_power: 0.9
     
   c_trough:
     number: 3-1
@@ -615,14 +658,21 @@ coils:
   c_bot_top_flipper:
     number: 4-1
     allow_enable: true
-    default_hold_power: 0.125
+    default_pulse_ms: 10
+    default_hold_power: 0.6
   c_bot_bot_flipper:
+    number: 4-3
+    allow_enable: true
+    default_pulse_ms: 10
+  c_bot_bot_flipper_hold:
     number: 4-0
     allow_enable: true
-    default_hold_power: 0.125
+    default_hold_power: 0.6
     
   c_bot_vuk:
     number: 4-2
+    default_pulse_power: 0.6
+    default_pulse_ms: 40
 
 
 drop_targets:
@@ -633,13 +683,13 @@ drop_targets:
 
     mid_right:
       switch: s_drop_mid_right
-      reset_coil: c_drop_mid
+
     mid_mid:
       switch: s_drop_mid_mid
-      reset_coil: c_drop_mid
+
     mid_left:
       switch: s_drop_mid_left
-      reset_coil: c_drop_mid
+
       
     right_right:
       switch: s_drop_right_right
@@ -678,16 +728,21 @@ flippers:
     enable_events: machine_reset_phase_3
     
   bot_top_flipper:
-    main_coil: c_flipper_left
+    main_coil: c_bot_top_flipper
     activation_switch: s_right_flipper
+    enable_events: machine_reset_phase_3
   bot_bot_flipper:
-    main_coil: c_flipper_left
+    main_coil: c_bot_bot_flipper
+    hold_coil: c_bot_bot_flipper_hold
     activation_switch: s_right_flipper
+    enable_events: machine_reset_phase_3
+  
+    
 
     
 ball_devices:
   bd_trough:
-    ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4, s_trough_5, s_trough_6, s_trough_jam
+    ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_jam
     eject_coil: c_trough
     tags: trough, home, drain
     jam_switch: s_trough_jam
@@ -698,8 +753,13 @@ ball_devices:
   bd_plunger:
     ball_switches: s_autolauncher
     eject_coil: c_autolauncher
-    player_controlled_eject_event: s_start_active
+    player_controlled_eject_event: s_launch_active
     # eject_targets: bd_top_vuk
+    eject_timeouts: 2s
+    
+  bd_bot_vuk:
+    ball_switches: s_bot_vuk
+    eject_coil: c_bot_vuk
     eject_timeouts: 2s
       
 autofire_coils:
