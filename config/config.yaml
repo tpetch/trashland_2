@@ -14,6 +14,10 @@ playfields:
     default_source_device: bd_plunger
     tags: default
     
+modes:
+  - base
+  - tilt
+    
 displays:
   window:
     width: 800
@@ -754,10 +758,20 @@ ball_devices:
     ball_switches: s_autolauncher
     eject_coil: c_autolauncher
     player_controlled_eject_event: s_launch_active
-    # eject_targets: bd_top_vuk
+    eject_targets: bd_top_vuk
+    eject_timeouts: 2s
+ 
+   bd_top_vuk:
+    ball_switches: s_bot_vuk
+    eject_coil: c_bot_vuk
     eject_timeouts: 2s
     
-  bd_bot_vuk:
+   bd_right_vuk:
+    ball_switches: s_bot_vuk
+    eject_coil: c_bot_vuk
+    eject_timeouts: 2s
+    
+   bd_bot_vuk:
     ball_switches: s_bot_vuk
     eject_coil: c_bot_vuk
     eject_timeouts: 2s
@@ -767,6 +781,11 @@ autofire_coils:
   ac_lsling:
     coil: c_left_sling
     switch: s_sling_left
+  ac_rsling:
+    coil: c_right_sling
+    switch: s_sling_right
+    
+    
     
   ac_pop_lower:
     coil: c_pop_lower
