@@ -1,0 +1,10 @@
+2022-09-27 08:02:32,799 : kivy : Factory: 186 symbols loaded
+2022-09-27 08:02:32,921 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-09-27 08:02:32,921 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-09-27 08:02:32,958 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-09-27 08:02:32,958 : kivy : Video: Provider: gstplayer
+2022-09-27 08:02:33,165 : kivy : Loading MPF-MC controller
+2022-09-27 08:02:33,168 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-09-27 08:02:33,168 : ConfigProcessor : Loading config from file c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-09-27 08:02:33,207 : ConfigProcessor : Loading config: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml
+2022-09-27 08:02:33,207 : ConfigProcessor : Loading config from file c:\trashland_2\config\config.

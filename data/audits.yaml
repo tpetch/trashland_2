@@ -7,7 +7,7 @@ player:
     top: []
     total: 0
 switches:
-  s_autolauncher: 73
+  s_autolauncher: 75
   s_back_pop: 0
   s_back_rollover: 0
   s_back_stationary: 0
@@ -26,7 +26,7 @@ switches:
   s_eos_left: 71
   s_eos_left_top: 63
   s_eos_right: 96
-  s_launch: 10
+  s_launch: 11
   s_left_flipper: 86
   s_left_inlane: 0
   s_left_outlane: 0
@@ -38,7 +38,7 @@ switches:
   s_right_outlane: 1
   s_rollover_left: 3
   s_rollover_right: 1
-  s_sling_left: 11
+  s_sling_left: 14
   s_sling_right: 0
   s_start: 86
   s_tilt: 9
@@ -55,3 +55,4 @@ switches:
   s_upper_stationary: 0
   s_vuk_back: 1
   s_vuk_right: 2
+  s_vuk_top: 0

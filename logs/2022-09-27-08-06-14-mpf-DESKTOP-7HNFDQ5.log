@@ -1,0 +1,205 @@
+2022-09-27 08:06:14,174 : INFO : root : Loading config.
+2022-09-27 08:06:14,177 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-27 08:06:14,177 : INFO : ConfigProcessor : Loading config from file c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml.
+2022-09-27 08:06:14,250 : INFO : ConfigProcessor : Loading config: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml
+2022-09-27 08:06:14,250 : INFO : ConfigProcessor : Loading config from file c:\trashland_2\config\config.yaml.
+2022-09-27 08:06:14,353 : INFO : ConfigProcessor : Loading config: c:\trashland_2\config\config.yaml
+2022-09-27 08:06:14,356 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\a6762098cb994b55cb03a478b26022ee.mpf_cache
+2022-09-27 08:06:14,432 : INFO : ConfigProcessor : Loading config from file c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2022-09-27 08:06:14,438 : INFO : ConfigProcessor : Loading config: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2022-09-27 08:06:14,438 : INFO : ConfigProcessor : Loading config from file c:\trashland_2\modes\attract\config\attract.yaml.
+2022-09-27 08:06:14,443 : INFO : ConfigProcessor : Loading config: c:\trashland_2\modes\attract\config\attract.yaml
+2022-09-27 08:06:14,444 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-09-27 08:06:14,445 : INFO : ConfigProcessor : Loading config from file c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\modes\game\config\game.yaml.
+2022-09-27 08:06:14,450 : INFO : ConfigProcessor : Loading config: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\modes\game\config\game.yaml
+2022-09-27 08:06:14,451 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-09-27 08:06:14,451 : INFO : ConfigProcessor : Loading config from file c:\trashland_2\modes\base\config\base.yaml.
+2022-09-27 08:06:14,456 : INFO : ConfigProcessor : Loading config: c:\trashland_2\modes\base\config\base.yaml
+2022-09-27 08:06:14,457 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\708062243e0edcfa77dd6b1521bd0d4e.mpf_cache
+2022-09-27 08:06:14,458 : INFO : ConfigProcessor : Loading config from file c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\modes\tilt\config\tilt.yaml.
+2022-09-27 08:06:14,470 : INFO : ConfigProcessor : Loading config: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\modes\tilt\config\tilt.yaml
+2022-09-27 08:06:14,470 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\c4174472f67f7b070dd6fb437c6feb0c.mpf_cache
+2022-09-27 08:06:14,471 : INFO : ConfigProcessor : Loading config from file c:\trashland_2\modes\attract\shows\.\green_sweep_top_to_bot.yaml.
+2022-09-27 08:06:14,566 : INFO : ConfigProcessor : Loading config: c:\trashland_2\modes\attract\shows\.\green_sweep_top_to_bot.yaml
+2022-09-27 08:06:14,567 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\abaa92c43d134e3392cbb2346e6a16be.mpf_cache
+2022-09-27 08:06:14,567 : INFO : ConfigProcessor : Loading config from file c:\trashland_2\modes\attract\shows\.\output3.yaml.
+2022-09-27 08:06:14,663 : INFO : ConfigProcessor : Loading config: c:\trashland_2\modes\attract\shows\.\output3.yaml
+2022-09-27 08:06:14,664 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\fc46d53fcb9fe6b8abf783d9c813390a.mpf_cache
+2022-09-27 08:06:14,664 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-27 08:06:14,664 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-27-08-06-14-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-27 08:06:14,664 : INFO : Machine : MPF path: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-09-27 08:06:14,665 : INFO : Machine : Machine path: c:\trashland_2
+2022-09-27 08:06:14,665 : INFO : Machine : Platform: win32
+2022-09-27 08:06:14,665 : INFO : Machine : Python executable location: c:\users\tanner\appdata\local\programs\python\python37\python.exe
+2022-09-27 08:06:14,665 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-09-27 08:06:14,666 : INFO : Machine : Initialise MPF.
+2022-09-27 08:06:14,909 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-09-27 08:06:14,966 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-09-27 08:06:14,966 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-09-27 08:06:14,966 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-09-27 08:06:14,966 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2022-09-27 08:06:14,968 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2022-09-27 08:06:14,968 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-09-27 08:06:14,968 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-09-27 08:06:14,968 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2022-09-27 08:06:14,968 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-09-27 08:06:14,968 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-09-27 08:06:15,013 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2022-09-27 08:06:15,013 : INFO : EventManager : Event: ======'drop_target_bank_right_up'====== Args={}
+2022-09-27 08:06:15,019 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-09-27 08:06:15,026 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2022-09-27 08:06:15,026 : INFO : ball_device.bd_trough : State: idle
+2022-09-27 08:06:15,027 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2022-09-27 08:06:15,027 : INFO : ball_device.bd_plunger : State: idle
+2022-09-27 08:06:15,027 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<BallDevice._initialize_async() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_device.py:195> exception=ConfigFileError('Config validation error: Entry ball_device_counter_ball_switches:ball_device_counter_ball_switches:ball_switches = "s_top_vuk" is not valid. Device "s_top_vuk" not found in "switches:" section in your config.')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 197, in _initialize_async
+    await self.ball_count_handler.initialise()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_count_handler.py", line 92, in initialise
+    self.counter = counter_class(self.ball_device, self.ball_device.config.get("counter", {}))
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\switch_counter.py", line 27, in __init__
+    self.config = self.machine.config_validator.validate_config("ball_device_counter_ball_switches", self.config)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 180, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 222, in _validate_config
+    validation_failure_info=ValidationPath(validation_failure_info, k))
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 272, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 709, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 424, in _validate_type_machine
+    6)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 728, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry ball_device_counter_ball_switches:ball_device_counter_ball_switches:ball_switches = "s_top_vuk" is not valid. Device "s_top_vuk" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-6.html)
+2022-09-27 08:06:15,054 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<BallDevice._initialize_async() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_device.py:195> exception=ConfigFileError('Config validation error: Entry ball_device_counter_ball_switches:ball_device_counter_ball_switches:ball_switches = "s_right_vuk" is not valid. Device "s_right_vuk" not found in "switches:" section in your config.')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 197, in _initialize_async
+    await self.ball_count_handler.initialise()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_count_handler.py", line 92, in initialise
+    self.counter = counter_class(self.ball_device, self.ball_device.config.get("counter", {}))
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\switch_counter.py", line 27, in __init__
+    self.config = self.machine.config_validator.validate_config("ball_device_counter_ball_switches", self.config)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 180, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 222, in _validate_config
+    validation_failure_info=ValidationPath(validation_failure_info, k))
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 272, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 709, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 424, in _validate_type_machine
+    6)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 728, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry ball_device_counter_ball_switches:ball_device_counter_ball_switches:ball_switches = "s_right_vuk" is not valid. Device "s_right_vuk" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-6.html)
+2022-09-27 08:06:15,054 : INFO : Machine : Starting the main run loop.
+2022-09-27 08:06:15,057 : INFO : Machine : Shutting down...
+2022-09-27 08:06:15,057 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-27 08:06:15,058 : INFO : ball_device.bd_bot_vuk : BCH: Initial count: 0
+2022-09-27 08:06:15,058 : INFO : ball_device.bd_bot_vuk : State: idle
+2022-09-27 08:06:15,132 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-09-27 08:06:15,168 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-09-27 08:06:15,168 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-09-27 08:06:15,169 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-09-27 08:06:15,169 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-09-27 08:06:15,169 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-09-27 08:06:15,170 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-09-27 08:06:15,170 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-09-27 08:06:15,171 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-09-27 08:06:15,172 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-09-27 08:06:15,173 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-09-27 08:06:15,173 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-09-27 08:06:15,174 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-09-27 08:06:15,174 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-09-27 08:06:15,175 : ERROR : asyncio : Exception in callback Util.raise_exceptions(<Task finishe...unt_stable'")>) at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\utility_functions.py:752
+handle: <Handle Util.raise_exceptions(<Task finishe...unt_stable'")>) at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\utility_functions.py:752>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\utility_functions.py", line 760, in raise_exceptions
+    future.result()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\ball_controller.py", line 90, in _add_new_balls_to_playfield
+    self.num_balls_known = await self._count_all_balls_in_devices()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\ball_controller.py", line 129, in _count_all_balls_in_devices
+    futures.append(asyncio.ensure_future(device.ball_count_handler.counter.wait_for_count_stable()))
+AttributeError: 'NoneType' object has no attribute 'wait_for_count_stable'
+2022-09-27 08:06:15,198 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,198 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,198 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,199 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 73, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,199 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,199 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,200 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_stationary'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,200 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_back'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,201 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_big'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,201 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,202 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,202 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,203 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_vuk'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,205 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_left'====== Args={'value': 45, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,205 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_mid'====== Args={'value': 46, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,206 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_right'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,206 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_left'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,207 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_right'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,207 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_single'====== Args={'value': 40, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,208 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left'====== Args={'value': 71, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,208 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 63, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,209 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_right'====== Args={'value': 96, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,209 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,209 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 86, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,210 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,210 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,211 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,211 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_lower'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,212 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,212 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 103, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,212 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,213 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,213 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_left'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,214 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,214 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,215 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,215 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 86, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,216 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,216 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_transfer_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,216 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,217 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 53, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,217 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 46, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,218 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 47, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,218 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 50, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,219 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 55, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 108, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,222 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_drop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,222 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,222 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_stationary'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,223 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_back'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,223 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_right'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2022-09-27 08:06:15,224 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending coro=<MachineController.initialise() running at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py:251> wait_for=<Future finished result={}>>
+2022-09-27 08:06:15,225 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 197, in _initialize_async
+    await self.ball_count_handler.initialise()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_count_handler.py", line 92, in initialise
+    self.counter = counter_class(self.ball_device, self.ball_device.config.get("counter", {}))
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\switch_counter.py", line 27, in __init__
+    self.config = self.machine.config_validator.validate_config("ball_device_counter_ball_switches", self.config)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 180, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 222, in _validate_config
+    validation_failure_info=ValidationPath(validation_failure_info, k))
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 272, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 709, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 424, in _validate_type_machine
+    6)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 728, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry ball_device_counter_ball_switches:ball_device_counter_ball_switches:ball_switches = "s_top_vuk" is not valid. Device "s_top_vuk" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-6.html)
+2022-09-27 08:07:27,862 : INFO : root : MPF run loop ended.

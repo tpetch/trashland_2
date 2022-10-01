@@ -464,7 +464,7 @@ switches:
   s_sling_right:
     number: 2-15
     
-  s_vuk_back:
+  s_vuk_top:
     number: 2-12
     type: 'NC'
   s_vuk_right:
@@ -740,11 +740,9 @@ flippers:
     hold_coil: c_bot_bot_flipper_hold
     activation_switch: s_right_flipper
     enable_events: machine_reset_phase_3
-  
-    
 
-    
 ball_devices:
+
   bd_trough:
     ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_jam
     eject_coil: c_trough
@@ -760,18 +758,18 @@ ball_devices:
     player_controlled_eject_event: s_launch_active
     eject_targets: bd_top_vuk
     eject_timeouts: 2s
- 
-   bd_top_vuk:
-    ball_switches: s_bot_vuk
-    eject_coil: c_bot_vuk
+
+  bd_top_vuk:
+    ball_switches: s_vuk_top
+    eject_coil: c_top_vuk
     eject_timeouts: 2s
     
-   bd_right_vuk:
-    ball_switches: s_bot_vuk
-    eject_coil: c_bot_vuk
+  bd_right_vuk:
+    ball_switches: s_vuk_right
+    eject_coil: c_right_vuk
     eject_timeouts: 2s
     
-   bd_bot_vuk:
+  bd_bot_vuk:
     ball_switches: s_bot_vuk
     eject_coil: c_bot_vuk
     eject_timeouts: 2s
