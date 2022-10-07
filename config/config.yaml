@@ -6,7 +6,7 @@ hardware:
   driverboards: fast
 
 fast:
-  ports: com20, com21
+  ports: com9, com10
   rgb_buffer: 3
   
 playfields:
@@ -37,8 +37,12 @@ lights:
     start_channel: 0-0     # you could also use number: 0
     subtype: led
     type: grb
-  l_left_inlane:
+  l_lower_entrance:
     previous: l_left_outlane
+    subtype: led
+    type: grb
+  l_left_inlane:
+    previous: l_lower_entrance
     subtype: led
     type: grb
   l_left_far_arrow:
@@ -493,10 +497,10 @@ switches:
     type: 'NC'
     
   s_trough_1:
-    number: 3-6
+    number: 3-16
     type: 'NC'
   s_trough_jam:
-    number: 3-5
+    number: 3-17
     type: 'NC'
     
   s_autolauncher:
@@ -548,7 +552,7 @@ switches:
     
   s_bot_vuk:
     number: 4-5
-    type: 'NC'
+
     
     
 coils:
@@ -586,18 +590,13 @@ coils:
 
 
   c_drop_mid:
-   number: 2-8
+   number: 2-5
    default_pulse_ms: 50
    default_pulse_power: 0.7
-  #c_drop_mid_left:
-   #number: 2-5
-   #default_pulse_power: 0.5
-  c_drop_mid_mid:
-   number: 2-6
+  c_drop_mid_knockdown:
+   number: 2-8
    default_pulse_power: 0.5
-  c_drop_mid_right:
-   number: 2-7
-   default_pulse_power: 0.5
+
 
   c_drop_single:
    number: 2-11
@@ -615,7 +614,7 @@ coils:
   c_left_sling:
    number: 2-3
   c_right_sling:
-   number: 2-5
+   number: 2-6
   
 # Board 3 - Lower Third
 
@@ -650,8 +649,8 @@ coils:
     
   c_trough:
     number: 3-1
-    default_pulse_ms: 20
-    default_pulse_power: 0.8
+    default_pulse_ms: 30
+    default_pulse_power: 0.9
 
 
 
@@ -675,8 +674,7 @@ coils:
     
   c_bot_vuk:
     number: 4-2
-    default_pulse_power: 0.6
-    default_pulse_ms: 40
+
 
 
 drop_targets:
@@ -733,7 +731,7 @@ flippers:
     
   bot_top_flipper:
     main_coil: c_bot_top_flipper
-    activation_switch: s_right_flipper
+    activation_switch: s_left_flipper
     enable_events: machine_reset_phase_3
   bot_bot_flipper:
     main_coil: c_bot_bot_flipper
@@ -747,8 +745,8 @@ ball_devices:
     ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_jam
     eject_coil: c_trough
     tags: trough, home, drain
-    jam_switch: s_trough_jam
-    eject_coil_jam_pulse: 25ms
+#    jam_switch: s_trough_jam
+#    eject_coil_jam_pulse: 25ms
     eject_targets: bd_plunger
     debug: true
     

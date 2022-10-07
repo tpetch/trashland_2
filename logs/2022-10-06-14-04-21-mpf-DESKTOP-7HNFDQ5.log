@@ -1,0 +1,590 @@
+2022-10-06 14:04:21,820 : INFO : root : Loading config.
+2022-10-06 14:04:21,823 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-06 14:04:21,824 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\a6762098cb994b55cb03a478b26022ee.mpf_cache
+2022-10-06 14:04:21,886 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-06 14:04:21,887 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-10-06 14:04:21,888 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\708062243e0edcfa77dd6b1521bd0d4e.mpf_cache
+2022-10-06 14:04:21,889 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c4174472f67f7b070dd6fb437c6feb0c.mpf_cache
+2022-10-06 14:04:21,890 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\abaa92c43d134e3392cbb2346e6a16be.mpf_cache
+2022-10-06 14:04:21,890 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fc46d53fcb9fe6b8abf783d9c813390a.mpf_cache
+2022-10-06 14:04:21,891 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-06 14:04:21,891 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-06-14-04-21-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-06 14:04:21,891 : INFO : Machine : MPF path: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-10-06 14:04:21,891 : INFO : Machine : Machine path: c:\trashland_2
+2022-10-06 14:04:21,891 : INFO : Machine : Platform: win32
+2022-10-06 14:04:21,891 : INFO : Machine : Python executable location: c:\users\tanner\appdata\local\programs\python\python37\python.exe
+2022-10-06 14:04:21,891 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-10-06 14:04:21,893 : INFO : Machine : Initialise MPF.
+2022-10-06 14:04:22,142 : INFO : FAST : Connecting to com9 at 921600bps
+2022-10-06 14:04:22,182 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.05
+2022-10-06 14:04:22,182 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.05', 'prev_value': None, 'change': True}
+2022-10-06 14:04:22,182 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,536 : WARNING : FAST : Got unexpected message from FAST: -N:30
+2022-10-06 14:04:24,536 : WARNING : FAST : Got unexpected message from FAST: -N:38
+2022-10-06 14:04:24,536 : WARNING : FAST : Got unexpected message from FAST: -N:40
+2022-10-06 14:04:24,536 : WARNING : FAST : Got unexpected message from FAST: -N:41
+2022-10-06 14:04:24,536 : WARNING : FAST : Got unexpected message from FAST: -N:42
+2022-10-06 14:04:24,536 : WARNING : FAST : Got unexpected message from FAST: -N:43
+2022-10-06 14:04:24,536 : WARNING : FAST : Got unexpected message from FAST: -N:44
+2022-10-06 14:04:24,536 : WARNING : FAST : Got unexpected message from FAST: -N:5D
+2022-10-06 14:04:24,648 : INFO : FAST : Connecting to com10 at 921600bps
+2022-10-06 14:04:24,680 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 00.87
+2022-10-06 14:04:24,680 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '00.87', 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,680 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,681 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,723 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,723 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,723 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,723 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,723 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,723 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,723 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,724 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,724 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,724 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-06 14:04:24,761 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2022-10-06 14:04:24,761 : INFO : EventManager : Event: ======'drop_target_bank_right_up'====== Args={}
+2022-10-06 14:04:24,776 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-06 14:04:24,777 : INFO : SwitchController : Found active switch: (('30', 1), <Platform.FAST>) <switch.s_drop_right_right>
+2022-10-06 14:04:24,777 : INFO : SwitchController : Found active switch: (('34', 1), <Platform.FAST>) <switch.s_vuk_top>
+2022-10-06 14:04:24,777 : INFO : SwitchController : Found active switch: (('33', 1), <Platform.FAST>) <switch.s_vuk_right>
+2022-10-06 14:04:24,777 : INFO : SwitchController : Found active switch: (('48', 1), <Platform.FAST>) <switch.s_trough_1>
+2022-10-06 14:04:24,777 : INFO : SwitchController : Found active switch: (('49', 1), <Platform.FAST>) <switch.s_trough_jam>
+2022-10-06 14:04:24,777 : INFO : SwitchController : Found active switch: (('3C', 1), <Platform.FAST>) <switch.s_eos_right>
+2022-10-06 14:04:24,777 : INFO : SwitchController : Found active switch: (('3B', 1), <Platform.FAST>) <switch.s_eos_left>
+2022-10-06 14:04:24,785 : INFO : ball_device.bd_trough : BCH: Initial count: 2
+2022-10-06 14:04:24,785 : INFO : ball_device.bd_trough : State: idle
+2022-10-06 14:04:24,786 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2022-10-06 14:04:24,786 : INFO : ball_device.bd_plunger : State: idle
+2022-10-06 14:04:24,786 : INFO : ball_device.bd_top_vuk : BCH: Initial count: 1
+2022-10-06 14:04:24,787 : INFO : ball_device.bd_top_vuk : State: idle
+2022-10-06 14:04:24,787 : INFO : ball_device.bd_right_vuk : BCH: Initial count: 1
+2022-10-06 14:04:24,788 : INFO : ball_device.bd_right_vuk : State: idle
+2022-10-06 14:04:24,788 : INFO : ball_device.bd_bot_vuk : BCH: Initial count: 0
+2022-10-06 14:04:24,789 : INFO : ball_device.bd_bot_vuk : State: idle
+2022-10-06 14:04:24,826 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-10-06 14:04:24,861 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-10-06 14:04:24,861 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 14:04:24,861 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 14:04:24,861 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 14:04:24,861 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 14:04:24,861 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 14:04:24,861 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 14:04:24,861 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 14:04:24,862 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 14:04:24,862 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 14:04:24,862 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 14:04:24,862 : INFO : EventManager : Event: ======'drop_target_right_right_down'====== Args={'device': <drop_target.right_right>}
+2022-10-06 14:04:24,862 : INFO : EventManager : Event: ======'drop_target_bank_right_mixed'====== Args={'prev_value': <DropTargetBankState.UP: 'up'>, 'down': 1}
+2022-10-06 14:04:24,862 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 14:04:24,862 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 14:04:24,862 : INFO : BallController : Initial balls found: 4
+2022-10-06 14:04:24,864 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,864 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,864 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,864 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 82, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,864 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,865 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,865 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_stationary'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,865 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_back'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,865 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_big'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,865 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,865 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,865 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,866 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_vuk'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,866 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_left'====== Args={'value': 74, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,866 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_mid'====== Args={'value': 83, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,866 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_right'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,866 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_left'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,866 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_right'====== Args={'value': 61, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,867 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_single'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,867 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left'====== Args={'value': 71, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,867 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 847, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,867 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_right'====== Args={'value': 96, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,867 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,867 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 949, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,868 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,868 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,868 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'value': 157, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,868 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_lower'====== Args={'value': 256, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,868 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 294, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,869 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 975, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,869 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,869 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 79, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,869 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_left'====== Args={'value': 64, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,869 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_right'====== Args={'value': 46, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,870 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,870 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 136, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,870 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 152, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,870 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 126, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,871 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_transfer_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,871 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,871 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 190, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,871 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 102, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,872 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 105, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,872 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 109, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,872 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 186, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,873 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 108, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,873 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_drop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,873 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,873 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_stationary'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,874 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_back'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,874 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_right'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,874 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_top'====== Args={'value': 25, 'prev_value': None, 'change': True}
+2022-10-06 14:04:24,875 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-10-06 14:04:24,926 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2022-10-06 14:04:24,927 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2022-10-06 14:04:24,927 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2022-10-06 14:04:24,928 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2022-10-06 14:04:24,928 : INFO : EventManager : Event: ======'mode_tilt_will_start'====== Args={'queue': <QueuedEvent>}
+2022-10-06 14:04:24,929 : INFO : EventManager : Event: ======'mode_tilt_starting'====== Args={'queue': <QueuedEvent>}
+2022-10-06 14:04:24,929 : INFO : drop_target_bank.mid : All targets are already up. Will not reset bank.
+2022-10-06 14:04:24,929 : INFO : drop_target_bank.right : 1 targets are down. Will reset those.
+2022-10-06 14:04:24,929 : INFO : coil.c_drop_right : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:24,930 : INFO : Mode.tilt : Started. Priority: 1000000
+2022-10-06 14:04:24,930 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-10-06 14:04:24,930 : INFO : EventManager : Event: ======'mode_tilt_started'====== Args={'queue': <QueuedEvent>}
+2022-10-06 14:04:24,930 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2022-10-06 14:04:24,931 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2022-10-06 14:04:24,931 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2022-10-06 14:04:24,931 : INFO : Mode.attract : Started. Priority: 10
+2022-10-06 14:04:24,931 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-10-06 14:04:24,931 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2022-10-06 14:04:24,931 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2022-10-06 14:04:24,931 : INFO : ball_device.bd_right_vuk : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2022-10-06 14:04:24,932 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2022-10-06 14:04:24,932 : INFO : ball_device.bd_top_vuk : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2022-10-06 14:04:24,932 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2022-10-06 14:04:24,975 : INFO : coil.c_drop_right : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:24,976 : INFO : Machine : Starting the main run loop.
+2022-10-06 14:04:24,977 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:24,977 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-06 14:04:24,977 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:24,977 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-06 14:04:24,978 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:24,978 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:24,978 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-06 14:04:24,978 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:24,978 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:24,978 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-06 14:04:24,979 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:24,979 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:24,979 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:25,000 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:25,160 : INFO : BcpServer : New client connected.
+2022-10-06 14:04:25,417 : INFO : EventManager : Event: ======'drop_target_bank_right_mixed'====== Args={'prev_value': <DropTargetBankState.MIXED: 'mixed'>, 'down': 1}
+2022-10-06 14:04:26,957 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2022-10-06 14:04:26,957 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2022-10-06 14:04:26,958 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:26,959 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 1}
+2022-10-06 14:04:26,959 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:26,959 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 1}
+2022-10-06 14:04:26,960 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:26,960 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:26,960 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 1}
+2022-10-06 14:04:26,960 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:26,960 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:26,960 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 1}
+2022-10-06 14:04:26,961 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:26,961 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:26,961 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:26,973 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:28,959 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 2}
+2022-10-06 14:04:28,959 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 2}
+2022-10-06 14:04:28,961 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:28,961 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 2}
+2022-10-06 14:04:28,961 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:28,961 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 2}
+2022-10-06 14:04:28,962 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:28,962 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:28,962 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 2}
+2022-10-06 14:04:28,962 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:28,962 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:28,962 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 2}
+2022-10-06 14:04:28,963 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:28,963 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:28,963 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:28,974 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:30,963 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 3}
+2022-10-06 14:04:30,963 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 3}
+2022-10-06 14:04:30,964 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:30,964 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 3}
+2022-10-06 14:04:30,965 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:30,965 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 3}
+2022-10-06 14:04:30,965 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:30,965 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:30,966 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 3}
+2022-10-06 14:04:30,966 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:30,966 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:30,966 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 3}
+2022-10-06 14:04:30,967 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:30,967 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:30,967 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:30,978 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:32,962 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 4}
+2022-10-06 14:04:32,962 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 4}
+2022-10-06 14:04:32,963 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:32,964 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 4}
+2022-10-06 14:04:32,964 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:32,964 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 4}
+2022-10-06 14:04:32,964 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:32,964 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:32,965 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 4}
+2022-10-06 14:04:32,965 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:32,965 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:32,965 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 4}
+2022-10-06 14:04:32,966 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:32,966 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:32,966 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:32,978 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:34,967 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 5}
+2022-10-06 14:04:34,967 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 5}
+2022-10-06 14:04:34,968 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:34,969 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 5}
+2022-10-06 14:04:34,969 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:34,969 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 5}
+2022-10-06 14:04:34,969 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:34,970 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:34,970 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 5}
+2022-10-06 14:04:34,970 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:34,970 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:34,971 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 5}
+2022-10-06 14:04:34,972 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:34,972 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:34,972 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:34,999 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:36,957 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 6}
+2022-10-06 14:04:36,957 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 6}
+2022-10-06 14:04:36,958 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:36,959 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 6}
+2022-10-06 14:04:36,959 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:36,959 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 6}
+2022-10-06 14:04:36,959 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:36,960 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:36,960 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 6}
+2022-10-06 14:04:36,960 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:36,960 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:36,960 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 6}
+2022-10-06 14:04:36,961 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:36,961 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:36,961 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:36,973 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:38,956 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 7}
+2022-10-06 14:04:38,956 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 7}
+2022-10-06 14:04:38,957 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:38,958 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 7}
+2022-10-06 14:04:38,958 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:38,958 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 7}
+2022-10-06 14:04:38,958 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:38,959 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:38,959 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 7}
+2022-10-06 14:04:38,959 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:38,959 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:38,959 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 7}
+2022-10-06 14:04:38,960 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:38,960 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:38,960 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:38,971 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:40,958 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 8}
+2022-10-06 14:04:40,958 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 8}
+2022-10-06 14:04:40,959 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:40,960 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 8}
+2022-10-06 14:04:40,960 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:40,960 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 8}
+2022-10-06 14:04:40,961 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:40,961 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:40,961 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 8}
+2022-10-06 14:04:40,961 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:40,961 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:40,961 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 8}
+2022-10-06 14:04:40,962 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:40,962 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:40,962 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:40,973 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:42,964 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 9}
+2022-10-06 14:04:42,964 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 9}
+2022-10-06 14:04:42,965 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:42,966 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 9}
+2022-10-06 14:04:42,966 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:42,966 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 9}
+2022-10-06 14:04:42,966 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:42,967 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:42,967 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 9}
+2022-10-06 14:04:42,967 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:42,967 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:42,967 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 9}
+2022-10-06 14:04:42,968 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:42,968 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:42,968 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:42,980 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:44,963 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 10}
+2022-10-06 14:04:44,963 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 10}
+2022-10-06 14:04:44,964 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:44,965 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 10}
+2022-10-06 14:04:44,965 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:44,965 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 10}
+2022-10-06 14:04:44,965 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:44,966 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:44,966 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 10}
+2022-10-06 14:04:44,966 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:44,966 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:44,966 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 10}
+2022-10-06 14:04:44,967 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:44,967 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:44,967 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:44,979 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:46,965 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 11}
+2022-10-06 14:04:46,965 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 11}
+2022-10-06 14:04:46,966 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:46,967 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 11}
+2022-10-06 14:04:46,967 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:46,967 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 11}
+2022-10-06 14:04:46,967 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:46,967 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:46,968 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 11}
+2022-10-06 14:04:46,968 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:46,968 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:46,968 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 11}
+2022-10-06 14:04:46,969 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:46,969 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:46,969 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:46,970 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:48,963 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 12}
+2022-10-06 14:04:48,963 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 12}
+2022-10-06 14:04:48,964 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:48,965 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 12}
+2022-10-06 14:04:48,965 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:48,965 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 12}
+2022-10-06 14:04:48,965 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:48,966 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:48,966 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 12}
+2022-10-06 14:04:48,966 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:48,966 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:48,966 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 12}
+2022-10-06 14:04:48,967 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:48,967 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:48,967 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:48,979 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:50,967 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 13}
+2022-10-06 14:04:50,967 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 13}
+2022-10-06 14:04:50,968 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:50,969 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 13}
+2022-10-06 14:04:50,969 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:50,969 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 13}
+2022-10-06 14:04:50,969 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:50,970 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:50,970 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 13}
+2022-10-06 14:04:50,970 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:50,970 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:50,970 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 13}
+2022-10-06 14:04:50,971 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:50,971 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:50,971 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:50,999 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:52,964 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 14}
+2022-10-06 14:04:52,964 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 14}
+2022-10-06 14:04:52,965 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:52,965 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 14}
+2022-10-06 14:04:52,966 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:52,966 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 14}
+2022-10-06 14:04:52,966 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:52,966 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:52,967 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 14}
+2022-10-06 14:04:52,967 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:52,967 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:52,967 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 14}
+2022-10-06 14:04:52,968 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:52,968 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:52,968 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:52,969 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:54,964 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 15}
+2022-10-06 14:04:54,964 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 15}
+2022-10-06 14:04:54,965 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:54,966 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 15}
+2022-10-06 14:04:54,966 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:54,966 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 15}
+2022-10-06 14:04:54,966 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:54,967 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:54,967 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 15}
+2022-10-06 14:04:54,967 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:54,967 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:54,967 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 15}
+2022-10-06 14:04:54,968 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:54,968 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:54,968 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:54,980 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:56,963 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 16}
+2022-10-06 14:04:56,963 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 16}
+2022-10-06 14:04:56,964 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:56,965 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 16}
+2022-10-06 14:04:56,965 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:56,965 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 16}
+2022-10-06 14:04:56,965 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:56,966 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:56,966 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 16}
+2022-10-06 14:04:56,966 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:56,966 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:56,966 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 16}
+2022-10-06 14:04:56,967 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:56,967 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:56,967 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:56,978 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:58,957 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 17}
+2022-10-06 14:04:58,957 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 17}
+2022-10-06 14:04:58,958 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:58,959 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 17}
+2022-10-06 14:04:58,959 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:04:58,959 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 17}
+2022-10-06 14:04:58,959 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:04:58,960 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:58,960 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 17}
+2022-10-06 14:04:58,960 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:04:58,960 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:04:58,960 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 17}
+2022-10-06 14:04:58,961 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:04:58,961 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:04:58,961 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:04:58,973 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:05:00,963 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 18}
+2022-10-06 14:05:00,963 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 18}
+2022-10-06 14:05:00,964 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:05:00,965 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 18}
+2022-10-06 14:05:00,965 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:05:00,965 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 18}
+2022-10-06 14:05:00,966 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:05:00,966 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:05:00,966 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 18}
+2022-10-06 14:05:00,966 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:05:00,966 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:05:00,966 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 18}
+2022-10-06 14:05:00,967 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:05:00,967 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:05:00,967 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:05:00,978 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:05:02,961 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 19}
+2022-10-06 14:05:02,961 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 19}
+2022-10-06 14:05:02,962 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:05:02,963 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 19}
+2022-10-06 14:05:02,963 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:05:02,963 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 19}
+2022-10-06 14:05:02,963 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:05:02,964 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:05:02,964 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 19}
+2022-10-06 14:05:02,964 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:05:02,964 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:05:02,964 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 19}
+2022-10-06 14:05:02,965 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:05:02,965 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:05:02,965 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:05:02,977 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:05:04,963 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 20}
+2022-10-06 14:05:04,963 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 20}
+2022-10-06 14:05:04,964 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:05:04,964 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 20}
+2022-10-06 14:05:04,965 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:05:04,965 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 20}
+2022-10-06 14:05:04,965 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:05:04,965 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:05:04,966 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 20}
+2022-10-06 14:05:04,966 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:05:04,966 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:05:04,966 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 20}
+2022-10-06 14:05:04,967 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:05:04,967 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:05:04,967 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:05:04,978 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:05:06,962 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 21}
+2022-10-06 14:05:06,962 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 21}
+2022-10-06 14:05:06,963 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:05:06,964 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 21}
+2022-10-06 14:05:06,964 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:05:06,964 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 21}
+2022-10-06 14:05:06,964 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:05:06,965 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:05:06,965 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 21}
+2022-10-06 14:05:06,965 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:05:06,965 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:05:06,965 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 21}
+2022-10-06 14:05:06,966 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:05:06,966 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:05:06,966 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:05:06,978 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:05:07,215 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-06 14:05:07,215 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-06 14:05:07,293 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-06 14:05:07,294 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-06 14:05:07,731 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-06 14:05:07,751 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-06 14:05:08,155 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-06 14:05:08,155 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-06 14:05:08,404 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-06 14:05:08,405 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-06 14:05:08,639 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-06 14:05:08,639 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-06 14:05:08,810 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-06 14:05:08,810 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-06 14:05:08,905 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-06 14:05:08,905 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-06 14:05:08,967 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 22}
+2022-10-06 14:05:08,967 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 22}
+2022-10-06 14:05:08,968 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:05:08,969 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 22}
+2022-10-06 14:05:08,969 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:05:08,969 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 22}
+2022-10-06 14:05:08,969 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:05:08,970 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:05:08,970 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 22}
+2022-10-06 14:05:08,970 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:05:08,970 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:05:08,970 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 22}
+2022-10-06 14:05:08,971 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:05:08,971 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:05:08,971 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:05:08,999 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:05:09,406 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-06 14:05:09,427 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-06 14:05:09,752 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-06 14:05:09,753 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-06 14:05:10,281 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-06 14:05:10,286 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-06 14:05:10,860 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-06 14:05:10,860 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-06 14:05:10,969 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 23}
+2022-10-06 14:05:10,969 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 23}
+2022-10-06 14:05:10,970 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:05:10,971 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 23}
+2022-10-06 14:05:10,971 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:05:10,971 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 23}
+2022-10-06 14:05:10,972 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:05:10,972 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:05:10,972 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 23}
+2022-10-06 14:05:10,972 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:05:10,972 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:05:10,972 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 23}
+2022-10-06 14:05:10,973 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:05:10,973 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:05:10,974 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:05:10,985 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:05:12,956 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 24}
+2022-10-06 14:05:12,956 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 24}
+2022-10-06 14:05:12,957 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-06 14:05:12,957 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 24}
+2022-10-06 14:05:12,958 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-06 14:05:12,958 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 24}
+2022-10-06 14:05:12,958 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-06 14:05:12,958 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:05:12,959 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 24}
+2022-10-06 14:05:12,959 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-06 14:05:12,959 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-06 14:05:12,959 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 24}
+2022-10-06 14:05:12,960 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-06 14:05:12,960 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:05:12,960 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-06 14:05:12,972 : INFO : coil.c_top_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 14:05:13,238 : INFO : Machine : Shutting down...
+2022-10-06 14:05:13,238 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-06 14:05:13,254 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2022-10-06 14:05:13,254 : WARNING : FAST : Port RGB received more messages than were sent! Resetting!
+2022-10-06 14:05:13,334 : ERROR : FAST : Stop called on serial connection com9
+2022-10-06 14:05:13,334 : ERROR : FAST : Stop called on serial connection com10
+2022-10-06 14:05:13,553 : INFO : root : MPF run loop ended.

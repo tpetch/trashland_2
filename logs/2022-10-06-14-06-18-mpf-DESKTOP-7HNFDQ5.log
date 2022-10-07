@@ -1,0 +1,198 @@
+2022-10-06 14:06:18,792 : INFO : root : Loading config.
+2022-10-06 14:06:18,795 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-06 14:06:18,795 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\a6762098cb994b55cb03a478b26022ee.mpf_cache
+2022-10-06 14:06:18,861 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-06 14:06:18,862 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-10-06 14:06:18,863 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\708062243e0edcfa77dd6b1521bd0d4e.mpf_cache
+2022-10-06 14:06:18,864 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c4174472f67f7b070dd6fb437c6feb0c.mpf_cache
+2022-10-06 14:06:18,864 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\abaa92c43d134e3392cbb2346e6a16be.mpf_cache
+2022-10-06 14:06:18,865 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fc46d53fcb9fe6b8abf783d9c813390a.mpf_cache
+2022-10-06 14:06:18,866 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-06 14:06:18,866 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-06-14-06-18-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-06 14:06:18,866 : INFO : Machine : MPF path: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-10-06 14:06:18,866 : INFO : Machine : Machine path: c:\trashland_2
+2022-10-06 14:06:18,866 : INFO : Machine : Platform: win32
+2022-10-06 14:06:18,866 : INFO : Machine : Python executable location: c:\users\tanner\appdata\local\programs\python\python37\python.exe
+2022-10-06 14:06:18,866 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-10-06 14:06:18,868 : INFO : Machine : Initialise MPF.
+2022-10-06 14:06:19,101 : INFO : FAST : Connecting to com9 at 921600bps
+2022-10-06 14:06:19,165 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.05
+2022-10-06 14:06:19,165 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.05', 'prev_value': None, 'change': True}
+2022-10-06 14:06:19,165 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,544 : WARNING : FAST : Got unexpected message from FAST: -N:30
+2022-10-06 14:06:21,544 : WARNING : FAST : Got unexpected message from FAST: -N:38
+2022-10-06 14:06:21,544 : WARNING : FAST : Got unexpected message from FAST: -N:40
+2022-10-06 14:06:21,544 : WARNING : FAST : Got unexpected message from FAST: -N:41
+2022-10-06 14:06:21,544 : WARNING : FAST : Got unexpected message from FAST: -N:42
+2022-10-06 14:06:21,544 : WARNING : FAST : Got unexpected message from FAST: -N:43
+2022-10-06 14:06:21,544 : WARNING : FAST : Got unexpected message from FAST: -N:44
+2022-10-06 14:06:21,544 : WARNING : FAST : Got unexpected message from FAST: -N:5D
+2022-10-06 14:06:21,654 : INFO : FAST : Connecting to com10 at 921600bps
+2022-10-06 14:06:21,684 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 00.87
+2022-10-06 14:06:21,684 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '00.87', 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,684 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,685 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,727 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,727 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,727 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,727 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,728 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,728 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,728 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,728 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,728 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,728 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-06 14:06:21,764 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2022-10-06 14:06:21,765 : INFO : EventManager : Event: ======'drop_target_bank_right_up'====== Args={}
+2022-10-06 14:06:21,779 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AttributeError("'NoneType' object has no attribute 'name'")>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 90, in _initialize
+    self._configure_targets()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 397, in _configure_targets
+    if target.name == self.name:
+AttributeError: 'NoneType' object has no attribute 'name'
+2022-10-06 14:06:21,779 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AttributeError("'NoneType' object has no attribute 'is_playfield'")>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 90, in _initialize
+    self._configure_targets()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 364, in _configure_targets
+    self._validate_config()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 346, in _validate_config
+    not self.find_path_to_target(self._target_on_unexpected_ball)):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 643, in find_path_to_target
+    if target_device.is_playfield():
+AttributeError: 'NoneType' object has no attribute 'is_playfield'
+2022-10-06 14:06:21,780 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AttributeError("'NoneType' object has no attribute 'name'")>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 90, in _initialize
+    self._configure_targets()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 397, in _configure_targets
+    if target.name == self.name:
+AttributeError: 'NoneType' object has no attribute 'name'
+2022-10-06 14:06:21,780 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AttributeError("'NoneType' object has no attribute 'name'")>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\playfield.py", line 55, in _initialize
+    if target.name == self.name:
+AttributeError: 'NoneType' object has no attribute 'name'
+2022-10-06 14:06:21,781 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-06 14:06:21,781 : INFO : Machine : Starting the main run loop.
+2022-10-06 14:06:21,784 : INFO : Machine : Shutting down...
+2022-10-06 14:06:21,784 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-06 14:06:21,785 : INFO : SwitchController : Found active switch: (('30', 1), <Platform.FAST>) <switch.s_drop_right_right>
+2022-10-06 14:06:21,785 : INFO : SwitchController : Found active switch: (('34', 1), <Platform.FAST>) <switch.s_vuk_top>
+2022-10-06 14:06:21,785 : INFO : SwitchController : Found active switch: (('33', 1), <Platform.FAST>) <switch.s_vuk_right>
+2022-10-06 14:06:21,786 : INFO : SwitchController : Found active switch: (('48', 1), <Platform.FAST>) <switch.s_trough_1>
+2022-10-06 14:06:21,786 : INFO : SwitchController : Found active switch: (('49', 1), <Platform.FAST>) <switch.s_trough_jam>
+2022-10-06 14:06:21,787 : INFO : SwitchController : Found active switch: (('3C', 1), <Platform.FAST>) <switch.s_eos_right>
+2022-10-06 14:06:21,787 : INFO : SwitchController : Found active switch: (('3B', 1), <Platform.FAST>) <switch.s_eos_left>
+2022-10-06 14:06:21,829 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-10-06 14:06:21,864 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-10-06 14:06:21,864 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 14:06:21,865 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 14:06:21,865 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 14:06:21,866 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 14:06:21,866 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 14:06:21,867 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 14:06:21,867 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 14:06:21,868 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 14:06:21,868 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 14:06:21,869 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 14:06:21,869 : INFO : EventManager : Event: ======'drop_target_right_right_down'====== Args={'device': <drop_target.right_right>}
+2022-10-06 14:06:21,870 : INFO : EventManager : Event: ======'drop_target_bank_right_mixed'====== Args={'prev_value': <DropTargetBankState.UP: 'up'>, 'down': 1}
+2022-10-06 14:06:21,870 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 14:06:21,871 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 14:06:21,871 : ERROR : asyncio : Exception in callback Util.raise_exceptions(<Task finishe...e 'counter'")>) at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\utility_functions.py:752
+handle: <Handle Util.raise_exceptions(<Task finishe...e 'counter'")>) at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\utility_functions.py:752>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\utility_functions.py", line 760, in raise_exceptions
+    future.result()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\ball_controller.py", line 90, in _add_new_balls_to_playfield
+    self.num_balls_known = await self._count_all_balls_in_devices()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\ball_controller.py", line 129, in _count_all_balls_in_devices
+    futures.append(asyncio.ensure_future(device.ball_count_handler.counter.wait_for_count_stable()))
+AttributeError: 'NoneType' object has no attribute 'counter'
+2022-10-06 14:06:21,874 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,874 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,875 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,875 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 82, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,876 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,878 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,878 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_stationary'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,879 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_back'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,879 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_big'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,880 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,880 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,881 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,881 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_vuk'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,882 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_left'====== Args={'value': 74, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,882 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_mid'====== Args={'value': 83, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,882 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_right'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,883 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_left'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,883 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_right'====== Args={'value': 61, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,884 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_single'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,884 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left'====== Args={'value': 71, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,885 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 847, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,885 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_right'====== Args={'value': 96, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,886 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,886 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 949, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,887 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,887 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,888 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'value': 157, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,888 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_lower'====== Args={'value': 256, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,888 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 294, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,889 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 975, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,889 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,890 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 79, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,891 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_left'====== Args={'value': 64, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,891 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_right'====== Args={'value': 46, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,891 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,892 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 136, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,894 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 152, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,894 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 126, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,895 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_transfer_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,895 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,896 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 190, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,896 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 102, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,897 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 105, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,897 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 109, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,898 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 186, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,898 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 108, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,898 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_drop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,899 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,899 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_stationary'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,900 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_back'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,900 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_right'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,901 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_top'====== Args={'value': 25, 'prev_value': None, 'change': True}
+2022-10-06 14:06:21,901 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-10-06 14:06:21,902 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2022-10-06 14:06:21,902 : WARNING : FAST : Port RGB received more messages than were sent! Resetting!
+2022-10-06 14:06:21,902 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2022-10-06 14:06:21,903 : ERROR : FAST : Stop called on serial connection com9
+2022-10-06 14:06:21,903 : ERROR : FAST : Stop called on serial connection com10
+2022-10-06 14:06:21,904 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2022-10-06 14:06:22,156 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 90, in _initialize
+    self._configure_targets()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 397, in _configure_targets
+    if target.name == self.name:
+AttributeError: 'NoneType' object has no attribute 'name'
+2022-10-06 14:06:40,386 : INFO : root : MPF run loop ended.

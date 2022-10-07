@@ -1,0 +1,258 @@
+2022-10-06 13:07:12,467 : INFO : root : Loading config.
+2022-10-06 13:07:12,470 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-06 13:07:12,471 : WARNING : ConfigProcessor : Config file in cache changed: c:\trashland_2\config\config.yaml
+2022-10-06 13:07:12,471 : INFO : ConfigProcessor : Loading config from file c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml.
+2022-10-06 13:07:12,540 : INFO : ConfigProcessor : Loading config: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml
+2022-10-06 13:07:12,541 : INFO : ConfigProcessor : Loading config from file c:\trashland_2\config\config.yaml.
+2022-10-06 13:07:12,639 : INFO : ConfigProcessor : Loading config: c:\trashland_2\config\config.yaml
+2022-10-06 13:07:12,641 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\a6762098cb994b55cb03a478b26022ee.mpf_cache
+2022-10-06 13:07:12,702 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-06 13:07:12,702 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-10-06 13:07:12,703 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\708062243e0edcfa77dd6b1521bd0d4e.mpf_cache
+2022-10-06 13:07:12,704 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c4174472f67f7b070dd6fb437c6feb0c.mpf_cache
+2022-10-06 13:07:12,704 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\abaa92c43d134e3392cbb2346e6a16be.mpf_cache
+2022-10-06 13:07:12,705 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fc46d53fcb9fe6b8abf783d9c813390a.mpf_cache
+2022-10-06 13:07:12,706 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-06 13:07:12,706 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-06-13-07-12-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-06 13:07:12,707 : INFO : Machine : MPF path: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-10-06 13:07:12,707 : INFO : Machine : Machine path: c:\trashland_2
+2022-10-06 13:07:12,707 : INFO : Machine : Platform: win32
+2022-10-06 13:07:12,707 : INFO : Machine : Python executable location: c:\users\tanner\appdata\local\programs\python\python37\python.exe
+2022-10-06 13:07:12,707 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-10-06 13:07:12,708 : INFO : Machine : Initialise MPF.
+2022-10-06 13:07:12,940 : INFO : FAST : Connecting to com9 at 921600bps
+2022-10-06 13:07:12,983 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.05
+2022-10-06 13:07:12,983 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.05', 'prev_value': None, 'change': True}
+2022-10-06 13:07:12,983 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,340 : WARNING : FAST : Got unexpected message from FAST: -N:30
+2022-10-06 13:07:15,340 : WARNING : FAST : Got unexpected message from FAST: -N:33
+2022-10-06 13:07:15,340 : WARNING : FAST : Got unexpected message from FAST: -N:34
+2022-10-06 13:07:15,340 : WARNING : FAST : Got unexpected message from FAST: -N:38
+2022-10-06 13:07:15,340 : WARNING : FAST : Got unexpected message from FAST: -N:41
+2022-10-06 13:07:15,340 : WARNING : FAST : Got unexpected message from FAST: -N:42
+2022-10-06 13:07:15,340 : WARNING : FAST : Got unexpected message from FAST: -N:43
+2022-10-06 13:07:15,340 : WARNING : FAST : Got unexpected message from FAST: -N:44
+2022-10-06 13:07:15,340 : WARNING : FAST : Got unexpected message from FAST: -N:5D
+2022-10-06 13:07:15,479 : INFO : FAST : Connecting to com10 at 921600bps
+2022-10-06 13:07:15,526 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 00.87
+2022-10-06 13:07:15,526 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '00.87', 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,526 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,526 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,568 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,568 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,568 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,568 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,569 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,569 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,569 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,569 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,569 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,569 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-06 13:07:15,605 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2022-10-06 13:07:15,605 : INFO : EventManager : Event: ======'drop_target_bank_right_up'====== Args={}
+2022-10-06 13:07:15,620 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-06 13:07:15,621 : INFO : SwitchController : Found active switch: (('30', 1), <Platform.FAST>) <switch.s_drop_right_right>
+2022-10-06 13:07:15,621 : INFO : SwitchController : Found active switch: (('40', 1), <Platform.FAST>) <switch.s_trough_6>
+2022-10-06 13:07:15,621 : INFO : SwitchController : Found active switch: (('48', 1), <Platform.FAST>) <switch.s_trough_1>
+2022-10-06 13:07:15,621 : INFO : SwitchController : Found active switch: (('49', 1), <Platform.FAST>) <switch.s_trough_jam>
+2022-10-06 13:07:15,621 : INFO : SwitchController : Found active switch: (('3C', 1), <Platform.FAST>) <switch.s_eos_right>
+2022-10-06 13:07:15,621 : INFO : SwitchController : Found active switch: (('3B', 1), <Platform.FAST>) <switch.s_eos_left>
+2022-10-06 13:07:15,628 : INFO : ball_device.bd_trough : BCH: Initial count: 2
+2022-10-06 13:07:15,629 : INFO : ball_device.bd_trough : State: idle
+2022-10-06 13:07:15,629 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2022-10-06 13:07:15,629 : INFO : ball_device.bd_plunger : State: idle
+2022-10-06 13:07:15,630 : INFO : ball_device.bd_top_vuk : BCH: Initial count: 0
+2022-10-06 13:07:15,630 : INFO : ball_device.bd_top_vuk : State: idle
+2022-10-06 13:07:15,631 : INFO : ball_device.bd_right_vuk : BCH: Initial count: 0
+2022-10-06 13:07:15,631 : INFO : ball_device.bd_right_vuk : State: idle
+2022-10-06 13:07:15,631 : INFO : ball_device.bd_bot_vuk : BCH: Initial count: 0
+2022-10-06 13:07:15,632 : INFO : ball_device.bd_bot_vuk : State: idle
+2022-10-06 13:07:15,667 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-10-06 13:07:15,719 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-10-06 13:07:15,720 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 13:07:15,720 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 13:07:15,720 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 13:07:15,720 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 13:07:15,720 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 13:07:15,720 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 13:07:15,720 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 13:07:15,720 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 13:07:15,720 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 13:07:15,720 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 13:07:15,720 : INFO : EventManager : Event: ======'drop_target_right_right_down'====== Args={'device': <drop_target.right_right>}
+2022-10-06 13:07:15,720 : INFO : EventManager : Event: ======'drop_target_bank_right_mixed'====== Args={'prev_value': <DropTargetBankState.UP: 'up'>, 'down': 1}
+2022-10-06 13:07:15,720 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-06 13:07:15,720 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-06 13:07:15,721 : INFO : BallController : Initial balls found: 2
+2022-10-06 13:07:15,722 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,723 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,723 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 76, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_stationary'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_back'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_big'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_vuk'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_left'====== Args={'value': 74, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_mid'====== Args={'value': 83, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_right'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,725 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_left'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,725 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_right'====== Args={'value': 60, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,725 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_single'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,725 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left'====== Args={'value': 71, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,725 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 846, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,725 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_right'====== Args={'value': 96, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,726 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 52, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,726 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 948, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,726 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,726 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,726 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'value': 157, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,726 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_lower'====== Args={'value': 256, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,727 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 294, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,727 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 973, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,727 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,727 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 79, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,727 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_left'====== Args={'value': 64, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,728 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_right'====== Args={'value': 46, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,728 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 39, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,728 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 110, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,728 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 152, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,728 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 126, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,729 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_transfer_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,729 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,729 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 190, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,729 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 102, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,729 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 105, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,730 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 109, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,730 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 186, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,730 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 108, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,730 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_drop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,731 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,731 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_stationary'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,731 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_back'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,731 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_right'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,732 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_top'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2022-10-06 13:07:15,733 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-10-06 13:07:15,776 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2022-10-06 13:07:15,777 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2022-10-06 13:07:15,778 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2022-10-06 13:07:15,778 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2022-10-06 13:07:15,779 : INFO : EventManager : Event: ======'mode_tilt_will_start'====== Args={'queue': <QueuedEvent>}
+2022-10-06 13:07:15,779 : INFO : EventManager : Event: ======'mode_tilt_starting'====== Args={'queue': <QueuedEvent>}
+2022-10-06 13:07:15,779 : INFO : drop_target_bank.mid : All targets are already up. Will not reset bank.
+2022-10-06 13:07:15,779 : INFO : drop_target_bank.right : 1 targets are down. Will reset those.
+2022-10-06 13:07:15,779 : INFO : coil.c_drop_right : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 13:07:15,780 : INFO : Mode.tilt : Started. Priority: 1000000
+2022-10-06 13:07:15,781 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-10-06 13:07:15,781 : INFO : EventManager : Event: ======'mode_tilt_started'====== Args={'queue': <QueuedEvent>}
+2022-10-06 13:07:15,781 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2022-10-06 13:07:15,781 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2022-10-06 13:07:15,781 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2022-10-06 13:07:15,782 : INFO : Mode.attract : Started. Priority: 10
+2022-10-06 13:07:15,782 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-10-06 13:07:15,782 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2022-10-06 13:07:15,782 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2022-10-06 13:07:15,801 : INFO : coil.c_drop_right : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-06 13:07:15,802 : INFO : Machine : Starting the main run loop.
+2022-10-06 13:07:16,142 : INFO : BcpServer : New client connected.
+2022-10-06 13:07:16,268 : INFO : EventManager : Event: ======'drop_target_bank_right_mixed'====== Args={'prev_value': <DropTargetBankState.MIXED: 'mixed'>, 'down': 1}
+2022-10-06 13:08:13,952 : INFO : SwitchController : <<<<<<< 's_trough_3' active >>>>>>>
+2022-10-06 13:08:14,043 : INFO : SwitchController : <<<<<<< 's_trough_3' inactive >>>>>>>
+2022-10-06 13:08:14,341 : INFO : SwitchController : <<<<<<< 's_trough_3' active >>>>>>>
+2022-10-06 13:08:14,482 : INFO : SwitchController : <<<<<<< 's_trough_3' inactive >>>>>>>
+2022-10-06 13:08:20,315 : INFO : SwitchController : <<<<<<< 's_trough_5' active >>>>>>>
+2022-10-06 13:08:20,707 : INFO : SwitchController : <<<<<<< 's_trough_5' inactive >>>>>>>
+2022-10-06 13:08:22,241 : INFO : SwitchController : <<<<<<< 's_trough_6' inactive >>>>>>>
+2022-10-06 13:08:22,490 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2022-10-06 13:08:22,800 : INFO : SwitchController : <<<<<<< 's_trough_6' inactive >>>>>>>
+2022-10-06 13:08:23,239 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2022-10-06 13:08:23,348 : INFO : SwitchController : <<<<<<< 's_trough_6' inactive >>>>>>>
+2022-10-06 13:08:24,381 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2022-10-06 13:08:24,774 : INFO : SwitchController : <<<<<<< 's_trough_6' inactive >>>>>>>
+2022-10-06 13:08:24,851 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2022-10-06 13:08:24,897 : INFO : SwitchController : <<<<<<< 's_trough_6' inactive >>>>>>>
+2022-10-06 13:08:25,272 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2022-10-06 13:08:25,665 : INFO : SwitchController : <<<<<<< 's_trough_6' inactive >>>>>>>
+2022-10-06 13:09:34,774 : ERROR : asyncio : Exception in callback SerialTransport._poll_read()
+handle: <TimerHandle when=22953.421499999997 SerialTransport._poll_read()>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 275, in _poll_read
+    if self.serial.in_waiting:
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-06 13:09:34,776 : ERROR : asyncio : Exception in callback SerialTransport._poll_read()
+handle: <TimerHandle when=22953.421499999997 SerialTransport._poll_read()>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 275, in _poll_read
+    if self.serial.in_waiting:
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-06 13:09:34,780 : INFO : Machine : Shutting down...
+2022-10-06 13:09:34,787 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-06 13:09:34,791 : ERROR : asyncio : Fatal write error on serial transport
+protocol: <asyncio.streams.StreamReaderProtocol object at 0x000002307FF41848>
+transport: SerialTransport(<_WindowsSelectorEventLoop running=True closed=False debug=False>, <asyncio.streams.StreamReaderProtocol object at 0x000002307FF41848>, Serial<id=0x2307ff418c8, open=True>(port='com9', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=0, xonxoff=False, rtscts=False, dsrdtr=False))
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 120, in write
+    n = self._serial.write(data)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 336, in write
+    raise SerialException("WriteFile failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: WriteFile failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-06 13:09:34,792 : ERROR : asyncio : Exception in callback SerialTransport._call_connection_lost(SerialExcepti...', None, 5))"))
+handle: <Handle SerialTransport._call_connection_lost(SerialExcepti...', None, 5))"))>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 390, in _call_connection_lost
+    self._serial.flush()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 345, in flush
+    while self.out_waiting:
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 447, in out_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-06 13:09:34,794 : ERROR : asyncio : Fatal write error on serial transport
+protocol: <asyncio.streams.StreamReaderProtocol object at 0x000002307FF65D08>
+transport: SerialTransport(<_WindowsSelectorEventLoop running=True closed=False debug=False>, <asyncio.streams.StreamReaderProtocol object at 0x000002307FF65D08>, Serial<id=0x2307ff65d88, open=True>(port='com10', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=0, xonxoff=False, rtscts=False, dsrdtr=False))
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 120, in write
+    n = self._serial.write(data)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 336, in write
+    raise SerialException("WriteFile failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: WriteFile failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-06 13:09:34,795 : ERROR : asyncio : Exception in callback SerialTransport._call_connection_lost(SerialExcepti...', None, 5))"))
+handle: <Handle SerialTransport._call_connection_lost(SerialExcepti...', None, 5))"))>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 390, in _call_connection_lost
+    self._serial.flush()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 345, in flush
+    while self.out_waiting:
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 447, in out_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-06 13:09:34,899 : ERROR : FAST : Stop called on serial connection com9
+2022-10-06 13:09:34,899 : ERROR : FAST : Stop called on serial connection com10
+2022-10-06 13:09:34,902 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 275, in _poll_read
+    if self.serial.in_waiting:
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-06 13:09:34,967 : ERROR : root : ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-06 13:11:13,283 : INFO : root : MPF run loop ended.
