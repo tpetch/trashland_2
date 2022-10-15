@@ -1,0 +1,562 @@
+#show_version=5
+- time: 0
+  lights:
+    l_character_1_big: '7F0000'
+    l_character_1_mode1: '7F0000'
+    l_character_1_mode2: '804014'
+    l_character_1_small1: '7F0100'
+    l_character_1_small2: '804014'
+    l_character_1_small3: '804014'
+    l_character_2_big: '4E2A76'
+    l_character_2_mode1: '7A0566'
+    l_character_2_mode2: '7A0666'
+    l_character_2_small1: '4E2A76'
+    l_character_2_small2: '4E2A76'
+    l_character_2_small3: '4E2A76'
+    l_character_3_big: '000080'
+    l_character_3_mode1: '000080'
+    l_character_3_mode2: '005174'
+    l_character_3_small1: '005174'
+    l_character_3_small2: '005174'
+    l_character_3_small3: '005174'
+    l_character_4_big: '797702'
+    l_character_4_mode1: '807900'
+    l_character_4_mode2: '807900'
+    l_character_4_small1: '115926'
+    l_character_4_small2: '115926'
+    l_character_4_small3: '807900'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '7F0100'
+    l_character_1_small1: '7F0000'
+    l_character_2_mode2: '4E2A76'
+    l_character_2_small1: '4D2976'
+    l_character_4_big: '807900'
+    l_character_4_small2: '3C6517'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '7F0000'
+    l_character_1_small2: '804013'
+    l_character_2_small1: '000080'
+    l_character_3_small3: '09554A'
+    l_character_4_mode1: '80510E'
+    l_character_4_small2: '807900'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '7F0102'
+    l_character_1_small2: '7F0702'
+    l_character_2_mode1: '4E2976'
+    l_character_2_small2: '010180'
+    l_character_3_mode1: '004876'
+    l_character_3_small3: '115926'
+    l_character_4_mode1: '804014'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '7A0566'
+    l_character_1_small2: '7F0000'
+    l_character_1_small3: '804013'
+    l_character_2_mode1: '4E2A76'
+    l_character_2_small2: '000080'
+    l_character_3_big: '005174'
+    l_character_3_mode1: '005174'
+    
+- time: '+1'
+  lights:
+    l_character_1_small3: '7F0000'
+    l_character_3_mode2: '035268'
+    l_character_3_small2: '0F5830'
+    l_character_4_mode2: '804013'
+    l_character_4_small1: '807900'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '7E0228'
+    l_character_2_big: '000080'
+    l_character_3_mode2: '115926'
+    l_character_3_small2: '115926'
+    l_character_4_mode2: '804014'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '7A0566'
+    l_character_1_small1: '7A0566'
+    l_character_2_small3: '000080'
+    l_character_3_small1: '01526E'
+    l_character_4_small3: '804014'
+    
+- time: '+1'
+  lights:
+    l_character_2_mode2: '472677'
+    l_character_3_small1: '115926'
+    l_character_4_big: '804013'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '7A0566'
+    l_character_2_mode2: '000080'
+    l_character_2_small1: '000F7E'
+    l_character_4_big: '804014'
+    l_character_4_small2: '804113'
+    
+- time: '+1'
+  lights:
+    l_character_1_small2: '7F0104'
+    l_character_2_mode1: '4D2976'
+    l_character_2_small1: '005174'
+    l_character_3_small3: '506B10'
+    l_character_4_mode1: '7F0101'
+    l_character_4_small2: '804014'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '4F2976'
+    l_character_1_small2: '7A0566'
+    l_character_2_mode1: '000080'
+    l_character_2_small2: '005174'
+    l_character_3_big: '045363'
+    l_character_3_mode1: '0F5830'
+    l_character_3_small3: '807900'
+    l_character_4_mode1: '7F0000'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '4E2A76'
+    l_character_1_small1: '7A0666'
+    l_character_1_small3: '7D0333'
+    l_character_3_big: '115926'
+    l_character_3_mode1: '115926'
+    l_character_4_mode2: '804013'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '6E106B'
+    l_character_1_small3: '7A0566'
+    l_character_3_mode2: '125926'
+    l_character_3_small2: '787703'
+    l_character_4_mode2: '7F0000'
+    l_character_4_small1: '804014'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '4E2A76'
+    l_character_1_small1: '4E2A76'
+    l_character_2_big: '005174'
+    l_character_2_small3: '00097F'
+    l_character_3_mode2: '807900'
+    l_character_3_small2: '807900'
+    
+- time: '+1'
+  lights:
+    l_character_2_small3: '004E75'
+    l_character_3_small1: '225E20'
+    l_character_4_big: '803611'
+    l_character_4_small3: '7F0000'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '4E2976'
+    l_character_2_mode2: '003F77'
+    l_character_2_small3: '005174'
+    l_character_3_small1: '807900'
+    l_character_4_big: '7F0100'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '4E2A76'
+    l_character_1_small2: '7A0666'
+    l_character_2_mode2: '005174'
+    l_character_2_small1: '0B5643'
+    l_character_4_big: '7F0000'
+    l_character_4_mode1: '7F0001'
+    l_character_4_small2: '7F0100'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '4D2977'
+    l_character_1_small2: '512775'
+    l_character_2_mode1: '00097F'
+    l_character_2_small1: '115926'
+    l_character_2_small2: '005172'
+    l_character_3_small3: '804113'
+    l_character_4_mode1: '7A0566'
+    l_character_4_small2: '7F0000'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '000080'
+    l_character_1_small2: '4E2A76'
+    l_character_2_mode1: '005174'
+    l_character_2_small2: '115926'
+    l_character_3_big: '155A25'
+    l_character_3_mode1: '5F700B'
+    l_character_3_small3: '804014'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '4D2977'
+    l_character_1_small3: '4E2A76'
+    l_character_3_big: '807900'
+    l_character_3_mode1: '807900'
+    l_character_4_mode2: '7E0225'
+    l_character_4_small1: '80320F'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '000080'
+    l_character_3_small2: '804014'
+    l_character_4_mode2: '7A0566'
+    l_character_4_small1: '7F0000'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '000080'
+    l_character_2_big: '115926'
+    l_character_2_small3: '035367'
+    l_character_3_mode2: '804014'
+    l_character_4_small3: '7C033E'
+    
+- time: '+1'
+  lights:
+    l_character_2_small3: '115926'
+    l_character_3_small1: '804014'
+    l_character_4_big: '7C0448'
+    l_character_4_small3: '7A0566'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '000080'
+    l_character_2_mode2: '0F582E'
+    l_character_4_big: '7A0566'
+    l_character_4_small2: '7F0001'
+    
+- time: '+1'
+  lights:
+    l_character_1_small2: '4C2977'
+    l_character_2_mode2: '115926'
+    l_character_2_small1: '6A7308'
+    l_character_4_mode1: '4E2976'
+    l_character_4_small2: '7A0566'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '000F7E'
+    l_character_1_small2: '000080'
+    l_character_2_mode1: '09554A'
+    l_character_2_small1: '807900'
+    l_character_2_small2: '125926'
+    l_character_3_small3: '7F0100'
+    l_character_4_mode1: '4E2A76'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '005174'
+    l_character_1_small3: '4C2977'
+    l_character_2_mode1: '115926'
+    l_character_2_small2: '807900'
+    l_character_3_big: '805A0B'
+    l_character_3_mode1: '804B10'
+    l_character_3_small3: '7F0000'
+    l_character_4_mode2: '7A0666'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '000180'
+    l_character_1_small3: '000080'
+    l_character_3_big: '804014'
+    l_character_3_mode1: '804014'
+    l_character_3_small2: '804013'
+    l_character_4_mode2: '4E2A76'
+    l_character_4_small1: '7B0565'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '004E75'
+    l_character_3_mode2: '7F1306'
+    l_character_3_small2: '7F0000'
+    l_character_4_small1: '7A0566'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '005174'
+    l_character_1_small1: '005174'
+    l_character_2_big: '807900'
+    l_character_3_mode2: '7F0000'
+    l_character_4_big: '6F0F6A'
+    l_character_4_small3: '4E2A76'
+    
+- time: '+1'
+  lights:
+    l_character_2_small3: '6E7406'
+    l_character_3_small1: '7F0000'
+    l_character_4_big: '4E2A76'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '005174'
+    l_character_2_mode2: '737504'
+    l_character_2_small3: '807900'
+    l_character_4_mode1: '4D2976'
+    l_character_4_small2: '4E2976'
+    
+- time: '+1'
+  lights:
+    l_character_1_small2: '001C7C'
+    l_character_2_mode2: '807900'
+    l_character_2_small1: '804113'
+    l_character_3_small3: '7F0107'
+    l_character_4_mode1: '000080'
+    l_character_4_small2: '4E2A76'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '08554E'
+    l_character_1_small2: '005174'
+    l_character_2_mode1: '566D0E'
+    l_character_2_small1: '804014'
+    l_character_2_small2: '807800'
+    l_character_3_mode1: '803F13'
+    l_character_3_small3: '7A0566'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '115926'
+    l_character_1_small3: '003C77'
+    l_character_2_mode1: '807900'
+    l_character_2_small2: '804014'
+    l_character_3_big: '7F0101'
+    l_character_3_mode1: '7F0101'
+    l_character_4_mode2: '4D2977'
+    l_character_4_small1: '780767'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '02526A'
+    l_character_1_small3: '005174'
+    l_character_3_big: '7F0000'
+    l_character_3_mode1: '7F0000'
+    l_character_3_small2: '7E0226'
+    l_character_4_mode2: '000080'
+    l_character_4_small1: '4E2A76'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '075454'
+    l_character_1_small1: '0F582F'
+    l_character_3_mode2: '7A0566'
+    l_character_3_small2: '7A0566'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '115926'
+    l_character_1_small1: '115926'
+    l_character_2_big: '804014'
+    l_character_4_big: '000080'
+    l_character_4_small3: '000080'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '085451'
+    l_character_2_small3: '804312'
+    l_character_3_small1: '7A0566'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '115926'
+    l_character_2_mode2: '804013'
+    l_character_2_small3: '804014'
+    l_character_4_mode1: '000180'
+    l_character_4_small2: '000080'
+    
+- time: '+1'
+  lights:
+    l_character_1_small2: '09554C'
+    l_character_2_mode2: '804014'
+    l_character_2_small1: '7F0100'
+    l_character_3_small3: '4E2976'
+    l_character_4_mode1: '005174'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '406716'
+    l_character_1_small2: '115926'
+    l_character_2_mode1: '804113'
+    l_character_2_small1: '7F0000'
+    l_character_2_small2: '7F1D09'
+    l_character_3_mode1: '7E0228'
+    l_character_3_small3: '4E2A76'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '807900'
+    l_character_1_small3: '115928'
+    l_character_2_mode1: '804014'
+    l_character_2_small2: '7F0000'
+    l_character_3_big: '7A0566'
+    l_character_3_mode1: '7A0566'
+    l_character_4_mode2: '002A7A'
+    l_character_4_small1: '020180'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '125926'
+    l_character_1_small3: '115926'
+    l_character_3_mode2: '601B70'
+    l_character_3_small2: '4E2A76'
+    l_character_4_mode2: '005174'
+    l_character_4_small1: '000080'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '62700A'
+    l_character_1_small1: '526C10'
+    l_character_2_big: '7F0101'
+    l_character_3_mode2: '4E2A76'
+    l_character_4_big: '00047F'
+    l_character_4_small3: '003978'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '807900'
+    l_character_1_small1: '807900'
+    l_character_2_big: '7F0000'
+    l_character_2_small3: '803912'
+    l_character_3_small1: '4E2976'
+    l_character_4_big: '005075'
+    l_character_4_small3: '005174'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '4C6A12'
+    l_character_2_mode2: '803F13'
+    l_character_2_small3: '7F0201'
+    l_character_3_small1: '4E2A76'
+    l_character_4_big: '005174'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '807900'
+    l_character_2_mode2: '7F0100'
+    l_character_2_small1: '7F010F'
+    l_character_2_small3: '7F0000'
+    l_character_3_small3: '4D2977'
+    l_character_4_mode1: '065458'
+    l_character_4_small2: '005174'
+    
+- time: '+1'
+  lights:
+    l_character_1_small2: '33631A'
+    l_character_2_mode2: '7F0000'
+    l_character_2_small1: '7A0566'
+    l_character_3_mode1: '770868'
+    l_character_3_small3: '000080'
+    l_character_4_mode1: '115926'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '804C0F'
+    l_character_1_small2: '807900'
+    l_character_2_mode1: '7F0100'
+    l_character_2_small2: '7B0565'
+    l_character_3_big: '4F2876'
+    l_character_3_mode1: '4E2976'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '804014'
+    l_character_1_small3: '7C7801'
+    l_character_2_mode1: '7F0000'
+    l_character_2_small2: '7A0566'
+    l_character_3_big: '4E2A76'
+    l_character_3_mode1: '4E2A76'
+    l_character_3_small2: '4D2977'
+    l_character_4_mode2: '0E5832'
+    l_character_4_small1: '005174'
+    
+- time: '+1'
+  lights:
+    l_character_1_small3: '807900'
+    l_character_3_mode2: '000080'
+    l_character_3_small2: '000080'
+    l_character_4_mode2: '115926'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '804014'
+    l_character_1_small1: '805A0B'
+    l_character_2_big: '7A0566'
+    l_character_4_big: '02526B'
+    l_character_4_small3: '115926'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '804014'
+    l_character_2_small3: '7D0338'
+    l_character_3_small1: '000080'
+    l_character_4_big: '115926'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '804013'
+    l_character_2_mode2: '7D0229'
+    l_character_2_small3: '7A0566'
+    l_character_4_small2: '065459'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '804014'
+    l_character_2_mode2: '7A0566'
+    l_character_2_small1: '4E2A76'
+    l_character_3_small3: '00067F'
+    l_character_4_mode1: '2B601D'
+    l_character_4_small2: '115926'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '804013'
+    l_character_1_small2: '806208'
+    l_character_2_mode1: '7F0106'
+    l_character_2_small2: '68146D'
+    l_character_3_mode1: '180D7D'
+    l_character_3_small3: '005174'
+    l_character_4_mode1: '807900'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '7F0101'
+    l_character_1_small2: '804014'
+    l_character_2_mode1: '7A0566'
+    l_character_2_small2: '4E2A76'
+    l_character_3_big: '000080'
+    l_character_3_mode1: '000080'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '7F0000'
+    l_character_1_small3: '804013'
+    l_character_3_mode2: '000180'
+    l_character_3_small2: '002A7A'
+    l_character_4_mode2: '787703'
+    l_character_4_small1: '115926'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '803F13'
+    l_character_1_small3: '804014'
+    l_character_2_big: '750A68'
+    l_character_2_small3: '7A0666'
+    l_character_3_mode2: '005174'
+    l_character_3_small2: '005174'
+    l_character_4_mode2: '807900'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '7F0000'
+    l_character_1_small1: '7F0000'
+    l_character_2_big: '4E2A76'
+    l_character_2_small3: '6F0F6A'
+    l_character_4_small3: '807900'
+    

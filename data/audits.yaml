@@ -7,52 +7,52 @@ player:
     top: []
     total: 0
 switches:
-  s_autolauncher: 82
-  s_back_pop: 0
+  s_autolauncher: 92
+  s_back_pop: 12
   s_back_rollover: 0
-  s_back_stationary: 0
-  s_bot_back: 0
-  s_bot_big: 1
+  s_back_stationary: 3
+  s_bot_back: 1
+  s_bot_big: 4
   s_bot_left: 0
-  s_bot_right: 0
-  s_bot_rollover: 0
-  s_bot_vuk: 0
-  s_drop_mid_left: 74
-  s_drop_mid_mid: 83
-  s_drop_mid_right: 5
-  s_drop_right_left: 24
-  s_drop_right_right: 61
+  s_bot_right: 1
+  s_bot_rollover: 1
+  s_bot_vuk: 3
+  s_drop_mid_left: 104
+  s_drop_mid_mid: 125
+  s_drop_mid_right: 36
+  s_drop_right_left: 26
+  s_drop_right_right: 63
   s_drop_single: 41
-  s_eos_left: 71
-  s_eos_left_top: 847
-  s_eos_right: 96
-  s_launch: 57
-  s_left_flipper: 949
-  s_left_inlane: 24
-  s_left_outlane: 5
-  s_pop_left: 157
-  s_pop_lower: 256
-  s_pop_right: 294
-  s_right_flipper: 975
-  s_right_inlane: 0
-  s_right_outlane: 79
-  s_rollover_left: 64
-  s_rollover_right: 46
-  s_sling_left: 41
-  s_sling_right: 136
-  s_start: 152
-  s_tilt: 126
-  s_transfer_rollover: 0
+  s_eos_left: 117
+  s_eos_left_top: 981
+  s_eos_right: 271
+  s_launch: 64
+  s_left_flipper: 1088
+  s_left_inlane: 34
+  s_left_outlane: 7
+  s_pop_left: 192
+  s_pop_lower: 279
+  s_pop_right: 348
+  s_right_flipper: 1226
+  s_right_inlane: 6
+  s_right_outlane: 91
+  s_rollover_left: 72
+  s_rollover_right: 100
+  s_sling_left: 44
+  s_sling_right: 141
+  s_start: 154
+  s_tilt: 132
+  s_transfer_rollover: 3
   s_trough_1: 57
-  s_trough_2: 190
-  s_trough_3: 102
+  s_trough_2: 212
+  s_trough_3: 103
   s_trough_4: 105
-  s_trough_5: 109
-  s_trough_6: 186
+  s_trough_5: 111
+  s_trough_6: 187
   s_trough_jam: 108
   s_upper_drop: 0
-  s_upper_rollover: 0
-  s_upper_stationary: 0
+  s_upper_rollover: 26
+  s_upper_stationary: 13
   s_vuk_back: 1
   s_vuk_right: 3
-  s_vuk_top: 25
+  s_vuk_top: 36

@@ -407,7 +407,7 @@ switches:
     number: 0-2
     tags: start
   s_launch:
-    number: 0-1
+    number: 0-3
     tags:
     
   s_tilt:
@@ -419,20 +419,20 @@ switches:
   s_upper_rollover:
     number: 1-0
   s_upper_drop:
-    number: 1-1
-  s_upper_stationary:
     number: 1-2
+  s_upper_stationary:
+    number: 1-1
     
   s_back_rollover:
-    number: 1-3
+    number: 1-11
   s_back_pop:
-    number: 1-4
+    number: 1-8
   s_back_stationary:
-    number: 1-6
+    number: 1-10
   
   
   s_transfer_rollover:
-    number: 1-5
+    number: 1-12
     
 
 # Board 2 - Main
@@ -471,9 +471,11 @@ switches:
   s_vuk_top:
     number: 2-12
     type: 'NC'
+
   s_vuk_right:
     number: 2-11
     type: 'NC'
+
     
   s_drop_single:
     number: 2-10
@@ -507,7 +509,7 @@ switches:
     number: 3-7
     
   s_eos_right:
-    number: 3-4
+    number: 3-5
     type: 'NC'
   s_eos_left:
     number: 3-3
@@ -540,7 +542,7 @@ switches:
     number: 4-3
     
   s_bot_left:
-    number: 4-1
+    number: 4-7
   s_bot_right:
     number: 4-2
     
@@ -552,6 +554,7 @@ switches:
     
   s_bot_vuk:
     number: 4-5
+    type: 'NC'
 
     
     
@@ -566,7 +569,23 @@ coils:
 
 # Board 1 - Backbox and Upper Mini
 
-  #c_back_flipper:
+  c_back_flipper_main:
+    number: 1-1
+    default_pulse_ms: 40
+  c_back_flipper_hold:
+    number: 1-2
+    allow_enable: true
+    default_hold_power: 0.9
+  c_back_pop:
+    number: 1-0
+    default_pulse_ms: 20
+  c_flipper_upper:
+    number: 1-5
+    default_hold_power: 0.9
+  c_drop_upper:
+    number: 1-4
+  c_drop_upper_knockdown:
+    number: 1-3
 
 # Board 2 - Main
 
@@ -579,11 +598,15 @@ coils:
    
   c_top_vuk:
    number: 2-10
+   default_pulse_ms: 70
+   default_pulse_power: 1
   c_right_vuk:
    number: 2-13
    
   c_drop_right:
    number: 2-14
+   default_pulse_ms: 60
+   default_pulse_power: 0.7
   c_drop_right_left:
    number: 2-15
    default_pulse_power: 0.5
@@ -600,6 +623,8 @@ coils:
 
   c_drop_single:
    number: 2-11
+   default_pulse_ms: 50
+   default_pulse_power: 0.9
   c_drop_single_knockdown:
    number: 2-12
    default_pulse_power: 0.6
@@ -661,27 +686,28 @@ coils:
   c_bot_top_flipper:
     number: 4-1
     allow_enable: true
-    default_pulse_ms: 10
-    default_hold_power: 0.6
+    default_pulse_ms: 40
+    default_hold_power: 0.9
   c_bot_bot_flipper:
     number: 4-3
     allow_enable: true
-    default_pulse_ms: 10
+    default_pulse_ms: 20
   c_bot_bot_flipper_hold:
     number: 4-0
     allow_enable: true
-    default_hold_power: 0.6
+    default_hold_power: 0.9
     
   c_bot_vuk:
     number: 4-2
+    default_pulse_ms: 70
+    default_pulse_power: 1
 
 
 
 drop_targets:
     d_drop_single:
       switch: s_drop_single
-      reset_coil: c_drop_single
-      knockdown_coil: c_drop_single_knockdown
+      knockdown_coil: c_drop_single_knockdown     
 
     mid_right:
       switch: s_drop_mid_right
@@ -701,6 +727,13 @@ drop_targets:
       reset_coil: c_drop_right
       
 drop_target_banks:
+
+    single_main:
+      drop_targets: d_drop_single
+      reset_coil: c_drop_single
+
+      reset_on_complete: 1s
+      
     mid:
       drop_targets:  mid_left, mid_right, mid_mid
       reset_coil: c_drop_mid
@@ -738,6 +771,18 @@ flippers:
     hold_coil: c_bot_bot_flipper_hold
     activation_switch: s_right_flipper
     enable_events: machine_reset_phase_3
+    
+  upper_flipper:
+    main_coil: c_flipper_upper
+    activation_switch: s_left_flipper
+    enable_events: machine_reset_phase_3
+    
+  back_flipper:
+    main_coil: c_back_flipper_main
+    hold_coil: c_back_flipper_hold
+    activation_switch: s_right_flipper
+    
+    
 
 ball_devices:
 
@@ -792,4 +837,7 @@ autofire_coils:
   ac_pop_left:
     coil: c_pop_left
     switch: s_pop_left
+  ac_pop_back:
+    coil: c_back_pop
+    switch: s_back_pop
 

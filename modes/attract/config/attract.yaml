@@ -2,5 +2,5 @@
 
 show_player:
   mode_attract_started: 
-    output3:
-      speed: 6
+    tl2-ch-color-wheel-cw-ccw-show-Set:
+      speed: 40

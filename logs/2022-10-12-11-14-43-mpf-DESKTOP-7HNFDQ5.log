@@ -1,0 +1,6 @@
+2022-10-12 11:14:43,783 : INFO : root : Loading config.
+2022-10-12 11:14:43,786 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-12 11:14:43,787 : WARNING : ConfigProcessor : Config file in cache changed: c:\trashland_2\config\config.yaml
+2022-10-12 11:14:43,787 : INFO : ConfigProcessor : Loading config from file c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml.
+2022-10-12 11:14:43,859 : INFO : ConfigProcessor : Loading config: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml
+2022-10-12 11:14:43,859 : INFO : ConfigProcessor : Loading config from file c:\trashland_2\config\config.yaml.

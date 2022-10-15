@@ -1,0 +1,105 @@
+2022-10-12 11:15:03,577 : INFO : root : Loading config.
+2022-10-12 11:15:03,580 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-12 11:15:03,580 : WARNING : ConfigProcessor : Config file in cache changed: c:\trashland_2\config\config.yaml
+2022-10-12 11:15:03,580 : INFO : ConfigProcessor : Loading config from file c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml.
+2022-10-12 11:15:03,651 : INFO : ConfigProcessor : Loading config: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml
+2022-10-12 11:15:03,651 : INFO : ConfigProcessor : Loading config from file c:\trashland_2\config\config.yaml.
+2022-10-12 11:15:03,756 : INFO : ConfigProcessor : Loading config: c:\trashland_2\config\config.yaml
+2022-10-12 11:15:03,759 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\a6762098cb994b55cb03a478b26022ee.mpf_cache
+2022-10-12 11:15:03,825 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-12 11:15:03,830 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-10-12 11:15:03,831 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\708062243e0edcfa77dd6b1521bd0d4e.mpf_cache
+2022-10-12 11:15:03,831 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c4174472f67f7b070dd6fb437c6feb0c.mpf_cache
+2022-10-12 11:15:03,832 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\abaa92c43d134e3392cbb2346e6a16be.mpf_cache
+2022-10-12 11:15:03,833 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fc46d53fcb9fe6b8abf783d9c813390a.mpf_cache
+2022-10-12 11:15:03,835 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\b46de592c65b9a27a1f4965daee53c91.mpf_cache
+2022-10-12 11:15:03,835 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\5b50cb1d58cd4116013cda74c2923169.mpf_cache
+2022-10-12 11:15:03,838 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\2734ac1662e5e62f2e4cb2a8d902a8f2.mpf_cache
+2022-10-12 11:15:03,841 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fe169133106b4804e097dca6b78afaf5.mpf_cache
+2022-10-12 11:15:03,841 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\d4f531e94c6a484dd08e4121f6e3a74e.mpf_cache
+2022-10-12 11:15:03,842 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\e9c431c8aa2f7ab7b37617b37185d68f.mpf_cache
+2022-10-12 11:15:03,844 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\07112933e6abcdb1819075df64aee3c0.mpf_cache
+2022-10-12 11:15:03,845 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-12 11:15:03,845 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-12-11-15-03-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-12 11:15:03,845 : INFO : Machine : MPF path: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-10-12 11:15:03,845 : INFO : Machine : Machine path: c:\trashland_2
+2022-10-12 11:15:03,845 : INFO : Machine : Platform: win32
+2022-10-12 11:15:03,845 : INFO : Machine : Python executable location: c:\users\tanner\appdata\local\programs\python\python37\python.exe
+2022-10-12 11:15:03,845 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-10-12 11:15:03,847 : INFO : Machine : Initialise MPF.
+2022-10-12 11:15:04,103 : INFO : FAST : Connecting to com9 at 921600bps
+2022-10-12 11:15:04,136 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.05
+2022-10-12 11:15:04,136 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.05', 'prev_value': None, 'change': True}
+2022-10-12 11:15:04,136 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-12 11:15:06,494 : WARNING : FAST : Got unexpected message from FAST: -N:11
+2022-10-12 11:15:06,494 : WARNING : FAST : Got unexpected message from FAST: -N:2C
+2022-10-12 11:15:06,494 : WARNING : FAST : Got unexpected message from FAST: -N:2D
+2022-10-12 11:15:06,494 : WARNING : FAST : Got unexpected message from FAST: -N:38
+2022-10-12 11:15:06,494 : WARNING : FAST : Got unexpected message from FAST: -N:40
+2022-10-12 11:15:06,494 : WARNING : FAST : Got unexpected message from FAST: -N:41
+2022-10-12 11:15:06,494 : WARNING : FAST : Got unexpected message from FAST: -N:43
+2022-10-12 11:15:06,494 : WARNING : FAST : Got unexpected message from FAST: -N:44
+2022-10-12 11:15:06,494 : WARNING : FAST : Got unexpected message from FAST: -N:5D
+2022-10-12 11:15:06,605 : INFO : FAST : Connecting to com10 at 921600bps
+2022-10-12 11:15:06,636 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 00.87
+2022-10-12 11:15:06,636 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '00.87', 'prev_value': None, 'change': True}
+2022-10-12 11:15:06,636 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-12 11:15:06,637 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-12 11:15:06,682 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-12 11:15:06,682 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-12 11:15:06,682 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-12 11:15:06,682 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2022-10-12 11:15:06,682 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2022-10-12 11:15:06,682 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-12 11:15:06,682 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-12 11:15:06,682 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2022-10-12 11:15:06,683 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-12 11:15:06,683 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-12 11:15:06,713 : ERROR : ConfigValidator : Your config contains a value for the setting "drop_target_banks:single_main:switch", but this is not a valid setting name.
+2022-10-12 11:15:06,714 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...tting name.')>) at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py:112
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...tting name.')>) at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py:112>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device_manager.py", line 89, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device_manager.py", line 147, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device.py", line 109, in validate_and_parse_config
+    self.config_section, config, self.name, "device", prefix=debug_prefix)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 180, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 192, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 359, in check_for_invalid_sections
+    'setting name.', 2, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "drop_target_banks:single_main:switch", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-2.html)
+2022-10-12 11:15:06,732 : INFO : Machine : Starting the main run loop.
+2022-10-12 11:15:06,736 : INFO : Machine : Shutting down...
+2022-10-12 11:15:06,737 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-12 11:15:06,827 : ERROR : FAST : Stop called on serial connection com9
+2022-10-12 11:15:06,827 : ERROR : FAST : Stop called on serial connection com10
+2022-10-12 11:15:07,079 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device_manager.py", line 89, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device_manager.py", line 147, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device.py", line 109, in validate_and_parse_config
+    self.config_section, config, self.name, "device", prefix=debug_prefix)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 180, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 192, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 359, in check_for_invalid_sections
+    'setting name.', 2, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "drop_target_banks:single_main:switch", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-2.html)
+2022-10-12 11:15:28,362 : INFO : root : MPF run loop ended.

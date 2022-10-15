@@ -1,0 +1,818 @@
+#show_version=5
+- time: 0
+  lights:
+    l_character_2_big: '807F7F'
+    l_character_2_mode1: '807F7F'
+    l_character_2_mode2: '807F7F'
+    l_character_2_small1: '807F7F'
+    l_character_2_small2: '807F7F'
+    l_character_2_small3: '807F7F'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_2_small1: '7D7C7C'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_2_small1: '5A5959'
+    
+- time: '+1'
+  lights:
+    l_character_2_small1: '181818'
+    
+- time: '+1'
+  lights:
+    l_character_2_small1: '010101'
+    
+- time: '+1'
+  lights:
+    l_character_2_small1: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '010101'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '535353'
+    l_character_1_small1: '474747'
+    l_character_2_big: '7E7D7D'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '7B7A7A'
+    l_character_1_small1: '7E7D7D'
+    l_character_2_big: '757474'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '7F7E7E'
+    l_character_1_small1: '7F7E7E'
+    l_character_2_big: '1E1E1E'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '807F7F'
+    l_character_1_small1: '807F7F'
+    l_character_2_big: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_2_small2: '717171'
+    
+- time: '+1'
+  lights:
+    l_character_2_small2: '2C2C2C'
+    
+- time: '+1'
+  lights:
+    l_character_2_small2: '060505'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_2_small2: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_1_small2: '010101'
+    
+- time: '+1'
+  lights:
+    l_character_1_small2: '2C2C2C'
+    
+- time: '+1'
+  lights:
+    l_character_1_small2: '717171'
+    
+- time: '+1'
+  lights:
+    l_character_1_small2: '807F7F'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '807F7F'
+    l_character_2_mode1: '7F7E7E'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_2_mode1: '636262'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '010101'
+    l_character_2_mode1: '0E0E0E'
+    l_character_2_mode2: '000000'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '131313'
+    l_character_2_mode1: '020202'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '5D5C5C'
+    l_character_2_mode1: '000000'
+    l_character_2_small3: '7D7C7C'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '717171'
+    l_character_2_small3: '7C7B7B'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '807F7F'
+    l_character_2_small3: '333333'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_2_small3: '040404'
+    
+- time: '+1'
+  lights:
+    l_character_1_small3: '010101'
+    l_character_2_small3: '010101'
+    
+- time: '+1'
+  lights:
+    l_character_1_small3: '131313'
+    l_character_2_small3: '000000'
+    
+- time: '+1'
+  lights:
+    l_character_1_small3: '5D5C5C'
+    
+- time: '+1'
+  lights:
+    l_character_1_small3: '7D7C7C'
+    
+- time: '+1'
+  lights:
+    l_character_1_small3: '807F7F'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_4_mode1: '030303'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '7E7D7D'
+    l_character_4_mode1: '363636'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '666565'
+    l_character_4_mode1: '7A7979'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '040404'
+    l_character_4_mode1: '7F7E7E'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '010101'
+    l_character_4_mode1: '807F7F'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode1: '000000'
+    l_character_4_big: '030303'
+    
+- time: '+1'
+  lights:
+    l_character_4_big: '363636'
+    
+- time: '+1'
+  lights:
+    l_character_4_big: '7A7979'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_4_big: '7F7E7E'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '7F7E7E'
+    l_character_4_big: '807F7F'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '7A7979'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '363636'
+    l_character_4_mode2: '010101'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '030303'
+    l_character_4_mode2: '040404'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_1_big: '000000'
+    l_character_4_mode2: '666565'
+    
+- time: '+1'
+  lights:
+    l_character_4_mode2: '7E7D7D'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '7E7D7D'
+    l_character_4_mode2: '807F7F'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '666565'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '040404'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '010101'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_1_mode2: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '7F7E7E'
+    l_character_1_small3: '7F7E7E'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '7E7D7D'
+    l_character_1_small3: '7E7D7D'
+    l_character_4_small2: '807F7F'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '484747'
+    l_character_1_small3: '484747'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '0D0C0C'
+    l_character_1_small3: '0D0C0C'
+    l_character_4_small1: '010101'
+    l_character_4_small3: '060505'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '010101'
+    l_character_1_small3: '010101'
+    l_character_4_small1: '0D0C0C'
+    l_character_4_small3: '2C2C2C'
+    
+- time: '+1'
+  lights:
+    l_character_1_small1: '000000'
+    l_character_1_small3: '000000'
+    l_character_4_small1: '484747'
+    l_character_4_small3: '727171'
+    
+- time: '+1'
+  lights:
+    l_character_1_small2: '7F7F7F'
+    l_character_4_small1: '7E7D7D'
+    l_character_4_small3: '807F7F'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_1_small2: '7E7D7D'
+    l_character_4_small1: '7F7E7E'
+    
+- time: '+1'
+  lights:
+    l_character_1_small2: '000000'
+    l_character_4_small1: '807F7F'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_4_small3: '7C7B7B'
+    
+- time: '+1'
+  lights:
+    l_character_4_small3: '333232'
+    
+- time: '+1'
+  lights:
+    l_character_3_small3: '010101'
+    l_character_4_small3: '040404'
+    
+- time: '+1'
+  lights:
+    l_character_3_small3: '040404'
+    l_character_4_mode1: '7D7C7C'
+    l_character_4_small3: '010101'
+    
+- time: '+1'
+  lights:
+    l_character_3_small3: '333333'
+    l_character_4_mode1: '5D5C5C'
+    l_character_4_small3: '000000'
+    
+- time: '+1'
+  lights:
+    l_character_3_small3: '7C7B7B'
+    l_character_4_mode1: '131313'
+    
+- time: '+1'
+  lights:
+    l_character_3_small3: '807F7F'
+    l_character_4_mode1: '010101'
+    
+- time: '+1'
+  lights:
+    l_character_3_mode2: '807F7F'
+    l_character_4_mode1: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_4_mode2: '7E7D7D'
+    
+- time: '+1'
+  lights:
+    l_character_4_mode2: '727171'
+    
+- time: '+1'
+  lights:
+    l_character_4_mode2: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_3_mode1: '010101'
+    
+- time: '+1'
+  lights:
+    l_character_3_mode1: '181818'
+    
+- time: '+1'
+  lights:
+    l_character_3_mode1: '5A5959'
+    l_character_4_small2: '7D7C7C'
+    
+- time: '+1'
+  lights:
+    l_character_3_mode1: '7D7C7C'
+    l_character_4_small2: '5D5C5C'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_3_mode1: '807F7F'
+    l_character_3_small2: '010101'
+    l_character_4_small2: '131313'
+    
+- time: '+1'
+  lights:
+    l_character_3_small2: '040404'
+    l_character_4_small2: '010101'
+    
+- time: '+1'
+  lights:
+    l_character_3_small2: '333333'
+    l_character_4_small2: '000000'
+    
+- time: '+1'
+  lights:
+    l_character_3_small2: '7C7B7B'
+    
+- time: '+1'
+  lights:
+    l_character_3_small2: '807F7F'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_3_big: '030303'
+    l_character_4_big: '7B7A7A'
+    
+- time: '+1'
+  lights:
+    l_character_3_big: '363636'
+    l_character_4_big: '181818'
+    
+- time: '+1'
+  lights:
+    l_character_3_big: '7A7979'
+    l_character_4_big: '020202'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_character_3_big: '7F7E7E'
+    l_character_4_big: '000000'
+    l_character_4_small1: '7C7B7B'
+    
+- time: '+1'
+  lights:
+    l_character_3_big: '807F7F'
+    l_character_4_small1: '333232'
+    
+- time: '+1'
+  lights:
+    l_character_3_small1: '010101'
+    l_character_4_small1: '040404'
+    
+- time: '+1'
+  lights:
+    l_character_3_small1: '131313'
+    l_character_4_small1: '010101'
+    
+- time: '+1'
+  lights:
+    l_character_3_small1: '5D5C5C'
+    l_character_4_small1: '000000'
+    
+- time: '+1'
+  lights:
+    l_character_3_small1: '7D7C7C'
+    
+- time: '+1'
+  lights:
+    l_character_3_small1: '807F7F'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
