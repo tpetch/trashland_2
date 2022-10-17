@@ -17,11 +17,24 @@ playfields:
 modes:
   - base
   - tilt
+  
+widget_styles:
+  text_default:
+    font_size: 21
+    color: red
     
 displays:
   window:
-    width: 800
-    height: 600
+    width: 1280
+    height: 390
+    
+window:
+    width: 1280
+    height: 390
+    resizable: false
+    fullscreen: false
+    borderless: true
+    source_display: window
     
 slides:
   welcome_slide:
@@ -434,6 +447,13 @@ switches:
   s_transfer_rollover:
     number: 1-12
     
+  s_left_orbit_prox:
+    number: 1-9
+    
+  s_left_return:
+    number: 1-13
+    type: 'NC'
+    
 
 # Board 2 - Main
 
@@ -669,8 +689,8 @@ coils:
     
   c_autolauncher:
     number: 3-0
-    default_pulse_ms: 20
-    default_pulse_power: 0.9
+    default_pulse_ms: 11
+    default_pulse_power: 1
     
   c_trough:
     number: 3-1
