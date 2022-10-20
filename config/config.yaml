@@ -32,7 +32,7 @@ window:
     width: 1280
     height: 390
     resizable: false
-    fullscreen: false
+    fullscreen: true
     borderless: true
     source_display: window
     
@@ -40,7 +40,7 @@ slides:
   welcome_slide:
     widgets:
       - type: text
-        text: PINBALL!
+        text: PINBALL BY TPETCH
         
 slide_player:
   init_done: welcome_slide
@@ -448,10 +448,10 @@ switches:
     number: 1-12
     
   s_left_orbit_prox:
-    number: 1-9
+    number: 1-13
     
   s_left_return:
-    number: 1-13
+    number: 1-7
     type: 'NC'
     
 
