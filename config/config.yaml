@@ -6,7 +6,7 @@ hardware:
   driverboards: fast
 
 fast:
-  ports: com9, com10
+  ports: com14, com15
   rgb_buffer: 3
   
 playfields:
@@ -770,17 +770,17 @@ flippers:
     main_coil: c_flipper_left
     hold_coil: c_flipper_left_hold
     activation_switch: s_left_flipper
-    enable_events: machine_reset_phase_3
+    
   left_top_flipper:
     main_coil: c_flipper_left_top
     hold_coil: c_flipper_left_top_hold
     activation_switch: s_left_flipper
-    enable_events: machine_reset_phase_3
+    
   right_flipper:
     main_coil: c_flipper_right
     hold_coil: c_flipper_right_hold
     activation_switch: s_right_flipper
-    enable_events: machine_reset_phase_3
+    
     
   bot_top_flipper:
     main_coil: c_bot_top_flipper
@@ -790,12 +790,12 @@ flippers:
     main_coil: c_bot_bot_flipper
     hold_coil: c_bot_bot_flipper_hold
     activation_switch: s_right_flipper
-    enable_events: machine_reset_phase_3
+    
     
   upper_flipper:
     main_coil: c_flipper_upper
     activation_switch: s_left_flipper
-    enable_events: machine_reset_phase_3
+    
     
   back_flipper:
     main_coil: c_back_flipper_main
