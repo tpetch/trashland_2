@@ -9,11 +9,13 @@ slide_player:
     widgets:
       - type: text
         text: (score)
+        color: green
         number_grouping: true
         min_digits: 2
-        font_size: 100
+        font_size: 130
       - type: text
         text: PLAYER (number)
+        color: green
         y: 10
         x: 10
         font_size: 50
@@ -21,8 +23,9 @@ slide_player:
         anchor_y: bottom
       - type: text
         text: BALL (ball)
+        color: green
         y: 10
-        x: right-10
+        x: right-40
         anchor_x: right
         anchor_y: bottom
         font_size: 50

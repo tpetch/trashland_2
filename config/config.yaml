@@ -41,6 +41,7 @@ slides:
     widgets:
       - type: text
         text: PINBALL BY TPETCH
+        color: green
         
 slide_player:
   init_done: welcome_slide
@@ -727,7 +728,9 @@ coils:
 drop_targets:
     d_drop_single:
       switch: s_drop_single
-      knockdown_coil: c_drop_single_knockdown     
+      knockdown_coil: c_drop_single_knockdown
+      knockdown_events: s_left_return_hit
+      
 
     mid_right:
       switch: s_drop_mid_right
@@ -742,27 +745,33 @@ drop_targets:
     right_right:
       switch: s_drop_right_right
       reset_coil: c_drop_right
+      knockdown_events: balldevice_bd_right_vuk_ejecting_ball
     right_left:
       switch: s_drop_right_left
       reset_coil: c_drop_right
+      knockdown_events: balldevice_bd_right_vuk_ejecting_ball
       
 drop_target_banks:
 
     single_main:
       drop_targets: d_drop_single
       reset_coil: c_drop_single
+      reset_events: 
+        balldevice_bd_top_vuk_eject_success: 0.25s
 
-      reset_on_complete: 1s
+      
       
     mid:
       drop_targets:  mid_left, mid_right, mid_mid
       reset_coil: c_drop_mid
-      reset_on_complete: 1s
+      
      
     right:
       drop_targets: right_right, right_left
       reset_coil: c_drop_right
-      reset_on_complete: 1s
+      reset_events: 
+        balldevice_bd_right_vuk_eject_success: 1s
+      
       
       
 flippers:
