@@ -592,11 +592,12 @@ coils:
 
   c_back_flipper_main:
     number: 1-1
-    default_pulse_ms: 40
-  c_back_flipper_hold:
-    number: 1-2
     allow_enable: true
     default_hold_power: 0.9
+  c_back_flipper_hold:
+    number: 1-2
+    default_pulse_ms: 40
+
   c_back_pop:
     number: 1-0
     default_pulse_ms: 20
@@ -758,12 +759,14 @@ drop_target_banks:
       reset_coil: c_drop_single
       reset_events: 
         balldevice_bd_top_vuk_eject_success: 0.25s
+        s_pop_right_hit: 0.25s
 
       
       
     mid:
       drop_targets:  mid_left, mid_right, mid_mid
       reset_coil: c_drop_mid
+      reset_events: 
       
      
     right:
