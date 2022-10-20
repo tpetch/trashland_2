@@ -798,8 +798,8 @@ flippers:
     
     
   back_flipper:
-    main_coil: c_back_flipper_main
-    hold_coil: c_back_flipper_hold
+    main_coil: c_back_flipper_hold
+    hold_coil: c_back_flipper_main
     activation_switch: s_right_flipper
     
     
