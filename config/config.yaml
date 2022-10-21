@@ -595,6 +595,7 @@ coils:
   c_back_flipper_main:
     number: 1-2
     default_pulse_ms: 60
+    default_hold_power: 0.3
   c_back_flipper_hold:
     number: 1-1
     allow_enable: true
@@ -828,7 +829,7 @@ flippers:
     
   back_flipper:
     main_coil: c_back_flipper_main
-    hold_coil: c_back_flipper_hold
+    
     activation_switch: s_right_flipper
     
     
