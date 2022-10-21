@@ -29,6 +29,18 @@ slide_player:
         anchor_x: right
         anchor_y: bottom
         font_size: 50
+        
+shows:
+  shaker_halfsecond:
+    - duration: 0.5s
+      coils:
+        c_shaker: enable
+    - duration: 0.5s
+      coils:
+        c_shaker: disable
+        
+
+      
 shots:
 
   left_inlane:
@@ -81,9 +93,9 @@ sequence_shots:
 variable_player:
   
   left_pop_hit:
-    score: 500
+    score: 150
   right_pop_hit:
-    score: 500
+    score: 150
   lower_pop_hit:
     score: 10
     
@@ -95,3 +107,8 @@ variable_player:
     score: 100
   right_inlane_hit:
     score: 100
+    
+  ss_small_cw_orbit_hit:
+    score: 200
+  ss_small_ccw_orbit_hit:
+    score: 300

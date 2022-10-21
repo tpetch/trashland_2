@@ -1,0 +1,50 @@
+##! mode: lane_rotate
+mode:
+  start_events: start_mode_top_lanes, ball_starting
+  stop_events: stop_mode_top_lanes, ball_will_end
+
+shots:
+  left_outlane:
+    switch: s_left_outlane
+    profile: inout_lane_profile
+    show_tokens:
+      led: l_left_outlane
+  left_inlane:
+    switch: s_left_inlane
+    profile: inout_lane_profile
+    show_tokens:
+      led: l_left_inlane
+  right_inlane:
+    switch: s_right_inlane
+    profile: inout_lane_profile
+    show_tokens:
+      led: l_right_inlane
+  right_outlane:
+    switch: s_right_outlane
+    profile: inout_lane_profile
+    show_tokens:
+      led: l_right_outlane
+      
+show_player:
+  inout_lane_group_hit_complete:
+    shaker_halfsecond:
+      loops: -1
+
+shot_groups:
+  inout_lane_group:
+    shots: left_outlane, left_inlane, right_inlane, right_outlane
+    reset_events: inout_lane_group_hit_complete
+    rotate_left_events: s_flipper_left_active
+    rotate_right_events: s_flipper_right_active
+
+shot_profiles:
+  top_lane_profile:
+    states:
+      - name:
+        show: off
+      - name: hit
+        show: on
+
+variable_player:
+  inout_lane_group_hit_complete:
+    score: 5000

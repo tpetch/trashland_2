@@ -16,7 +16,9 @@ playfields:
     
 modes:
   - base
+  - attract
   - tilt
+  - lane_rotate
   
 widget_styles:
   text_default:
@@ -432,7 +434,7 @@ switches:
 
   s_upper_rollover:
     number: 1-0
-  s_upper_drop:
+  s_drop_upper:
     number: 1-2
   s_upper_stationary:
     number: 1-1
@@ -607,6 +609,8 @@ coils:
     number: 1-4
   c_drop_upper_knockdown:
     number: 1-3
+    default_pulse_power: 0.25
+    default_pulse_ms: 40
 
 # Board 2 - Main
 
@@ -619,7 +623,7 @@ coils:
    
   c_top_vuk:
    number: 2-10
-   default_pulse_ms: 70
+   default_pulse_ms: 200
    default_pulse_power: 1
   c_right_vuk:
    number: 2-13
@@ -639,7 +643,9 @@ coils:
    default_pulse_power: 0.7
   c_drop_mid_knockdown:
    number: 2-8
-   default_pulse_power: 0.5
+   default_pulse_power: 0.25
+   default_pulse_ms: 40
+   
 
 
   c_drop_single:
@@ -648,7 +654,8 @@ coils:
    default_pulse_power: 0.9
   c_drop_single_knockdown:
    number: 2-12
-   default_pulse_power: 0.6
+   default_pulse_power: 0.25
+   default_pulse_ms: 40
    
   c_post_inlane:
    number: 2-1
@@ -695,8 +702,8 @@ coils:
     
   c_trough:
     number: 3-1
-    default_pulse_ms: 30
-    default_pulse_power: 0.9
+    default_pulse_ms: 50
+    default_pulse_power: 0.7
 
 
 
@@ -731,6 +738,11 @@ drop_targets:
       knockdown_coil: c_drop_single_knockdown
       knockdown_events: s_left_return_hit
       
+    d_drop_upper:
+      switch: s_drop_upper
+      knockdown_coil: c_drop_upper_knockdown
+
+      
 
     mid_right:
       switch: s_drop_mid_right
@@ -748,8 +760,7 @@ drop_targets:
       knockdown_events: balldevice_bd_right_vuk_ejecting_ball
     right_left:
       switch: s_drop_right_left
-      reset_coil: c_drop_right
-      knockdown_events: balldevice_bd_right_vuk_ejecting_ball
+
       
 drop_target_banks:
 
@@ -758,14 +769,21 @@ drop_target_banks:
       reset_coil: c_drop_single
       reset_events: 
         balldevice_bd_top_vuk_eject_success: 0.25s
+      reset_events.1:
         s_pop_right_hit: 0.25s
+      reset_events.2: ball_started
+      
+    single_upper:
+      drop_targets: d_drop_uppere
+      reset_coil: c_drop_upper
+      reset_events: ball_started
 
       
       
     mid:
       drop_targets:  mid_left, mid_right, mid_mid
       reset_coil: c_drop_mid
-      reset_events: 
+      reset_events: ball_started
       
      
     right:
@@ -773,6 +791,7 @@ drop_target_banks:
       reset_coil: c_drop_right
       reset_events: 
         balldevice_bd_right_vuk_eject_success: 1s
+      reset_events.1: ball_started
       
       
       
@@ -796,7 +815,6 @@ flippers:
   bot_top_flipper:
     main_coil: c_bot_top_flipper
     activation_switch: s_left_flipper
-    enable_events: machine_reset_phase_3
   bot_bot_flipper:
     main_coil: c_bot_bot_flipper
     hold_coil: c_bot_bot_flipper_hold
@@ -808,10 +826,10 @@ flippers:
     activation_switch: s_left_flipper
     
     
- # back_flipper:
-#    main_coil: c_back_flipper_hold
-#    hold_coil: c_back_flipper_main
-#    activation_switch: s_right_flipper
+  back_flipper:
+    main_coil: c_back_flipper_hold
+    hold_coil: c_back_flipper_main
+    activation_switch: s_right_flipper
     
     
 
@@ -821,8 +839,8 @@ ball_devices:
     ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_jam
     eject_coil: c_trough
     tags: trough, home, drain
-#    jam_switch: s_trough_jam
-#    eject_coil_jam_pulse: 25ms
+    jam_switch: s_trough_jam
+    eject_coil_jam_pulse: 25ms
     eject_targets: bd_plunger
     debug: true
     
