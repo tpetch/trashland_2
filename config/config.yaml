@@ -673,7 +673,7 @@ coils:
 
   c_flipper_left:
     number: 3-4
-    default_pulse_ms: 40
+    default_pulse_ms: 50
   c_flipper_left_hold:
     number: 3-5
     allow_enable: true
@@ -772,6 +772,7 @@ drop_target_banks:
       reset_events.1:
         s_pop_right_hit: 0.25s
       reset_events.2: ball_started
+      reset_on_complete: 1s
       
     single_upper:
       drop_targets: d_drop_uppere
@@ -827,8 +828,8 @@ flippers:
     
     
   back_flipper:
-    main_coil: c_back_flipper_hold
-    hold_coil: c_back_flipper_main
+    main_coil: c_back_flipper_main
+    hold_coil: c_back_flipper_hold
     activation_switch: s_right_flipper
     
     
