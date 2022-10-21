@@ -774,7 +774,7 @@ drop_target_banks:
       reset_on_complete: 1s
       
     single_upper:
-      drop_targets: d_drop_uppere
+      drop_targets: d_drop_upper
       reset_coil: c_drop_upper
       reset_events: ball_started
 
