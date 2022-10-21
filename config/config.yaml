@@ -768,11 +768,11 @@ drop_target_banks:
     single_main:
       drop_targets: d_drop_single
       reset_coil: c_drop_single
-      reset_events: 
-        balldevice_bd_top_vuk_eject_success: 0.25s
-        s_pop_right_hit: 0.25s
-        ball_started: 0s
-      reset_on_complete: 1s
+      #reset_events: 
+     #   balldevice_bd_top_vuk_eject_success: 0.25s
+      #  s_pop_right_hit: 0.25s
+       # ball_started: 0s
+      #reset_on_complete: 1s
       
     single_upper:
       drop_targets: d_drop_upper
