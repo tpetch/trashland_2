@@ -4,22 +4,22 @@ mode:
   stop_events: stop_mode_lane_rotate, ball_will_end
 
 shots:
-  rotate_left_outlane:
+  r_left_outlane:
     switch: s_left_outlane
     profile: inout_lane_profile
     show_tokens:
       led: l_left_outlane
-  rotate_left_inlane:
+  r_left_inlane:
     switch: s_left_inlane
     profile: inout_lane_profile
     show_tokens:
       led: l_left_inlane
-  rotate_right_inlane:
+  r_right_inlane:
     switch: s_right_inlane
     profile: inout_lane_profile
     show_tokens:
       led: l_right_inlane
-  rotate_right_outlane:
+  r_right_outlane:
     switch: s_right_outlane
     profile: inout_lane_profile
     show_tokens:
@@ -32,7 +32,7 @@ show_player:
 
 shot_groups:
   inout_lane_group:
-    shots: rotate_left_outlane, rotate_left_inlane, rotate_right_inlane, rotate_right_outlane
+    shots: r_left_outlane, r_left_inlane, r_right_inlane, r_right_outlane
     reset_events: inout_lane_group_hit_complete
     rotate_left_events: s_flipper_left_active
     rotate_right_events: s_flipper_right_active
