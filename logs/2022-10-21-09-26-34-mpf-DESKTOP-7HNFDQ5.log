@@ -1,0 +1,1717 @@
+2022-10-21 09:26:34,445 : INFO : root : Loading config.
+2022-10-21 09:26:34,448 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-21 09:26:34,449 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\a6762098cb994b55cb03a478b26022ee.mpf_cache
+2022-10-21 09:26:34,512 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-21 09:26:34,513 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-10-21 09:26:34,514 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\708062243e0edcfa77dd6b1521bd0d4e.mpf_cache
+2022-10-21 09:26:34,514 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c4174472f67f7b070dd6fb437c6feb0c.mpf_cache
+2022-10-21 09:26:34,515 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9e6b4d5e43fd00e219ba7c739d818ad6.mpf_cache
+2022-10-21 09:26:34,516 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\abaa92c43d134e3392cbb2346e6a16be.mpf_cache
+2022-10-21 09:26:34,516 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fc46d53fcb9fe6b8abf783d9c813390a.mpf_cache
+2022-10-21 09:26:34,517 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\b46de592c65b9a27a1f4965daee53c91.mpf_cache
+2022-10-21 09:26:34,518 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\5b50cb1d58cd4116013cda74c2923169.mpf_cache
+2022-10-21 09:26:34,520 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\2734ac1662e5e62f2e4cb2a8d902a8f2.mpf_cache
+2022-10-21 09:26:34,523 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fe169133106b4804e097dca6b78afaf5.mpf_cache
+2022-10-21 09:26:34,523 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\d4f531e94c6a484dd08e4121f6e3a74e.mpf_cache
+2022-10-21 09:26:34,524 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\e9c431c8aa2f7ab7b37617b37185d68f.mpf_cache
+2022-10-21 09:26:34,525 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\07112933e6abcdb1819075df64aee3c0.mpf_cache
+2022-10-21 09:26:34,527 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-21 09:26:34,527 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-21-09-26-34-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-21 09:26:34,527 : INFO : Machine : MPF path: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-10-21 09:26:34,527 : INFO : Machine : Machine path: c:\trashland_2
+2022-10-21 09:26:34,527 : INFO : Machine : Platform: win32
+2022-10-21 09:26:34,527 : INFO : Machine : Python executable location: c:\users\tanner\appdata\local\programs\python\python37\python.exe
+2022-10-21 09:26:34,527 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-10-21 09:26:34,528 : INFO : Machine : Initialise MPF.
+2022-10-21 09:26:34,819 : INFO : FAST : Connecting to com14 at 921600bps
+2022-10-21 09:26:34,941 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.05
+2022-10-21 09:26:34,941 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.05', 'prev_value': None, 'change': True}
+2022-10-21 09:26:34,941 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-21 09:26:37,369 : INFO : FAST : Connecting to com15 at 921600bps
+2022-10-21 09:26:37,480 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 00.87
+2022-10-21 09:26:37,480 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '00.87', 'prev_value': None, 'change': True}
+2022-10-21 09:26:37,480 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-21 09:26:37,481 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-21 09:26:37,522 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-21 09:26:37,522 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1020, 'prev_value': None, 'change': True}
+2022-10-21 09:26:37,522 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-21 09:26:37,522 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-21 09:26:37,522 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2022-10-21 09:26:37,522 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2022-10-21 09:26:37,523 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-21 09:26:37,523 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-21 09:26:37,523 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2022-10-21 09:26:37,523 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-21 09:26:37,523 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-21 09:26:37,563 : INFO : EventManager : Event: ======'drop_target_bank_single_main_up'====== Args={}
+2022-10-21 09:26:37,564 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2022-10-21 09:26:37,564 : INFO : EventManager : Event: ======'drop_target_bank_right_up'====== Args={}
+2022-10-21 09:26:37,576 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left_return in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 1 does not exist for switch 1-7
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_return in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,577 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_post_outlane in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 2 does not exist for driver 2-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_post_outlane in platform. See error above
+2022-10-21 09:26:37,578 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_drop_right in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 2 does not exist for driver 2-14
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_drop_right in platform. See error above
+2022-10-21 09:26:37,578 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_bot_big in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 4 does not exist for switch 4-3
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_bot_big in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,579 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_vuk_top in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 2 does not exist for switch 2-12
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_vuk_top in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,579 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_bot_bot_flipper_hold in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 4 does not exist for driver 4-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_bot_bot_flipper_hold in platform. See error above
+2022-10-21 09:26:37,579 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_pop_lower in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 2 does not exist for switch 2-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_pop_lower in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,580 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_bot_left in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 4 does not exist for switch 4-7
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_bot_left in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,580 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_vuk_right in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 2 does not exist for switch 2-11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_vuk_right in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,580 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_left_sling in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 2 does not exist for driver 2-3
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_left_sling in platform. See error above
+2022-10-21 09:26:37,581 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_pop_left in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 2 does not exist for switch 2-1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_pop_left in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,581 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_drop_right_left in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 2 does not exist for driver 2-15
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_drop_right_left in platform. See error above
+2022-10-21 09:26:37,581 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_bot_right in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 4 does not exist for switch 4-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_bot_right in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,582 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_shaker in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 0 does not exist for driver 0-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_shaker in platform. See error above
+2022-10-21 09:26:37,582 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_bot_vuk in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 4 does not exist for driver 4-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_bot_vuk in platform. See error above
+2022-10-21 09:26:37,582 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_pop_right in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 2 does not exist for switch 2-7
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_pop_right in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,583 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_drop_single in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 2 does not exist for switch 2-10
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_drop_single in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,583 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_bot_back in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 4 does not exist for switch 4-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_bot_back in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,583 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_right_sling in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 2 does not exist for driver 2-6
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_right_sling in platform. See error above
+2022-10-21 09:26:37,584 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_drop_mid_right in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 2 does not exist for switch 2-5
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_drop_mid_right in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,584 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_back_flipper_main in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 1 does not exist for driver 1-1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_back_flipper_main in platform. See error above
+2022-10-21 09:26:37,584 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_drop_mid in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 2 does not exist for driver 2-5
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_drop_mid in platform. See error above
+2022-10-21 09:26:37,585 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_bot_rollover in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 4 does not exist for switch 4-4
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_bot_rollover in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,585 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_6 in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 3 does not exist for switch 3-8
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_6 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,585 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_drop_single_knockdown in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 2 does not exist for driver 2-12
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_drop_single_knockdown in platform. See error above
+2022-10-21 09:26:37,586 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left_flipper in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 0 does not exist for switch 0-4
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_flipper in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,586 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_drop_mid_mid in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 2 does not exist for switch 2-4
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_drop_mid_mid in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,586 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_bot_vuk in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 4 does not exist for switch 4-5
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_bot_vuk in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,587 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_back_flipper_hold in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 1 does not exist for driver 1-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_back_flipper_hold in platform. See error above
+2022-10-21 09:26:37,587 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_drop_mid_left in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 2 does not exist for switch 2-3
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_drop_mid_left in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,587 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_flipper_left in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 3 does not exist for driver 3-4
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_flipper_left in platform. See error above
+2022-10-21 09:26:37,588 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_5 in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 3 does not exist for switch 3-9
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_5 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,588 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_drop_mid_knockdown in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 2 does not exist for driver 2-8
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_drop_mid_knockdown in platform. See error above
+2022-10-21 09:26:37,588 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_pop_lower in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 2 does not exist for driver 2-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_pop_lower in platform. See error above
+2022-10-21 09:26:37,589 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_right_flipper in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 0 does not exist for switch 0-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_right_flipper in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,589 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_drop_right_right in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 2 does not exist for switch 2-8
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_drop_right_right in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,589 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_back_pop in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 1 does not exist for driver 1-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_back_pop in platform. See error above
+2022-10-21 09:26:37,590 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_4 in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 3 does not exist for switch 3-10
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_4 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,590 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_flipper_left_hold in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 3 does not exist for driver 3-5
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_flipper_left_hold in platform. See error above
+2022-10-21 09:26:37,590 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_drop_right_left in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 2 does not exist for switch 2-9
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_drop_right_left in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,591 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_drop_single in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 2 does not exist for driver 2-11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_drop_single in platform. See error above
+2022-10-21 09:26:37,591 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_flipper_upper in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 1 does not exist for driver 1-5
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_flipper_upper in platform. See error above
+2022-10-21 09:26:37,591 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_top_vuk in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 2 does not exist for driver 2-10
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_top_vuk in platform. See error above
+2022-10-21 09:26:37,592 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_start in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 0 does not exist for switch 0-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_start in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,592 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_rollover_left in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 2 does not exist for switch 2-13
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_rollover_left in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,592 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_3 in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 3 does not exist for switch 3-11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_3 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,593 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_flipper_right in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 3 does not exist for driver 3-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_flipper_right in platform. See error above
+2022-10-21 09:26:37,593 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_rollover_right in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 2 does not exist for switch 2-6
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_rollover_right in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,593 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_drop_upper in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 1 does not exist for driver 1-4
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_drop_upper in platform. See error above
+2022-10-21 09:26:37,594 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_post_inlane in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 2 does not exist for driver 2-1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_post_inlane in platform. See error above
+2022-10-21 09:26:37,594 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_2 in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 3 does not exist for switch 3-12
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_2 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,594 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_right_vuk in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 2 does not exist for driver 2-13
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_right_vuk in platform. See error above
+2022-10-21 09:26:37,595 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_launch in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 0 does not exist for switch 0-3
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_launch in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,595 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_sling_left in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 2 does not exist for switch 2-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_sling_left in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,595 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_drop_upper_knockdown in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 1 does not exist for driver 1-3
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_drop_upper_knockdown in platform. See error above
+2022-10-21 09:26:37,596 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_flipper_right_hold in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 3 does not exist for driver 3-3
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_flipper_right_hold in platform. See error above
+2022-10-21 09:26:37,596 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_sling_right in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 2 does not exist for switch 2-15
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_sling_right in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,596 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 3 does not exist for switch 3-16
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_1 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,597 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_tilt in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 0 does not exist for switch 0-5
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_tilt in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,597 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_pop_left in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 2 does not exist for driver 2-4
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_pop_left in platform. See error above
+2022-10-21 09:26:37,597 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_jam in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 3 does not exist for switch 3-17
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_jam in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,598 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_flipper_left_top in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 3 does not exist for driver 3-6
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_flipper_left_top in platform. See error above
+2022-10-21 09:26:37,598 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_pop_right in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 2 does not exist for driver 2-9
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_pop_right in platform. See error above
+2022-10-21 09:26:37,598 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_upper_rollover in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 1 does not exist for switch 1-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_upper_rollover in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,599 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_autolauncher in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 3 does not exist for switch 3-7
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_autolauncher in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,599 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_flipper_left_top_hold in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 3 does not exist for driver 3-7
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_flipper_left_top_hold in platform. See error above
+2022-10-21 09:26:37,599 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_upper_drop in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 1 does not exist for switch 1-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_upper_drop in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,600 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_eos_right in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 3 does not exist for switch 3-5
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_eos_right in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,600 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_autolauncher in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 3 does not exist for driver 3-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_autolauncher in platform. See error above
+2022-10-21 09:26:37,600 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_upper_stationary in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 1 does not exist for switch 1-1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_upper_stationary in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,601 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_eos_left in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 3 does not exist for switch 3-3
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_eos_left in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,601 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_trough in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 3 does not exist for driver 3-1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_trough in platform. See error above
+2022-10-21 09:26:37,601 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_back_rollover in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 1 does not exist for switch 1-11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_back_rollover in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,602 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_eos_left_top in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 3 does not exist for switch 3-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_eos_left_top in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,602 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_back_pop in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 1 does not exist for switch 1-8
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_back_pop in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,602 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_right_outlane in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 3 does not exist for switch 3-13
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_right_outlane in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,603 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_bot_top_flipper in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 4 does not exist for driver 4-1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_bot_top_flipper in platform. See error above
+2022-10-21 09:26:37,603 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_back_stationary in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 1 does not exist for switch 1-10
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_back_stationary in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,603 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_right_inlane in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 3 does not exist for switch 3-14
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_right_inlane in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,604 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_transfer_rollover in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 1 does not exist for switch 1-12
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_transfer_rollover in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,604 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left_outlane in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 3 does not exist for switch 3-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_outlane in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,604 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_bot_bot_flipper in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 533, in configure_driver
+    number = self._parse_driver_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 481, in _parse_driver_number
+    raise AssertionError("Board {} does not exist for driver {}".format(board, number))
+AssertionError: Board 4 does not exist for driver 4-3
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_bot_bot_flipper in platform. See error above
+2022-10-21 09:26:37,605 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left_orbit_prox in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 1 does not exist for switch 1-13
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_orbit_prox in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,605 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left_inlane in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 3 does not exist for switch 3-1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_inlane in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:26:37,606 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-21 09:26:37,606 : INFO : Machine : Starting the main run loop.
+2022-10-21 09:26:37,610 : INFO : Machine : Shutting down...
+2022-10-21 09:26:37,611 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-21 09:26:37,612 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...te 'number'")>) at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py:112
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...te 'number'")>) at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py:112>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\switch_controller.py", line 82, in _initialize_switches
+    await self.update_switches_from_hw()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\switch_controller.py", line 104, in update_switches_from_hw
+    switches.add((switch, switch.hw_switch.number))
+AttributeError: 'NoneType' object has no attribute 'number'
+2022-10-21 09:26:37,704 : ERROR : FAST : Stop called on serial connection com14
+2022-10-21 09:26:37,704 : ERROR : FAST : Stop called on serial connection com15
+2022-10-21 09:26:37,944 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending coro=<Event.wait() running at c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\locks.py:293> wait_for=<Future cancelled>>
+2022-10-21 09:26:37,945 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 1 does not exist for switch 1-7
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_return in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-10-21 09:27:16,265 : ERROR : root : 
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 665, in configure_switch
+    number = self._parse_switch_number(number)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 597, in _parse_switch_number
+    raise AssertionError("Board {} does not exist for switch {}".format(board, number))
+AssertionError: Board 1 does not exist for switch 1-7
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_return in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\commands\game.py", line 239, in __init__
+    self.machine.run()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 687, in run
+    self._run_loop()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 772, in _run_loop
+    report_crash(self._exception['exception'], "exception_during_run", self.config)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\crash_reporter.py", line 236, in report_crash
+    response = input("Do you want to report the crash to the MPF team (yes/no/show)? ")
+EOFError

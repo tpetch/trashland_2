@@ -1,0 +1,16 @@
+2022-10-17 07:27:34,292 : kivy : Factory: 186 symbols loaded
+2022-10-17 07:27:34,762 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-10-17 07:27:34,762 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-10-17 07:27:34,984 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-10-17 07:27:34,984 : kivy : Video: Provider: gstplayer
+2022-10-17 07:27:35,347 : kivy : Loading MPF-MC controller
+2022-10-17 07:27:35,350 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-10-17 07:27:35,350 : ConfigProcessor : Loading config from file c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-10-17 07:27:35,392 : ConfigProcessor : Loading config: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml
+2022-10-17 07:27:35,392 : ConfigProcessor : Loading config from file c:\trashland_2\config\config.
+2022-10-17 07:27:35,501 : ConfigProcessor : Loading config: c:\trashland_2\config\config
+2022-10-17 07:27:35,504 : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\af2f9975217aa24f0c3c7583f835539f.mpf_cache
+2022-10-17 07:27:35,504 : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-17 07:27:35,509 : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-10-17 07:27:35,509 : ConfigProcessor : Config file in cache changed: c:\trashland_2\modes\base\config\base.yaml
+2022-10-17 07:27:35,509 : ConfigProcessor : Loading config from file c:\trashland_2\modes\base\config\base.yaml.

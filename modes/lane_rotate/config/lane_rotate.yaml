@@ -28,7 +28,7 @@ shots:
 show_player:
   inout_lane_group_hit_complete:
     shaker_halfsecond:
-      loops: -1
+      loops: 1
 
 shot_groups:
   inout_lane_group:

@@ -1,0 +1,104 @@
+2022-10-21 10:07:30,816 : INFO : root : Loading config.
+2022-10-21 10:07:30,819 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-21 10:07:30,820 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\a6762098cb994b55cb03a478b26022ee.mpf_cache
+2022-10-21 10:07:30,879 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-21 10:07:30,879 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-10-21 10:07:30,880 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\708062243e0edcfa77dd6b1521bd0d4e.mpf_cache
+2022-10-21 10:07:30,881 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-21 10:07:30,881 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c4174472f67f7b070dd6fb437c6feb0c.mpf_cache
+2022-10-21 10:07:30,882 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\33b306b4bf49d065496332ee9ac2494c.mpf_cache
+2022-10-21 10:07:30,883 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9e6b4d5e43fd00e219ba7c739d818ad6.mpf_cache
+2022-10-21 10:07:30,883 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\abaa92c43d134e3392cbb2346e6a16be.mpf_cache
+2022-10-21 10:07:30,884 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fc46d53fcb9fe6b8abf783d9c813390a.mpf_cache
+2022-10-21 10:07:30,885 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\b46de592c65b9a27a1f4965daee53c91.mpf_cache
+2022-10-21 10:07:30,885 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\5b50cb1d58cd4116013cda74c2923169.mpf_cache
+2022-10-21 10:07:30,888 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\2734ac1662e5e62f2e4cb2a8d902a8f2.mpf_cache
+2022-10-21 10:07:30,890 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fe169133106b4804e097dca6b78afaf5.mpf_cache
+2022-10-21 10:07:30,891 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\d4f531e94c6a484dd08e4121f6e3a74e.mpf_cache
+2022-10-21 10:07:30,891 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\e9c431c8aa2f7ab7b37617b37185d68f.mpf_cache
+2022-10-21 10:07:30,893 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\07112933e6abcdb1819075df64aee3c0.mpf_cache
+2022-10-21 10:07:30,894 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-21 10:07:30,894 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-21-10-07-30-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-21 10:07:30,894 : INFO : Machine : MPF path: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-10-21 10:07:30,894 : INFO : Machine : Machine path: c:\trashland_2
+2022-10-21 10:07:30,894 : INFO : Machine : Platform: win32
+2022-10-21 10:07:30,894 : INFO : Machine : Python executable location: c:\users\tanner\appdata\local\programs\python\python37\python.exe
+2022-10-21 10:07:30,894 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-10-21 10:07:30,896 : INFO : Machine : Initialise MPF.
+2022-10-21 10:07:31,190 : INFO : FAST : Connecting to com14 at 921600bps
+2022-10-21 10:07:31,299 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.05
+2022-10-21 10:07:31,299 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.05', 'prev_value': None, 'change': True}
+2022-10-21 10:07:31,299 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-21 10:07:33,676 : WARNING : FAST : Got unexpected message from FAST: -N:03
+2022-10-21 10:07:33,676 : WARNING : FAST : Got unexpected message from FAST: -N:0A
+2022-10-21 10:07:33,676 : WARNING : FAST : Got unexpected message from FAST: -N:0F
+2022-10-21 10:07:33,676 : WARNING : FAST : Got unexpected message from FAST: -N:11
+2022-10-21 10:07:33,676 : WARNING : FAST : Got unexpected message from FAST: -N:2B
+2022-10-21 10:07:33,676 : WARNING : FAST : Got unexpected message from FAST: -N:2C
+2022-10-21 10:07:33,676 : WARNING : FAST : Got unexpected message from FAST: -N:2D
+2022-10-21 10:07:33,676 : WARNING : FAST : Got unexpected message from FAST: -N:32
+2022-10-21 10:07:33,676 : WARNING : FAST : Got unexpected message from FAST: -N:33
+2022-10-21 10:07:33,676 : WARNING : FAST : Got unexpected message from FAST: -N:34
+2022-10-21 10:07:33,676 : WARNING : FAST : Got unexpected message from FAST: -N:38
+2022-10-21 10:07:33,676 : WARNING : FAST : Got unexpected message from FAST: -N:3D
+2022-10-21 10:07:33,676 : WARNING : FAST : Got unexpected message from FAST: -N:40
+2022-10-21 10:07:33,676 : WARNING : FAST : Got unexpected message from FAST: -N:41
+2022-10-21 10:07:33,676 : WARNING : FAST : Got unexpected message from FAST: -N:42
+2022-10-21 10:07:33,677 : WARNING : FAST : Got unexpected message from FAST: -N:43
+2022-10-21 10:07:33,677 : WARNING : FAST : Got unexpected message from FAST: -N:48
+2022-10-21 10:07:33,677 : WARNING : FAST : Got unexpected message from FAST: -N:5D
+2022-10-21 10:07:33,786 : INFO : FAST : Connecting to com15 at 921600bps
+2022-10-21 10:07:33,912 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 00.87
+2022-10-21 10:07:33,912 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '00.87', 'prev_value': None, 'change': True}
+2022-10-21 10:07:33,912 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-21 10:07:33,913 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-21 10:07:33,954 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-21 10:07:33,954 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 9260, 'prev_value': None, 'change': True}
+2022-10-21 10:07:33,954 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-21 10:07:33,954 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-21 10:07:33,954 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2022-10-21 10:07:33,954 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2022-10-21 10:07:33,954 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-21 10:07:33,955 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-21 10:07:33,955 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2022-10-21 10:07:33,955 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-21 10:07:33,955 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-21 10:07:33,987 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...overloaded.')>) at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py:112
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...overloaded.')>) at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py:112>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device_manager.py", line 90, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\mode.py", line 436, in load_mode_devices
+    device.overload_config_in_mode(self, settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\mode_device.py", line 56, in overload_config_in_mode
+    raise AssertionError("Device {} cannot be overloaded.".format(self))
+AssertionError: Device <shot.left_inlane> cannot be overloaded.
+2022-10-21 10:07:33,989 : INFO : Machine : Starting the main run loop.
+2022-10-21 10:07:33,993 : INFO : Machine : Shutting down...
+2022-10-21 10:07:33,993 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-21 10:07:34,085 : ERROR : FAST : Stop called on serial connection com14
+2022-10-21 10:07:34,085 : ERROR : FAST : Stop called on serial connection com15
+2022-10-21 10:07:34,325 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device_manager.py", line 90, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\mode.py", line 436, in load_mode_devices
+    device.overload_config_in_mode(self, settings)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\mode_device.py", line 56, in overload_config_in_mode
+    raise AssertionError("Device {} cannot be overloaded.".format(self))
+AssertionError: Device <shot.left_inlane> cannot be overloaded.
+2022-10-21 10:07:45,293 : INFO : root : MPF run loop ended.

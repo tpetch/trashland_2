@@ -1,0 +1,85 @@
+2022-10-22 09:33:42,851 : kivy : Factory: 186 symbols loaded
+2022-10-22 09:33:42,971 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-10-22 09:33:42,971 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-10-22 09:33:43,009 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-10-22 09:33:43,009 : kivy : Video: Provider: gstplayer
+2022-10-22 09:33:43,206 : kivy : Loading MPF-MC controller
+2022-10-22 09:33:43,209 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-10-22 09:33:43,210 : ConfigProcessor : Config file in cache changed: c:\trashland_2\config\config
+2022-10-22 09:33:43,210 : ConfigProcessor : Loading config from file c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-10-22 09:33:43,248 : ConfigProcessor : Loading config: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml
+2022-10-22 09:33:43,248 : ConfigProcessor : Loading config from file c:\trashland_2\config\config.
+2022-10-22 09:33:43,359 : ConfigProcessor : Loading config: c:\trashland_2\config\config
+2022-10-22 09:33:43,361 : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\af2f9975217aa24f0c3c7583f835539f.mpf_cache
+2022-10-22 09:33:43,362 : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-22 09:33:43,363 : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-10-22 09:33:43,363 : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\708062243e0edcfa77dd6b1521bd0d4e.mpf_cache
+2022-10-22 09:33:43,364 : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-22 09:33:43,364 : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c4174472f67f7b070dd6fb437c6feb0c.mpf_cache
+2022-10-22 09:33:43,365 : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\33b306b4bf49d065496332ee9ac2494c.mpf_cache
+2022-10-22 09:33:43,366 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2022-10-22 09:33:43,366 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2022-10-22 09:33:43,366 : mpfmc : Machine path: c:\trashland_2
+2022-10-22 09:33:43,366 : mpfmc : Starting clock at 60.0Hz
+2022-10-22 09:33:43,378 : kivy : Text: Provider: sdl2
+2022-10-22 09:33:43,413 : kivy : Window: Provider: sdl2
+2022-10-22 09:33:44,078 : kivy : GL: Using the "OpenGL" graphics system
+2022-10-22 09:33:44,083 : kivy : GL: GLEW initialization succeeded
+2022-10-22 09:33:44,083 : kivy : GL: Backend used <glew>
+2022-10-22 09:33:44,083 : kivy : GL: OpenGL version <b'4.6.0 NVIDIA 512.15'>
+2022-10-22 09:33:44,083 : kivy : GL: OpenGL vendor <b'NVIDIA Corporation'>
+2022-10-22 09:33:44,083 : kivy : GL: OpenGL renderer <b'NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2'>
+2022-10-22 09:33:44,083 : kivy : GL: OpenGL parsed version: 4, 6
+2022-10-22 09:33:44,083 : kivy : GL: Shading version <b'4.60 NVIDIA'>
+2022-10-22 09:33:44,083 : kivy : GL: Texture max size <32768>
+2022-10-22 09:33:44,084 : kivy : GL: Texture max units <32>
+2022-10-22 09:33:44,130 : kivy : Window: auto add sdl2 input provider
+2022-10-22 09:33:44,130 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2022-10-22 09:33:44,138 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2022-10-22 09:33:44,365 : AudioInterface : Initialized
+2022-10-22 09:33:44,365 : AudioInterface : Loaded SDL 2.0.12
+2022-10-22 09:33:44,365 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2022-10-22 09:33:44,365 : AudioInterface : Loaded GStreamer 1.18.0.0
+2022-10-22 09:33:44,366 : AudioInterface : Loaded GLib 2.62.6
+2022-10-22 09:33:44,366 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2022-10-22 09:33:44,366 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2022-10-22 09:33:44,366 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2022-10-22 09:33:44,366 : SoundSystem : Setting master volume to 0.0
+2022-10-22 09:33:44,366 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2022-10-22 09:33:44,366 : AudioInterface : Enabling audio playback
+2022-10-22 09:33:44,368 : kivy : Base: Start application main loop
+2022-10-22 09:33:44,368 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2022-10-22 09:33:44,379 : mpfmc : Display: Setting 'window' as default display
+2022-10-22 09:33:44,384 : EventManager : Event: ======'displays_initialized'====== Args={}
+2022-10-22 09:33:44,385 : EventManager : Event: ======'slide_window_blank_created'====== Args={}
+2022-10-22 09:33:44,385 : EventManager : Event: ======'display_window_ready'====== Args={}
+2022-10-22 09:33:44,396 : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-22 09:33:44,400 : EventManager : Event: ======'mc_ready'====== Args={}
+2022-10-22 09:33:44,400 : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-22 09:33:44,403 : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-10-22 09:33:44,405 : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-10-22 09:33:44,405 : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-10-22 09:33:44,423 : EventManager : Event: ======'loading_assets'====== Args={'total': 3, 'loaded': 1, 'remaining': 2, 'percent': 33}
+2022-10-22 09:33:44,423 : AssetManager : Loading assets: 1/3 (33%)
+2022-10-22 09:33:44,423 : EventManager : Event: ======'loading_assets'====== Args={'total': 3, 'loaded': 3, 'remaining': 0, 'percent': 100}
+2022-10-22 09:33:44,423 : AssetManager : Asset loading took: 0.057012081146240234
+2022-10-22 09:33:44,423 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2022-10-22 09:33:44,423 : AssetManager : Loading assets: 3/3 (100%)
+2022-10-22 09:33:44,423 : EventManager : Event: ======'init_done'====== Args={}
+2022-10-22 09:33:44,423 : MPF-MC BCP Server : Starting up on localhost port 5050
+2022-10-22 09:33:44,426 : MPF-MC BCP Server : Waiting for a connection...
+2022-10-22 09:33:44,427 : mpfmc : SlidePlayer: Play called with settings={'slides': {welcome_slide-None-None: {'priority': None, 'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'transition': None, 'transition_out': None}}}
+2022-10-22 09:33:44,430 : kivy : GL: NPOT texture support is available
+2022-10-22 09:33:44,431 : EventManager : Event: ======'slide_welcome_slide_created'====== Args={}
+2022-10-22 09:33:44,431 : EventManager : Event: ======'slide_welcome_slide_active'====== Args={}
+2022-10-22 09:33:44,433 : EventManager : Event: ======'client_disconnected'====== Args={'host': '127.0.0.1', 'port': 5050}
+2022-10-22 09:34:40,524 : kivy : Base: Leaving application in progress...
+2022-10-22 09:34:40,525 : mpfmc : Stopping...
+2022-10-22 09:34:40,525 : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-22 09:34:40,525 : AudioInterface : Disabling audio playback
+2022-10-22 09:34:40,630 : mpfmc : Loop rate 72.75 Hz
+2022-10-22 09:34:40,630 : kivy : MC run loop ended.
+2022-10-22 09:34:40,630 : kivy : Stopping child threads... (3 remaining)
+2022-10-22 09:34:41,477 : MPF-MC BCP Server : Stopping BCP sending thread
+2022-10-22 09:34:41,477 : MPF-MC BCP Server : Stopping BCP listener thread
+2022-10-22 09:34:41,532 : kivy : All child threads stopped.

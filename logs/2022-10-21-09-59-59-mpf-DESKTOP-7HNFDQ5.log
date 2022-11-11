@@ -1,0 +1,123 @@
+2022-10-21 09:59:59,281 : INFO : root : Loading config.
+2022-10-21 09:59:59,284 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-21 09:59:59,284 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\a6762098cb994b55cb03a478b26022ee.mpf_cache
+2022-10-21 09:59:59,347 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-21 09:59:59,348 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-10-21 09:59:59,348 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\708062243e0edcfa77dd6b1521bd0d4e.mpf_cache
+2022-10-21 09:59:59,349 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-21 09:59:59,350 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c4174472f67f7b070dd6fb437c6feb0c.mpf_cache
+2022-10-21 09:59:59,350 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\33b306b4bf49d065496332ee9ac2494c.mpf_cache
+2022-10-21 09:59:59,351 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9e6b4d5e43fd00e219ba7c739d818ad6.mpf_cache
+2022-10-21 09:59:59,352 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\abaa92c43d134e3392cbb2346e6a16be.mpf_cache
+2022-10-21 09:59:59,352 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fc46d53fcb9fe6b8abf783d9c813390a.mpf_cache
+2022-10-21 09:59:59,353 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\b46de592c65b9a27a1f4965daee53c91.mpf_cache
+2022-10-21 09:59:59,354 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\5b50cb1d58cd4116013cda74c2923169.mpf_cache
+2022-10-21 09:59:59,356 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\2734ac1662e5e62f2e4cb2a8d902a8f2.mpf_cache
+2022-10-21 09:59:59,358 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fe169133106b4804e097dca6b78afaf5.mpf_cache
+2022-10-21 09:59:59,359 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\d4f531e94c6a484dd08e4121f6e3a74e.mpf_cache
+2022-10-21 09:59:59,360 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\e9c431c8aa2f7ab7b37617b37185d68f.mpf_cache
+2022-10-21 09:59:59,362 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\07112933e6abcdb1819075df64aee3c0.mpf_cache
+2022-10-21 09:59:59,363 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-21 09:59:59,363 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-21-09-59-59-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-21 09:59:59,363 : INFO : Machine : MPF path: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-10-21 09:59:59,363 : INFO : Machine : Machine path: c:\trashland_2
+2022-10-21 09:59:59,363 : INFO : Machine : Platform: win32
+2022-10-21 09:59:59,363 : INFO : Machine : Python executable location: c:\users\tanner\appdata\local\programs\python\python37\python.exe
+2022-10-21 09:59:59,363 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-10-21 09:59:59,365 : INFO : Machine : Initialise MPF.
+2022-10-21 09:59:59,641 : INFO : FAST : Connecting to com14 at 921600bps
+2022-10-21 09:59:59,756 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.05
+2022-10-21 09:59:59,756 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.05', 'prev_value': None, 'change': True}
+2022-10-21 09:59:59,756 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-21 10:00:02,120 : WARNING : FAST : Got unexpected message from FAST: -N:0A
+2022-10-21 10:00:02,120 : WARNING : FAST : Got unexpected message from FAST: -N:0F
+2022-10-21 10:00:02,120 : WARNING : FAST : Got unexpected message from FAST: -N:11
+2022-10-21 10:00:02,120 : WARNING : FAST : Got unexpected message from FAST: -N:2B
+2022-10-21 10:00:02,120 : WARNING : FAST : Got unexpected message from FAST: -N:2C
+2022-10-21 10:00:02,120 : WARNING : FAST : Got unexpected message from FAST: -N:2D
+2022-10-21 10:00:02,120 : WARNING : FAST : Got unexpected message from FAST: -N:32
+2022-10-21 10:00:02,120 : WARNING : FAST : Got unexpected message from FAST: -N:33
+2022-10-21 10:00:02,120 : WARNING : FAST : Got unexpected message from FAST: -N:34
+2022-10-21 10:00:02,121 : WARNING : FAST : Got unexpected message from FAST: -N:38
+2022-10-21 10:00:02,121 : WARNING : FAST : Got unexpected message from FAST: -N:3D
+2022-10-21 10:00:02,121 : WARNING : FAST : Got unexpected message from FAST: -N:40
+2022-10-21 10:00:02,121 : WARNING : FAST : Got unexpected message from FAST: -N:41
+2022-10-21 10:00:02,121 : WARNING : FAST : Got unexpected message from FAST: -N:42
+2022-10-21 10:00:02,121 : WARNING : FAST : Got unexpected message from FAST: -N:43
+2022-10-21 10:00:02,121 : WARNING : FAST : Got unexpected message from FAST: -N:48
+2022-10-21 10:00:02,121 : WARNING : FAST : Got unexpected message from FAST: -N:5D
+2022-10-21 10:00:02,228 : INFO : FAST : Connecting to com15 at 921600bps
+2022-10-21 10:00:02,338 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 00.87
+2022-10-21 10:00:02,338 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '00.87', 'prev_value': None, 'change': True}
+2022-10-21 10:00:02,338 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-21 10:00:02,339 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-21 10:00:02,380 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-21 10:00:02,380 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 9260, 'prev_value': None, 'change': True}
+2022-10-21 10:00:02,380 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-21 10:00:02,380 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-21 10:00:02,380 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2022-10-21 10:00:02,381 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2022-10-21 10:00:02,381 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-21 10:00:02,381 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-21 10:00:02,381 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2022-10-21 10:00:02,381 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-21 10:00:02,381 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-21 10:00:02,411 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py:112
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py:112>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device_manager.py", line 89, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device_manager.py", line 147, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device.py", line 109, in validate_and_parse_config
+    self.config_section, config, self.name, "device", prefix=debug_prefix)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 180, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 222, in _validate_config
+    validation_failure_info=ValidationPath(validation_failure_info, k))
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 272, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 709, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 424, in _validate_type_machine
+    6)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 728, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry drop_target_banks:single_upper:drop_targets = "d_drop_uppere" is not valid. Device "d_drop_uppere" not found in "drop_targets:" section in your config. Error Code: CFE-ConfigValidator-6 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-6.html)
+2022-10-21 10:00:02,413 : INFO : Machine : Starting the main run loop.
+2022-10-21 10:00:02,416 : INFO : Machine : Shutting down...
+2022-10-21 10:00:02,416 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-21 10:00:02,511 : ERROR : FAST : Stop called on serial connection com14
+2022-10-21 10:00:02,511 : ERROR : FAST : Stop called on serial connection com15
+2022-10-21 10:00:02,746 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device_manager.py", line 89, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device_manager.py", line 147, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device.py", line 109, in validate_and_parse_config
+    self.config_section, config, self.name, "device", prefix=debug_prefix)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 180, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 222, in _validate_config
+    validation_failure_info=ValidationPath(validation_failure_info, k))
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 272, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 709, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 424, in _validate_type_machine
+    6)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 728, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry drop_target_banks:single_upper:drop_targets = "d_drop_uppere" is not valid. Device "d_drop_uppere" not found in "drop_targets:" section in your config. Error Code: CFE-ConfigValidator-6 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-6.html)
+2022-10-21 10:00:17,830 : INFO : root : MPF run loop ended.

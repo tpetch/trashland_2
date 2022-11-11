@@ -1,0 +1,708 @@
+2022-10-27 21:56:20,764 : INFO : root : Loading config.
+2022-10-27 21:56:20,767 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-27 21:56:20,767 : WARNING : ConfigProcessor : Config file in cache changed: c:\trashland_2\config\config.yaml
+2022-10-27 21:56:20,768 : INFO : ConfigProcessor : Loading config from file c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml.
+2022-10-27 21:56:20,839 : INFO : ConfigProcessor : Loading config: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml
+2022-10-27 21:56:20,840 : INFO : ConfigProcessor : Loading config from file c:\trashland_2\config\config.yaml.
+2022-10-27 21:56:20,952 : INFO : ConfigProcessor : Loading config: c:\trashland_2\config\config.yaml
+2022-10-27 21:56:20,955 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\a6762098cb994b55cb03a478b26022ee.mpf_cache
+2022-10-27 21:56:21,021 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-27 21:56:21,022 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-10-27 21:56:21,022 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\708062243e0edcfa77dd6b1521bd0d4e.mpf_cache
+2022-10-27 21:56:21,023 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-27 21:56:21,024 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c4174472f67f7b070dd6fb437c6feb0c.mpf_cache
+2022-10-27 21:56:21,024 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\33b306b4bf49d065496332ee9ac2494c.mpf_cache
+2022-10-27 21:56:21,025 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9e6b4d5e43fd00e219ba7c739d818ad6.mpf_cache
+2022-10-27 21:56:21,026 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\abaa92c43d134e3392cbb2346e6a16be.mpf_cache
+2022-10-27 21:56:21,027 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fc46d53fcb9fe6b8abf783d9c813390a.mpf_cache
+2022-10-27 21:56:21,028 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\b46de592c65b9a27a1f4965daee53c91.mpf_cache
+2022-10-27 21:56:21,028 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\5b50cb1d58cd4116013cda74c2923169.mpf_cache
+2022-10-27 21:56:21,031 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\2734ac1662e5e62f2e4cb2a8d902a8f2.mpf_cache
+2022-10-27 21:56:21,033 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fe169133106b4804e097dca6b78afaf5.mpf_cache
+2022-10-27 21:56:21,034 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\d4f531e94c6a484dd08e4121f6e3a74e.mpf_cache
+2022-10-27 21:56:21,035 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\e9c431c8aa2f7ab7b37617b37185d68f.mpf_cache
+2022-10-27 21:56:21,036 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\07112933e6abcdb1819075df64aee3c0.mpf_cache
+2022-10-27 21:56:21,037 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-27 21:56:21,037 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-27-21-56-20-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-27 21:56:21,038 : INFO : Machine : MPF path: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-10-27 21:56:21,038 : INFO : Machine : Machine path: c:\trashland_2
+2022-10-27 21:56:21,038 : INFO : Machine : Platform: win32
+2022-10-27 21:56:21,038 : INFO : Machine : Python executable location: c:\users\tanner\appdata\local\programs\python\python37\python.exe
+2022-10-27 21:56:21,038 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-10-27 21:56:21,039 : INFO : Machine : Initialise MPF.
+2022-10-27 21:56:21,287 : INFO : FAST : Connecting to com24 at 921600bps
+2022-10-27 21:56:21,408 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.05
+2022-10-27 21:56:21,408 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.05', 'prev_value': None, 'change': True}
+2022-10-27 21:56:21,408 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-27 21:56:23,765 : WARNING : FAST : Got unexpected message from FAST: -N:0A
+2022-10-27 21:56:23,765 : WARNING : FAST : Got unexpected message from FAST: -N:11
+2022-10-27 21:56:23,765 : WARNING : FAST : Got unexpected message from FAST: -N:2A
+2022-10-27 21:56:23,765 : WARNING : FAST : Got unexpected message from FAST: -N:33
+2022-10-27 21:56:23,765 : WARNING : FAST : Got unexpected message from FAST: -N:34
+2022-10-27 21:56:23,765 : WARNING : FAST : Got unexpected message from FAST: -N:38
+2022-10-27 21:56:23,765 : WARNING : FAST : Got unexpected message from FAST: -N:3D
+2022-10-27 21:56:23,765 : WARNING : FAST : Got unexpected message from FAST: -N:3F
+2022-10-27 21:56:23,765 : WARNING : FAST : Got unexpected message from FAST: -N:40
+2022-10-27 21:56:23,765 : WARNING : FAST : Got unexpected message from FAST: -N:41
+2022-10-27 21:56:23,765 : WARNING : FAST : Got unexpected message from FAST: -N:42
+2022-10-27 21:56:23,765 : WARNING : FAST : Got unexpected message from FAST: -N:43
+2022-10-27 21:56:23,766 : WARNING : FAST : Got unexpected message from FAST: -N:48
+2022-10-27 21:56:23,766 : WARNING : FAST : Got unexpected message from FAST: -N:5D
+2022-10-27 21:56:23,876 : INFO : FAST : Connecting to com25 at 921600bps
+2022-10-27 21:56:23,988 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 00.87
+2022-10-27 21:56:23,988 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '00.87', 'prev_value': None, 'change': True}
+2022-10-27 21:56:23,988 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-27 21:56:23,989 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,037 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,037 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 5780, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,037 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,037 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,037 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,038 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,038 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,038 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,038 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,038 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,038 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-27 21:56:24,076 : INFO : EventManager : Event: ======'drop_target_bank_single_main_up'====== Args={}
+2022-10-27 21:56:24,076 : INFO : EventManager : Event: ======'drop_target_bank_single_upper_up'====== Args={}
+2022-10-27 21:56:24,076 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2022-10-27 21:56:24,077 : INFO : EventManager : Event: ======'drop_target_bank_right_up'====== Args={}
+2022-10-27 21:56:24,095 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-27 21:56:24,096 : INFO : SwitchController : Found active switch: (('0A', 1), <Platform.FAST>) <switch.s_drop_upper>
+2022-10-27 21:56:24,096 : INFO : SwitchController : Found active switch: (('0F', 1), <Platform.FAST>) <switch.s_left_return>
+2022-10-27 21:56:24,096 : INFO : SwitchController : Found active switch: (('2A', 1), <Platform.FAST>) <switch.s_sling_left>
+2022-10-27 21:56:24,096 : INFO : SwitchController : Found active switch: (('44', 1), <Platform.FAST>) <switch.s_trough_2>
+2022-10-27 21:56:24,096 : INFO : SwitchController : Found active switch: (('49', 1), <Platform.FAST>) <switch.s_trough_jam>
+2022-10-27 21:56:24,096 : INFO : SwitchController : Found active switch: (('3F', 1), <Platform.FAST>) <switch.s_autolauncher>
+2022-10-27 21:56:24,096 : INFO : SwitchController : Found active switch: (('3B', 1), <Platform.FAST>) <switch.s_eos_left>
+2022-10-27 21:56:24,105 : INFO : ball_device.bd_trough : BCH: Initial count: 2
+2022-10-27 21:56:24,106 : INFO : ball_device.bd_trough : State: idle
+2022-10-27 21:56:24,106 : INFO : ball_device.bd_plunger : BCH: Initial count: 1
+2022-10-27 21:56:24,106 : INFO : ball_device.bd_plunger : State: idle
+2022-10-27 21:56:24,107 : INFO : ball_device.bd_top_vuk : BCH: Initial count: 0
+2022-10-27 21:56:24,107 : INFO : ball_device.bd_top_vuk : State: idle
+2022-10-27 21:56:24,108 : INFO : ball_device.bd_right_vuk : BCH: Initial count: 0
+2022-10-27 21:56:24,108 : INFO : ball_device.bd_right_vuk : State: idle
+2022-10-27 21:56:24,109 : INFO : ball_device.bd_bot_vuk : BCH: Initial count: 0
+2022-10-27 21:56:24,110 : INFO : ball_device.bd_bot_vuk : State: idle
+2022-10-27 21:56:24,173 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-10-27 21:56:24,801 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-10-27 21:56:24,801 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:24,801 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:24,801 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:24,801 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:24,802 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:24,802 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:24,802 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:24,802 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:24,802 : INFO : EventManager : Event: ======'drop_target_d_drop_upper_down'====== Args={'device': <drop_target.d_drop_upper>}
+2022-10-27 21:56:24,802 : INFO : EventManager : Event: ======'drop_target_bank_single_upper_down'====== Args={}
+2022-10-27 21:56:24,802 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:24,802 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:24,802 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:24,802 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:24,802 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:24,802 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:24,803 : INFO : BallController : Initial balls found: 3
+2022-10-27 21:56:24,805 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,805 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,805 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 2536.6666666666665, 'top': [5780, 1620, 210], 'total': 3}, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,805 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_inlane'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,805 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_outlane'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,805 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_pop'====== Args={'value': 31, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,805 : INFO : EventManager : Event: ======'machine_var_audits_shots_lower_pop'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,805 : INFO : EventManager : Event: ======'machine_var_audits_shots_r_left_inlane'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,806 : INFO : EventManager : Event: ======'machine_var_audits_shots_r_left_outlane'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,806 : INFO : EventManager : Event: ======'machine_var_audits_shots_r_right_inlane'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,806 : INFO : EventManager : Event: ======'machine_var_audits_shots_r_right_outlane'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,806 : INFO : EventManager : Event: ======'machine_var_audits_shots_right_inlane'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,806 : INFO : EventManager : Event: ======'machine_var_audits_shots_right_outlane'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,806 : INFO : EventManager : Event: ======'machine_var_audits_shots_right_pop'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,806 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,807 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,807 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,807 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_stationary'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,807 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_back'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,807 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_big'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,807 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,808 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,808 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,808 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_vuk'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,808 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_left'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,808 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_mid'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,808 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_right'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,809 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_left'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,809 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,809 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_single'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,809 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_upper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,809 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,810 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 72, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,810 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_right'====== Args={'value': 99, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,810 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,810 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 72, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,810 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_orbit_prox'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_return'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'value': 31, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_lower'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 105, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_left'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 496, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_transfer_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,815 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,815 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,815 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,816 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,816 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,816 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,816 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_stationary'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,817 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,817 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_top'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2022-10-27 21:56:24,818 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-10-27 21:56:24,840 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2022-10-27 21:56:24,840 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2022-10-27 21:56:24,841 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2022-10-27 21:56:24,842 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2022-10-27 21:56:24,842 : INFO : EventManager : Event: ======'mode_tilt_will_start'====== Args={'queue': <QueuedEvent>}
+2022-10-27 21:56:24,842 : INFO : EventManager : Event: ======'mode_tilt_starting'====== Args={'queue': <QueuedEvent>}
+2022-10-27 21:56:24,843 : INFO : drop_target_bank.single_main : All targets are already up. Will not reset bank.
+2022-10-27 21:56:24,843 : INFO : Mode.tilt : Started. Priority: 1000000
+2022-10-27 21:56:24,843 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-10-27 21:56:24,843 : INFO : EventManager : Event: ======'mode_tilt_started'====== Args={'queue': <QueuedEvent>}
+2022-10-27 21:56:24,843 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2022-10-27 21:56:24,844 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2022-10-27 21:56:24,844 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2022-10-27 21:56:24,844 : INFO : Mode.attract : Started. Priority: 10
+2022-10-27 21:56:24,844 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-10-27 21:56:24,844 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2022-10-27 21:56:24,845 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2022-10-27 21:56:24,845 : INFO : ball_device.bd_plunger : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2022-10-27 21:56:24,845 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2022-10-27 21:56:24,866 : INFO : Machine : Starting the main run loop.
+2022-10-27 21:56:24,867 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2022-10-27 21:56:24,868 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_top_vuk>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-27 21:56:24,868 : INFO : ball_device.bd_top_vuk : State: waiting_for_ball
+2022-10-27 21:56:24,868 : INFO : ball_device.bd_plunger : State: ejecting
+2022-10-27 21:56:24,868 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_top_vuk>
+2022-10-27 21:56:24,869 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_top_vuk>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-27 21:56:24,869 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2022-10-27 21:56:24,870 : INFO : coil.c_autolauncher : Pulsing Driver for 11ms (1.0 pulse_power)
+2022-10-27 21:56:26,862 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <ball_device.bd_top_vuk>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2022-10-27 21:56:26,863 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2022-10-27 21:56:26,863 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_top_vuk>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 1}
+2022-10-27 21:56:26,863 : INFO : ball_device.bd_plunger : State: ejecting
+2022-10-27 21:56:26,863 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_top_vuk>
+2022-10-27 21:56:26,863 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_top_vuk>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 1}
+2022-10-27 21:56:26,864 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2022-10-27 21:56:26,864 : INFO : coil.c_autolauncher : Pulsing Driver for 11ms (1.0 pulse_power)
+2022-10-27 21:56:26,909 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2022-10-27 21:56:26,914 : INFO : ball_device.bd_plunger : State: ball_left
+2022-10-27 21:56:26,914 : INFO : ball_device.bd_plunger : Ball left
+2022-10-27 21:56:26,914 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2022-10-27 21:56:27,813 : INFO : SwitchController : <<<<<<< 's_vuk_top' active >>>>>>>
+2022-10-27 21:56:28,316 : INFO : ball_device.bd_top_vuk : Received ball from <ball_device.bd_plunger>
+2022-10-27 21:56:28,316 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_top_vuk>}
+2022-10-27 21:56:28,317 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_top_vuk>}
+2022-10-27 21:56:28,317 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_count_changed'====== Args={'balls': 1}
+2022-10-27 21:56:28,317 : INFO : ball_device.bd_plunger : Got eject confirm
+2022-10-27 21:56:28,317 : INFO : ball_device.bd_plunger : Eject successful
+2022-10-27 21:56:28,318 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_top_vuk>}
+2022-10-27 21:56:28,318 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-27 21:56:28,318 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-27 21:56:28,318 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2022-10-27 21:56:28,318 : INFO : ball_device.bd_plunger : State: idle
+2022-10-27 21:56:28,319 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-27 21:56:28,319 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-27 21:56:28,319 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-27 21:56:28,320 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-27 21:56:28,320 : INFO : coil.c_top_vuk : Pulsing Driver for 100ms (1.0 pulse_power)
+2022-10-27 21:56:28,475 : INFO : SwitchController : <<<<<<< 's_vuk_top' inactive >>>>>>>
+2022-10-27 21:56:28,479 : INFO : ball_device.bd_top_vuk : State: ball_left
+2022-10-27 21:56:28,479 : INFO : ball_device.bd_top_vuk : Ball left
+2022-10-27 21:56:28,479 : INFO : ball_device.bd_top_vuk : Wait for confirm with timeout 2.0
+2022-10-27 21:56:30,478 : INFO : ball_device.bd_top_vuk : State: failed_confirm
+2022-10-27 21:56:30,478 : INFO : ball_device.bd_top_vuk : Got timeout (2.0s) before confirm from <playfield.playfield>
+2022-10-27 21:56:30,574 : INFO : ball_device.bd_top_vuk : Confirming eject because target is playfield and ball did not return.
+2022-10-27 21:56:30,574 : INFO : ball_device.bd_top_vuk : Eject successful
+2022-10-27 21:56:30,574 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2022-10-27 21:56:30,575 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2022-10-27 21:56:30,575 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2022-10-27 21:56:30,575 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_count_changed'====== Args={'balls': 0}
+2022-10-27 21:56:30,575 : INFO : ball_device.bd_top_vuk : State: idle
+2022-10-27 21:56:31,617 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2022-10-27 21:56:31,680 : INFO : SwitchController : <<<<<<< 's_trough_6' inactive >>>>>>>
+2022-10-27 21:56:31,744 : INFO : SwitchController : <<<<<<< 's_trough_5' active >>>>>>>
+2022-10-27 21:56:31,808 : INFO : SwitchController : <<<<<<< 's_trough_5' inactive >>>>>>>
+2022-10-27 21:56:31,856 : INFO : SwitchController : <<<<<<< 's_trough_4' active >>>>>>>
+2022-10-27 21:56:31,933 : INFO : SwitchController : <<<<<<< 's_trough_4' inactive >>>>>>>
+2022-10-27 21:56:31,953 : INFO : SwitchController : <<<<<<< 's_trough_3' active >>>>>>>
+2022-10-27 21:56:32,463 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 3}
+2022-10-27 21:56:32,463 : INFO : ball_device.bd_trough : Received unexpected ball
+2022-10-27 21:56:32,464 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2022-10-27 21:56:32,464 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2022-10-27 21:56:32,464 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2022-10-27 21:56:32,464 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2022-10-27 21:56:32,465 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2022-10-27 21:56:32,465 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2022-10-27 21:56:32,465 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2022-10-27 21:56:32,465 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2022-10-27 21:56:33,222 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2022-10-27 21:56:33,397 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2022-10-27 21:56:33,397 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2022-10-27 21:56:33,398 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.1720000000204891}
+2022-10-27 21:56:33,398 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.1720000000204891}
+2022-10-27 21:56:33,398 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.1720000000204891}
+2022-10-27 21:56:33,398 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2022-10-27 21:56:33,398 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2022-10-27 21:56:33,398 : INFO : Mode.attract : Stopped.
+2022-10-27 21:56:33,398 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-10-27 21:56:33,400 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2022-10-27 21:56:33,400 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2022-10-27 21:56:33,400 : INFO : Mode.game : Started. Priority: 20
+2022-10-27 21:56:33,400 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-10-27 21:56:33,400 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.1720000000204891}
+2022-10-27 21:56:33,405 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2022-10-27 21:56:33,406 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2022-10-27 21:56:33,407 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2022-10-27 21:56:33,407 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2022-10-27 21:56:33,407 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2022-10-27 21:56:33,407 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2022-10-27 21:56:33,407 : INFO : Mode.game : Player added successfully. Total players: 1
+2022-10-27 21:56:33,407 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2022-10-27 21:56:33,407 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2022-10-27 21:56:33,407 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2022-10-27 21:56:33,408 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2022-10-27 21:56:33,421 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2022-10-27 21:56:33,422 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2022-10-27 21:56:33,422 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,423 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2022-10-27 21:56:33,423 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2022-10-27 21:56:33,426 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2022-10-27 21:56:33,427 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2022-10-27 21:56:33,427 : INFO : EventManager : Event: ======'player_shot_left_inlane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,427 : INFO : EventManager : Event: ======'player_shot_left_outlane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,427 : INFO : EventManager : Event: ======'player_shot_right_inlane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,427 : INFO : EventManager : Event: ======'player_shot_right_outlane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,427 : INFO : EventManager : Event: ======'player_shot_left_orbit_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,428 : INFO : EventManager : Event: ======'player_shot_small_cw_orbit_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,428 : INFO : EventManager : Event: ======'player_shot_small_ccw_orbit_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,428 : INFO : EventManager : Event: ======'player_shot_left_pop_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,428 : INFO : EventManager : Event: ======'player_shot_right_pop_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,428 : INFO : EventManager : Event: ======'player_shot_lower_pop_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,428 : INFO : EventManager : Event: ======'player_shot_scoop_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,429 : INFO : EventManager : Event: ======'player_shot_left_return_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,429 : INFO : EventManager : Event: ======'player_shot_single_drop_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,430 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2022-10-27 21:56:33,430 : INFO : EventManager : Event: ======'mode_lane_rotate_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2022-10-27 21:56:33,430 : INFO : EventManager : Event: ======'player_shot_r_left_outlane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,430 : INFO : EventManager : Event: ======'player_shot_r_left_inlane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,431 : INFO : EventManager : Event: ======'player_shot_r_right_inlane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,431 : INFO : EventManager : Event: ======'player_shot_r_right_outlane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-27 21:56:33,432 : INFO : EventManager : Event: ======'mode_lane_rotate_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2022-10-27 21:56:33,432 : INFO : drop_target_bank.single_main : All targets are already up. Will not reset bank.
+2022-10-27 21:56:33,432 : INFO : Mode.lane_rotate : Started. Priority: 100
+2022-10-27 21:56:33,432 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-10-27 21:56:33,432 : INFO : EventManager : Event: ======'mode_lane_rotate_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2022-10-27 21:56:33,432 : INFO : Mode.base : Started. Priority: 100
+2022-10-27 21:56:33,432 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-10-27 21:56:33,433 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2022-10-27 21:56:33,433 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2022-10-27 21:56:33,433 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2022-10-27 21:56:33,433 : INFO : drop_target_bank.single_upper : 1 targets are down. Will reset those.
+2022-10-27 21:56:33,433 : INFO : coil.c_drop_upper : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-27 21:56:33,433 : INFO : drop_target_bank.mid : All targets are already up. Will not reset bank.
+2022-10-27 21:56:33,433 : INFO : drop_target_bank.right : All targets are already up. Will not reset bank.
+2022-10-27 21:56:33,479 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2022-10-27 21:56:33,479 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2022-10-27 21:56:33,480 : INFO : ball_device.bd_plunger : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: s_launch_active
+2022-10-27 21:56:33,480 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2022-10-27 21:56:33,481 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2022-10-27 21:56:33,481 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2022-10-27 21:56:33,481 : INFO : ball_device.bd_plunger : State: waiting_for_ball
+2022-10-27 21:56:33,482 : INFO : ball_device.bd_top_vuk : State: waiting_for_ball
+2022-10-27 21:56:33,482 : INFO : ball_device.bd_trough : State: ejecting
+2022-10-27 21:56:33,482 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2022-10-27 21:56:33,482 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2022-10-27 21:56:33,483 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2022-10-27 21:56:33,483 : INFO : coil.c_trough : Pulsing Driver for 25ms (0.8 pulse_power)
+2022-10-27 21:56:33,508 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:33,571 : INFO : SwitchController : <<<<<<< 's_trough_1' active >>>>>>>
+2022-10-27 21:56:33,571 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 16, 'prev_value': 15, 'change': 1}
+2022-10-27 21:56:33,572 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:33,572 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:33,572 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:33,572 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 497, 'prev_value': 496, 'change': 1}
+2022-10-27 21:56:33,572 : INFO : SwitchController : <<<<<<< 's_trough_1' inactive >>>>>>>
+2022-10-27 21:56:33,591 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:33,591 : INFO : SwitchController : <<<<<<< 's_trough_jam' inactive >>>>>>>
+2022-10-27 21:56:33,595 : INFO : ball_device.bd_trough : State: ball_left
+2022-10-27 21:56:33,595 : INFO : ball_device.bd_trough : Ball left
+2022-10-27 21:56:33,595 : INFO : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2022-10-27 21:56:33,650 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:33,650 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:33,650 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:33,650 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 498, 'prev_value': 497, 'change': 1}
+2022-10-27 21:56:33,651 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:33,713 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:33,713 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:33,713 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:33,713 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 499, 'prev_value': 498, 'change': 1}
+2022-10-27 21:56:33,732 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:33,732 : INFO : SwitchController : <<<<<<< 's_trough_3' inactive >>>>>>>
+2022-10-27 21:56:33,732 : INFO : SwitchController : <<<<<<< 's_trough_2' inactive >>>>>>>
+2022-10-27 21:56:33,776 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:33,776 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:33,776 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:33,776 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 500, 'prev_value': 499, 'change': 1}
+2022-10-27 21:56:33,796 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:33,796 : INFO : SwitchController : <<<<<<< 's_trough_jam' active >>>>>>>
+2022-10-27 21:56:33,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 19, 'prev_value': 18, 'change': 1}
+2022-10-27 21:56:33,854 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:33,854 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:33,854 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:33,854 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 501, 'prev_value': 500, 'change': 1}
+2022-10-27 21:56:33,873 : INFO : SwitchController : <<<<<<< 's_trough_2' active >>>>>>>
+2022-10-27 21:56:33,873 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 16, 'prev_value': 15, 'change': 1}
+2022-10-27 21:56:33,874 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:33,933 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:33,933 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:33,933 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:33,933 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 502, 'prev_value': 501, 'change': 1}
+2022-10-27 21:56:33,934 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:33,997 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:33,997 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:33,997 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:33,997 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 503, 'prev_value': 502, 'change': 1}
+2022-10-27 21:56:34,017 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,060 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,060 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,060 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,060 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 504, 'prev_value': 503, 'change': 1}
+2022-10-27 21:56:34,065 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,123 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,123 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,123 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,123 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 505, 'prev_value': 504, 'change': 1}
+2022-10-27 21:56:34,128 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,205 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,205 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,206 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,206 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 506, 'prev_value': 505, 'change': 1}
+2022-10-27 21:56:34,206 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,220 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,221 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,221 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 507, 'prev_value': 506, 'change': 1}
+2022-10-27 21:56:34,221 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,249 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2022-10-27 21:56:34,249 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 23, 'prev_value': 22, 'change': 1}
+2022-10-27 21:56:34,270 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,270 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,270 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,271 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 508, 'prev_value': 507, 'change': 1}
+2022-10-27 21:56:34,284 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,284 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,284 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,284 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,285 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 509, 'prev_value': 508, 'change': 1}
+2022-10-27 21:56:34,285 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,328 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,328 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,328 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,328 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 510, 'prev_value': 509, 'change': 1}
+2022-10-27 21:56:34,348 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,392 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,392 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,392 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,392 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 511, 'prev_value': 510, 'change': 1}
+2022-10-27 21:56:34,412 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,456 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,456 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,456 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,456 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 512, 'prev_value': 511, 'change': 1}
+2022-10-27 21:56:34,476 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,535 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,535 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,535 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,535 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 513, 'prev_value': 512, 'change': 1}
+2022-10-27 21:56:34,555 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,555 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,555 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,555 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,555 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 514, 'prev_value': 513, 'change': 1}
+2022-10-27 21:56:34,555 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,598 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,598 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,598 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,598 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 515, 'prev_value': 514, 'change': 1}
+2022-10-27 21:56:34,618 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,618 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,618 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,618 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,618 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 516, 'prev_value': 515, 'change': 1}
+2022-10-27 21:56:34,619 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,661 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,661 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,661 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,661 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 517, 'prev_value': 516, 'change': 1}
+2022-10-27 21:56:34,681 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,740 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,740 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,740 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,740 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 518, 'prev_value': 517, 'change': 1}
+2022-10-27 21:56:34,760 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,760 : INFO : ball_device.bd_plunger : Received ball from <ball_device.bd_trough>
+2022-10-27 21:56:34,760 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_plunger>}
+2022-10-27 21:56:34,763 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_plunger>}
+2022-10-27 21:56:34,763 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2022-10-27 21:56:34,764 : INFO : ball_device.bd_trough : Got eject confirm
+2022-10-27 21:56:34,764 : INFO : ball_device.bd_trough : Eject successful
+2022-10-27 21:56:34,764 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>}
+2022-10-27 21:56:34,764 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2022-10-27 21:56:34,764 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_top_vuk>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2022-10-27 21:56:34,765 : INFO : ball_device.bd_plunger : State: ejecting
+2022-10-27 21:56:34,765 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_top_vuk>
+2022-10-27 21:56:34,765 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_top_vuk>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2022-10-27 21:56:34,765 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 2}
+2022-10-27 21:56:34,765 : INFO : ball_device.bd_trough : State: idle
+2022-10-27 21:56:34,765 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2022-10-27 21:56:34,804 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,804 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,804 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,804 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 519, 'prev_value': 518, 'change': 1}
+2022-10-27 21:56:34,824 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-27 21:56:34,836 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-27 21:56:34,836 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-27 21:56:34,836 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-27 21:56:34,836 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 520, 'prev_value': 519, 'change': 1}
+2022-10-27 21:56:35,247 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-27 21:56:35,247 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 73, 'prev_value': 72, 'change': 1}
+2022-10-27 21:56:35,253 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:56:35,253 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 73, 'prev_value': 72, 'change': 1}
+2022-10-27 21:56:36,843 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-27 21:56:37,175 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-27 21:56:37,175 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 74, 'prev_value': 73, 'change': 1}
+2022-10-27 21:56:37,191 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:56:37,207 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:56:37,207 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 74, 'prev_value': 73, 'change': 1}
+2022-10-27 21:56:39,097 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-27 21:56:39,662 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-27 21:56:39,662 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 106, 'prev_value': 105, 'change': 1}
+2022-10-27 21:56:39,694 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-27 21:56:39,694 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_right'====== Args={'value': 100, 'prev_value': 99, 'change': 1}
+2022-10-27 21:56:39,742 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:56:39,805 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:56:39,805 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 75, 'prev_value': 74, 'change': 1}
+2022-10-27 21:56:39,805 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:56:39,824 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:56:39,824 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 76, 'prev_value': 75, 'change': 1}
+2022-10-27 21:56:39,824 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:56:39,853 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:56:39,853 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 77, 'prev_value': 76, 'change': 1}
+2022-10-27 21:56:39,853 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:56:39,963 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:56:39,963 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 78, 'prev_value': 77, 'change': 1}
+2022-10-27 21:56:39,982 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:56:40,304 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-27 21:56:40,413 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-27 21:56:42,057 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-27 21:56:42,057 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 75, 'prev_value': 74, 'change': 1}
+2022-10-27 21:56:42,088 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:56:42,088 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 79, 'prev_value': 78, 'change': 1}
+2022-10-27 21:56:42,203 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-27 21:56:42,310 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:56:42,406 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-27 21:56:42,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 76, 'prev_value': 75, 'change': 1}
+2022-10-27 21:56:42,427 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:56:42,427 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 80, 'prev_value': 79, 'change': 1}
+2022-10-27 21:56:43,887 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-27 21:56:43,981 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:56:44,292 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-27 21:56:44,292 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 77, 'prev_value': 76, 'change': 1}
+2022-10-27 21:56:44,323 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:56:44,323 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 81, 'prev_value': 80, 'change': 1}
+2022-10-27 21:56:44,775 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-27 21:56:44,900 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-27 21:56:44,900 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 78, 'prev_value': 77, 'change': 1}
+2022-10-27 21:56:45,446 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-27 21:56:46,655 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-27 21:56:46,655 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 79, 'prev_value': 78, 'change': 1}
+2022-10-27 21:56:47,724 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-27 21:56:48,407 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-27 21:56:48,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 80, 'prev_value': 79, 'change': 1}
+2022-10-27 21:56:49,035 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-27 21:57:17,382 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:17,382 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:17,382 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 82, 'prev_value': 81, 'change': 1}
+2022-10-27 21:57:18,597 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:18,616 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:18,616 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 83, 'prev_value': 82, 'change': 1}
+2022-10-27 21:57:19,995 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:20,015 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:20,015 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 84, 'prev_value': 83, 'change': 1}
+2022-10-27 21:57:20,279 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:20,279 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:20,279 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 85, 'prev_value': 84, 'change': 1}
+2022-10-27 21:57:20,453 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:20,473 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:20,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 86, 'prev_value': 85, 'change': 1}
+2022-10-27 21:57:20,833 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:20,833 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:20,833 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 87, 'prev_value': 86, 'change': 1}
+2022-10-27 21:57:20,864 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:20,864 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:20,864 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 88, 'prev_value': 87, 'change': 1}
+2022-10-27 21:57:20,943 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:20,963 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:20,963 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 89, 'prev_value': 88, 'change': 1}
+2022-10-27 21:57:20,963 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:20,963 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:20,963 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 90, 'prev_value': 89, 'change': 1}
+2022-10-27 21:57:21,043 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:21,043 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:21,043 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 91, 'prev_value': 90, 'change': 1}
+2022-10-27 21:57:21,132 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:21,132 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:21,132 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 92, 'prev_value': 91, 'change': 1}
+2022-10-27 21:57:21,542 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:21,574 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:21,574 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 93, 'prev_value': 92, 'change': 1}
+2022-10-27 21:57:21,844 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:21,862 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:21,863 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 94, 'prev_value': 93, 'change': 1}
+2022-10-27 21:57:22,284 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:22,331 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:22,331 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 95, 'prev_value': 94, 'change': 1}
+2022-10-27 21:57:22,474 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:22,474 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:22,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 96, 'prev_value': 95, 'change': 1}
+2022-10-27 21:57:22,585 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:22,585 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:22,585 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 97, 'prev_value': 96, 'change': 1}
+2022-10-27 21:57:22,710 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:22,729 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:22,730 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 98, 'prev_value': 97, 'change': 1}
+2022-10-27 21:57:22,730 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:22,744 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:22,744 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 99, 'prev_value': 98, 'change': 1}
+2022-10-27 21:57:22,853 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:22,853 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:22,853 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 100, 'prev_value': 99, 'change': 1}
+2022-10-27 21:57:24,399 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:24,419 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:24,419 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 101, 'prev_value': 100, 'change': 1}
+2022-10-27 21:57:24,605 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:24,624 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:24,624 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 102, 'prev_value': 101, 'change': 1}
+2022-10-27 21:57:24,701 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:24,701 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:24,701 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 103, 'prev_value': 102, 'change': 1}
+2022-10-27 21:57:25,049 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:25,067 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:25,068 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 104, 'prev_value': 103, 'change': 1}
+2022-10-27 21:57:25,239 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:25,259 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:25,259 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 105, 'prev_value': 104, 'change': 1}
+2022-10-27 21:57:25,556 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:25,556 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:25,556 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 106, 'prev_value': 105, 'change': 1}
+2022-10-27 21:57:25,714 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:25,733 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:25,733 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 107, 'prev_value': 106, 'change': 1}
+2022-10-27 21:57:26,033 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:26,064 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:26,064 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 108, 'prev_value': 107, 'change': 1}
+2022-10-27 21:57:26,192 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:26,193 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-27 21:57:26,193 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 109, 'prev_value': 108, 'change': 1}
+2022-10-27 21:57:26,253 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-27 21:57:26,316 : ERROR : asyncio : Exception in callback SerialTransport._poll_read()
+handle: <TimerHandle when=283035.9375 SerialTransport._poll_read()>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 275, in _poll_read
+    if self.serial.in_waiting:
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-27 21:57:26,340 : ERROR : asyncio : Exception in callback SerialTransport._poll_read()
+handle: <TimerHandle when=283035.9375 SerialTransport._poll_read()>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 275, in _poll_read
+    if self.serial.in_waiting:
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-27 21:57:26,343 : INFO : Machine : Shutting down...
+2022-10-27 21:57:26,344 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-27 21:57:26,344 : ERROR : asyncio : Fatal write error on serial transport
+protocol: <asyncio.streams.StreamReaderProtocol object at 0x000001E2D857FE48>
+transport: SerialTransport(<_WindowsSelectorEventLoop running=True closed=False debug=False>, <asyncio.streams.StreamReaderProtocol object at 0x000001E2D857FE48>, Serial<id=0x1e2db27e948, open=True>(port='com24', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=0, xonxoff=False, rtscts=False, dsrdtr=False))
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 120, in write
+    n = self._serial.write(data)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 336, in write
+    raise SerialException("WriteFile failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: WriteFile failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-27 21:57:26,345 : ERROR : asyncio : Exception in callback SerialTransport._call_connection_lost(SerialExcepti...', None, 5))"))
+handle: <Handle SerialTransport._call_connection_lost(SerialExcepti...', None, 5))"))>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 390, in _call_connection_lost
+    self._serial.flush()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 345, in flush
+    while self.out_waiting:
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 447, in out_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-27 21:57:26,348 : ERROR : asyncio : Fatal write error on serial transport
+protocol: <asyncio.streams.StreamReaderProtocol object at 0x000001E2DB2A1AC8>
+transport: SerialTransport(<_WindowsSelectorEventLoop running=False closed=False debug=False>, <asyncio.streams.StreamReaderProtocol object at 0x000001E2DB2A1AC8>, Serial<id=0x1e2db2a1988, open=True>(port='com25', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=0, xonxoff=False, rtscts=False, dsrdtr=False))
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 120, in write
+    n = self._serial.write(data)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 336, in write
+    raise SerialException("WriteFile failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: WriteFile failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-27 21:57:26,350 : ERROR : asyncio : Exception in callback SerialTransport._call_connection_lost(SerialExcepti...', None, 5))"))
+handle: <Handle SerialTransport._call_connection_lost(SerialExcepti...', None, 5))"))>
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 390, in _call_connection_lost
+    self._serial.flush()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 345, in flush
+    while self.out_waiting:
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 447, in out_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-27 21:57:26,460 : ERROR : FAST : Stop called on serial connection com24
+2022-10-27 21:57:26,460 : ERROR : FAST : Stop called on serial connection com25
+2022-10-27 21:57:26,463 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 275, in _poll_read
+    if self.serial.in_waiting:
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-27 21:57:26,539 : ERROR : root : ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))
+2022-10-27 21:59:06,730 : INFO : root : MPF run loop ended.

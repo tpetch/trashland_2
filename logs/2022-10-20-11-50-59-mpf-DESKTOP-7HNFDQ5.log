@@ -1,0 +1,913 @@
+2022-10-20 11:50:59,870 : INFO : root : Loading config.
+2022-10-20 11:50:59,877 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-20 11:50:59,878 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\a6762098cb994b55cb03a478b26022ee.mpf_cache
+2022-10-20 11:50:59,954 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-20 11:50:59,959 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-10-20 11:50:59,963 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\708062243e0edcfa77dd6b1521bd0d4e.mpf_cache
+2022-10-20 11:50:59,967 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c4174472f67f7b070dd6fb437c6feb0c.mpf_cache
+2022-10-20 11:50:59,971 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9e6b4d5e43fd00e219ba7c739d818ad6.mpf_cache
+2022-10-20 11:50:59,976 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\abaa92c43d134e3392cbb2346e6a16be.mpf_cache
+2022-10-20 11:50:59,980 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fc46d53fcb9fe6b8abf783d9c813390a.mpf_cache
+2022-10-20 11:50:59,984 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\b46de592c65b9a27a1f4965daee53c91.mpf_cache
+2022-10-20 11:50:59,988 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\5b50cb1d58cd4116013cda74c2923169.mpf_cache
+2022-10-20 11:50:59,994 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\2734ac1662e5e62f2e4cb2a8d902a8f2.mpf_cache
+2022-10-20 11:51:00,000 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fe169133106b4804e097dca6b78afaf5.mpf_cache
+2022-10-20 11:51:00,004 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\d4f531e94c6a484dd08e4121f6e3a74e.mpf_cache
+2022-10-20 11:51:00,008 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\e9c431c8aa2f7ab7b37617b37185d68f.mpf_cache
+2022-10-20 11:51:00,013 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\07112933e6abcdb1819075df64aee3c0.mpf_cache
+2022-10-20 11:51:00,018 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-20 11:51:00,018 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-20-11-50-59-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-20 11:51:00,018 : INFO : Machine : MPF path: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-10-20 11:51:00,018 : INFO : Machine : Machine path: c:\trashland_2
+2022-10-20 11:51:00,018 : INFO : Machine : Platform: win32
+2022-10-20 11:51:00,018 : INFO : Machine : Python executable location: c:\users\tanner\appdata\local\programs\python\python37\python.exe
+2022-10-20 11:51:00,018 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-10-20 11:51:00,020 : INFO : Machine : Initialise MPF.
+2022-10-20 11:51:00,390 : INFO : FAST : Connecting to com4 at 921600bps
+2022-10-20 11:51:00,424 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.05
+2022-10-20 11:51:00,424 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.05', 'prev_value': None, 'change': True}
+2022-10-20 11:51:00,424 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-20 11:51:02,798 : WARNING : FAST : Got unexpected message from FAST: -N:0A
+2022-10-20 11:51:02,798 : WARNING : FAST : Got unexpected message from FAST: -N:0F
+2022-10-20 11:51:02,798 : WARNING : FAST : Got unexpected message from FAST: -N:11
+2022-10-20 11:51:02,798 : WARNING : FAST : Got unexpected message from FAST: -N:33
+2022-10-20 11:51:02,798 : WARNING : FAST : Got unexpected message from FAST: -N:34
+2022-10-20 11:51:02,798 : WARNING : FAST : Got unexpected message from FAST: -N:38
+2022-10-20 11:51:02,798 : WARNING : FAST : Got unexpected message from FAST: -N:3B
+2022-10-20 11:51:02,798 : WARNING : FAST : Got unexpected message from FAST: -N:3D
+2022-10-20 11:51:02,798 : WARNING : FAST : Got unexpected message from FAST: -N:40
+2022-10-20 11:51:02,798 : WARNING : FAST : Got unexpected message from FAST: -N:41
+2022-10-20 11:51:02,798 : WARNING : FAST : Got unexpected message from FAST: -N:42
+2022-10-20 11:51:02,798 : WARNING : FAST : Got unexpected message from FAST: -N:44
+2022-10-20 11:51:02,798 : WARNING : FAST : Got unexpected message from FAST: -N:48
+2022-10-20 11:51:02,799 : WARNING : FAST : Got unexpected message from FAST: -N:5D
+2022-10-20 11:51:02,909 : INFO : FAST : Connecting to com5 at 921600bps
+2022-10-20 11:51:02,940 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 00.87
+2022-10-20 11:51:02,940 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '00.87', 'prev_value': None, 'change': True}
+2022-10-20 11:51:02,940 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-10-20 11:51:02,941 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-20 11:51:02,996 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-20 11:51:02,996 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-20 11:51:02,996 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-20 11:51:02,997 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2022-10-20 11:51:02,997 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2022-10-20 11:51:02,997 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-20 11:51:02,997 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-20 11:51:02,997 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2022-10-20 11:51:02,997 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-20 11:51:02,997 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-20 11:51:03,048 : INFO : EventManager : Event: ======'drop_target_bank_single_main_up'====== Args={}
+2022-10-20 11:51:03,048 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2022-10-20 11:51:03,048 : INFO : EventManager : Event: ======'drop_target_bank_right_up'====== Args={}
+2022-10-20 11:51:03,054 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-20 11:51:03,054 : INFO : SwitchController : Found active switch: (('0A', 1), <Platform.FAST>) <switch.s_upper_drop>
+2022-10-20 11:51:03,054 : INFO : SwitchController : Found active switch: (('11', 1), <Platform.FAST>) <switch.s_left_orbit_prox>
+2022-10-20 11:51:03,054 : INFO : SwitchController : Found active switch: (('15', 1), <Platform.FAST>) <switch.s_left_return>
+2022-10-20 11:51:03,054 : INFO : SwitchController : Found active switch: (('43', 1), <Platform.FAST>) <switch.s_trough_3>
+2022-10-20 11:51:03,054 : INFO : SwitchController : Found active switch: (('49', 1), <Platform.FAST>) <switch.s_trough_jam>
+2022-10-20 11:51:03,062 : INFO : ball_device.bd_trough : BCH: Initial count: 2
+2022-10-20 11:51:03,062 : INFO : ball_device.bd_trough : State: idle
+2022-10-20 11:51:03,063 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2022-10-20 11:51:03,063 : INFO : ball_device.bd_plunger : State: idle
+2022-10-20 11:51:03,063 : INFO : ball_device.bd_top_vuk : BCH: Initial count: 0
+2022-10-20 11:51:03,064 : INFO : ball_device.bd_top_vuk : State: idle
+2022-10-20 11:51:03,064 : INFO : ball_device.bd_right_vuk : BCH: Initial count: 0
+2022-10-20 11:51:03,064 : INFO : ball_device.bd_right_vuk : State: idle
+2022-10-20 11:51:03,065 : INFO : ball_device.bd_bot_vuk : BCH: Initial count: 0
+2022-10-20 11:51:03,065 : INFO : ball_device.bd_bot_vuk : State: idle
+2022-10-20 11:51:03,125 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-10-20 11:51:03,718 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-10-20 11:51:03,764 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:51:03,764 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:51:03,764 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:51:03,764 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:51:03,765 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:51:03,765 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:51:03,765 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:51:03,765 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:51:03,765 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:51:03,765 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:51:03,765 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:51:03,765 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:51:03,765 : INFO : BallController : Initial balls found: 2
+2022-10-20 11:51:03,767 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,767 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,767 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,767 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 92, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,767 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_pop'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,768 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,768 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_stationary'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,768 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_back'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,768 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_big'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,768 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,768 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,768 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_rollover'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,768 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_vuk'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,769 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_left'====== Args={'value': 104, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,769 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_mid'====== Args={'value': 125, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,769 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_right'====== Args={'value': 36, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,769 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_left'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,769 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_right'====== Args={'value': 63, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,769 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_single'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,769 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left'====== Args={'value': 117, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,770 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_left_top'====== Args={'value': 981, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,770 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_eos_right'====== Args={'value': 271, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,770 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 64, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,770 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1088, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,770 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,770 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'value': 192, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_lower'====== Args={'value': 279, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 348, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1226, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 91, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_left'====== Args={'value': 72, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_right'====== Args={'value': 100, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 44, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 141, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 154, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,773 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 132, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,773 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_transfer_rollover'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,773 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,773 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 212, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,774 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 103, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,774 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 105, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,774 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 111, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,774 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 187, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,774 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 108, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,775 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_drop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,775 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_rollover'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,775 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_stationary'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,775 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_back'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,776 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_right'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,776 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_top'====== Args={'value': 36, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,776 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_orbit_prox'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,776 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_return'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-20 11:51:03,777 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-10-20 11:51:03,811 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2022-10-20 11:51:03,812 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2022-10-20 11:51:03,813 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2022-10-20 11:51:03,813 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2022-10-20 11:51:03,813 : INFO : EventManager : Event: ======'mode_tilt_will_start'====== Args={'queue': <QueuedEvent>}
+2022-10-20 11:51:03,814 : INFO : EventManager : Event: ======'mode_tilt_starting'====== Args={'queue': <QueuedEvent>}
+2022-10-20 11:51:03,814 : INFO : drop_target_bank.single_main : All targets are already up. Will not reset bank.
+2022-10-20 11:51:03,814 : INFO : drop_target_bank.mid : All targets are already up. Will not reset bank.
+2022-10-20 11:51:03,814 : INFO : drop_target_bank.right : All targets are already up. Will not reset bank.
+2022-10-20 11:51:03,815 : INFO : Mode.tilt : Started. Priority: 1000000
+2022-10-20 11:51:03,815 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-10-20 11:51:03,815 : INFO : EventManager : Event: ======'mode_tilt_started'====== Args={'queue': <QueuedEvent>}
+2022-10-20 11:51:03,815 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2022-10-20 11:51:03,816 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2022-10-20 11:51:03,816 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2022-10-20 11:51:03,816 : INFO : Mode.attract : Started. Priority: 10
+2022-10-20 11:51:03,816 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-10-20 11:51:03,816 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2022-10-20 11:51:03,817 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2022-10-20 11:51:03,849 : INFO : Machine : Starting the main run loop.
+2022-10-20 11:51:39,412 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-20 11:51:39,456 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 11:51:39,456 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-20 11:51:39,456 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:51:39,456 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:51:39,603 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-20 11:51:39,713 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-20 11:51:39,713 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 11:51:39,734 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-20 11:51:39,761 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 11:51:39,761 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-20 11:51:39,889 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-20 11:51:39,999 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-20 11:51:39,999 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 11:51:39,999 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-20 11:51:40,022 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-20 11:51:40,022 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 11:51:40,022 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:51:40,022 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:51:40,144 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-20 11:51:40,239 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-20 11:51:40,239 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 11:52:56,424 : INFO : SwitchController : <<<<<<< 's_pop_lower' active >>>>>>>
+2022-10-20 11:52:56,424 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:52:56,424 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:52:56,842 : INFO : SwitchController : <<<<<<< 's_pop_lower' inactive >>>>>>>
+2022-10-20 11:52:57,045 : INFO : SwitchController : <<<<<<< 's_pop_lower' active >>>>>>>
+2022-10-20 11:52:57,045 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:52:57,046 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:52:57,310 : INFO : SwitchController : <<<<<<< 's_pop_lower' inactive >>>>>>>
+2022-10-20 11:52:57,417 : INFO : SwitchController : <<<<<<< 's_pop_lower' active >>>>>>>
+2022-10-20 11:52:57,417 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:52:57,417 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:52:57,745 : INFO : SwitchController : <<<<<<< 's_pop_lower' inactive >>>>>>>
+2022-10-20 11:52:59,288 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2022-10-20 11:52:59,581 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2022-10-20 11:52:59,755 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2022-10-20 11:52:59,833 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2022-10-20 11:53:00,129 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2022-10-20 11:53:00,304 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2022-10-20 11:53:00,413 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2022-10-20 11:53:00,552 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2022-10-20 11:53:01,860 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-20 11:53:02,030 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-20 11:53:02,218 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-20 11:53:02,280 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-20 11:53:02,296 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-20 11:53:02,326 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-20 11:53:02,357 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-20 11:53:02,388 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-20 11:53:02,435 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-20 11:53:02,654 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-20 11:53:02,809 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-20 11:53:02,825 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-20 11:53:02,825 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-20 11:53:02,918 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-20 11:53:03,058 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-20 11:53:03,216 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-20 11:53:03,305 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2022-10-20 11:53:03,460 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2022-10-20 11:53:05,294 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2022-10-20 11:53:05,794 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2022-10-20 11:53:05,794 : INFO : ball_device.bd_plunger : Received unexpected ball
+2022-10-20 11:53:05,794 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2022-10-20 11:53:05,794 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2022-10-20 11:53:05,794 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:53:05,794 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:53:05,794 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': -1, 'change': -1}
+2022-10-20 11:53:05,795 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2022-10-20 11:53:05,795 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': 1}
+2022-10-20 11:53:05,795 : INFO : BallController : Found a new ball which was captured from playfield. Known balls: 3
+2022-10-20 11:53:05,795 : INFO : EventManager : Event: ======'found_new_ball'====== Args={}
+2022-10-20 11:53:05,795 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_plunger>}
+2022-10-20 11:53:05,796 : INFO : ball_device.bd_plunger : Ejecting 1 unexpected balls using path deque([<ball_device.bd_plunger>, <ball_device.bd_top_vuk>, <playfield.playfield>])
+2022-10-20 11:53:05,796 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2022-10-20 11:53:05,796 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2022-10-20 11:53:05,796 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_plunger>}
+2022-10-20 11:53:05,797 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2022-10-20 11:53:05,797 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_top_vuk>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-20 11:53:05,797 : INFO : ball_device.bd_top_vuk : State: waiting_for_ball
+2022-10-20 11:53:05,797 : INFO : ball_device.bd_plunger : State: ejecting
+2022-10-20 11:53:05,797 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_top_vuk>
+2022-10-20 11:53:05,798 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_top_vuk>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-20 11:53:05,798 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2022-10-20 11:53:05,798 : INFO : coil.c_autolauncher : Pulsing Driver for 11ms (1.0 pulse_power)
+2022-10-20 11:53:05,854 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2022-10-20 11:53:05,860 : INFO : ball_device.bd_plunger : State: ball_left
+2022-10-20 11:53:05,860 : INFO : ball_device.bd_plunger : Ball left
+2022-10-20 11:53:05,860 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2022-10-20 11:53:07,845 : INFO : ball_device.bd_plunger : State: failed_confirm
+2022-10-20 11:53:07,845 : INFO : ball_device.bd_plunger : Got timeout (2.0s) before confirm from <ball_device.bd_top_vuk>
+2022-10-20 11:53:09,737 : INFO : SwitchController : <<<<<<< 's_drop_right_right' active >>>>>>>
+2022-10-20 11:53:09,737 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:53:09,737 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:53:09,737 : INFO : EventManager : Event: ======'drop_target_right_right_down'====== Args={'device': <drop_target.right_right>}
+2022-10-20 11:53:09,737 : INFO : EventManager : Event: ======'drop_target_bank_right_mixed'====== Args={'prev_value': <DropTargetBankState.UP: 'up'>, 'down': 1}
+2022-10-20 11:53:10,211 : INFO : SwitchController : <<<<<<< 's_drop_right_left' active >>>>>>>
+2022-10-20 11:53:10,212 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:53:10,212 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:53:10,212 : INFO : EventManager : Event: ======'drop_target_right_left_down'====== Args={'device': <drop_target.right_left>}
+2022-10-20 11:53:10,212 : INFO : EventManager : Event: ======'drop_target_bank_right_down'====== Args={}
+2022-10-20 11:53:11,206 : INFO : drop_target_bank.right : 2 targets are down. Will reset those.
+2022-10-20 11:53:11,206 : INFO : coil.c_drop_right : Pulsing Driver for 60ms (0.7 pulse_power)
+2022-10-20 11:53:11,252 : INFO : SwitchController : <<<<<<< 's_drop_right_right' inactive >>>>>>>
+2022-10-20 11:53:11,252 : INFO : SwitchController : <<<<<<< 's_drop_right_left' inactive >>>>>>>
+2022-10-20 11:53:11,703 : INFO : EventManager : Event: ======'drop_target_right_left_up'====== Args={'device': <drop_target.right_left>}
+2022-10-20 11:53:11,703 : INFO : EventManager : Event: ======'drop_target_bank_right_mixed'====== Args={'prev_value': <DropTargetBankState.DOWN: 'down'>, 'down': 1}
+2022-10-20 11:53:11,703 : INFO : EventManager : Event: ======'drop_target_right_right_up'====== Args={'device': <drop_target.right_right>}
+2022-10-20 11:53:11,703 : INFO : EventManager : Event: ======'drop_target_bank_right_up'====== Args={}
+2022-10-20 11:53:12,640 : INFO : SwitchController : <<<<<<< 's_drop_mid_right' active >>>>>>>
+2022-10-20 11:53:12,640 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:53:12,640 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:53:12,640 : INFO : EventManager : Event: ======'drop_target_mid_right_down'====== Args={'device': <drop_target.mid_right>}
+2022-10-20 11:53:12,640 : INFO : EventManager : Event: ======'drop_target_bank_mid_mixed'====== Args={'prev_value': <DropTargetBankState.UP: 'up'>, 'down': 1}
+2022-10-20 11:53:12,998 : INFO : SwitchController : <<<<<<< 's_drop_mid_mid' active >>>>>>>
+2022-10-20 11:53:12,998 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:53:12,998 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:53:12,998 : INFO : EventManager : Event: ======'drop_target_mid_mid_down'====== Args={'device': <drop_target.mid_mid>}
+2022-10-20 11:53:12,998 : INFO : EventManager : Event: ======'drop_target_bank_mid_mixed'====== Args={'prev_value': <DropTargetBankState.MIXED: 'mixed'>, 'down': 2}
+2022-10-20 11:53:13,342 : INFO : SwitchController : <<<<<<< 's_drop_mid_left' active >>>>>>>
+2022-10-20 11:53:13,342 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:53:13,342 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:53:13,342 : INFO : EventManager : Event: ======'drop_target_mid_left_down'====== Args={'device': <drop_target.mid_left>}
+2022-10-20 11:53:13,343 : INFO : EventManager : Event: ======'drop_target_bank_mid_down'====== Args={}
+2022-10-20 11:53:14,353 : INFO : drop_target_bank.mid : 3 targets are down. Will reset those.
+2022-10-20 11:53:14,353 : INFO : coil.c_drop_mid : Pulsing Driver for 50ms (0.7 pulse_power)
+2022-10-20 11:53:14,415 : INFO : SwitchController : <<<<<<< 's_drop_mid_left' inactive >>>>>>>
+2022-10-20 11:53:14,416 : INFO : SwitchController : <<<<<<< 's_drop_mid_right' inactive >>>>>>>
+2022-10-20 11:53:14,416 : INFO : SwitchController : <<<<<<< 's_drop_mid_mid' inactive >>>>>>>
+2022-10-20 11:53:14,851 : INFO : EventManager : Event: ======'drop_target_mid_right_up'====== Args={'device': <drop_target.mid_right>}
+2022-10-20 11:53:14,851 : INFO : EventManager : Event: ======'drop_target_mid_mid_up'====== Args={'device': <drop_target.mid_mid>}
+2022-10-20 11:53:14,851 : INFO : EventManager : Event: ======'drop_target_mid_left_up'====== Args={'device': <drop_target.mid_left>}
+2022-10-20 11:53:14,851 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2022-10-20 11:53:16,177 : INFO : SwitchController : <<<<<<< 's_drop_mid_right' active >>>>>>>
+2022-10-20 11:53:16,177 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:53:16,177 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:53:16,178 : INFO : EventManager : Event: ======'drop_target_mid_right_down'====== Args={'device': <drop_target.mid_right>}
+2022-10-20 11:53:16,178 : INFO : EventManager : Event: ======'drop_target_bank_mid_mixed'====== Args={'prev_value': <DropTargetBankState.UP: 'up'>, 'down': 1}
+2022-10-20 11:53:18,791 : INFO : SwitchController : <<<<<<< 's_drop_mid_mid' active >>>>>>>
+2022-10-20 11:53:18,792 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:53:18,792 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:53:18,792 : INFO : EventManager : Event: ======'drop_target_mid_mid_down'====== Args={'device': <drop_target.mid_mid>}
+2022-10-20 11:53:18,792 : INFO : EventManager : Event: ======'drop_target_bank_mid_mixed'====== Args={'prev_value': <DropTargetBankState.MIXED: 'mixed'>, 'down': 2}
+2022-10-20 11:53:19,058 : INFO : SwitchController : <<<<<<< 's_drop_mid_left' active >>>>>>>
+2022-10-20 11:53:19,058 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:53:19,058 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-10-20 11:53:19,059 : INFO : EventManager : Event: ======'drop_target_mid_left_down'====== Args={'device': <drop_target.mid_left>}
+2022-10-20 11:53:19,059 : INFO : EventManager : Event: ======'drop_target_bank_mid_down'====== Args={}
+2022-10-20 11:53:20,052 : INFO : drop_target_bank.mid : 3 targets are down. Will reset those.
+2022-10-20 11:53:20,052 : INFO : coil.c_drop_mid : Pulsing Driver for 50ms (0.7 pulse_power)
+2022-10-20 11:53:20,100 : INFO : SwitchController : <<<<<<< 's_drop_mid_left' inactive >>>>>>>
+2022-10-20 11:53:20,100 : INFO : SwitchController : <<<<<<< 's_drop_mid_right' inactive >>>>>>>
+2022-10-20 11:53:20,122 : INFO : SwitchController : <<<<<<< 's_drop_mid_mid' inactive >>>>>>>
+2022-10-20 11:53:20,553 : INFO : EventManager : Event: ======'drop_target_mid_left_up'====== Args={'device': <drop_target.mid_left>}
+2022-10-20 11:53:20,553 : INFO : EventManager : Event: ======'drop_target_bank_mid_mixed'====== Args={'prev_value': <DropTargetBankState.DOWN: 'down'>, 'down': 2}
+2022-10-20 11:53:20,553 : INFO : EventManager : Event: ======'drop_target_mid_right_up'====== Args={'device': <drop_target.mid_right>}
+2022-10-20 11:53:20,553 : INFO : EventManager : Event: ======'drop_target_bank_mid_mixed'====== Args={'prev_value': <DropTargetBankState.MIXED: 'mixed'>, 'down': 1}
+2022-10-20 11:53:20,554 : INFO : EventManager : Event: ======'drop_target_mid_mid_up'====== Args={'device': <drop_target.mid_mid>}
+2022-10-20 11:53:20,554 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2022-10-20 11:53:27,841 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <ball_device.bd_top_vuk>, 'balls': 1, 'retry': True, 'num_attempts': 0}
+2022-10-20 11:53:27,842 : WARNING : ball_device.bd_plunger : Path to <ball_device.bd_top_vuk> canceled. Assuming the ball jumped to <playfield.playfield>.
+2022-10-20 11:53:27,842 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2022-10-20 11:53:27,842 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2022-10-20 11:53:27,842 : INFO : ball_device.bd_plunger : 1 ball(s) missing from device. Mechanical eject? False
+2022-10-20 11:53:27,842 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_missing'====== Args={'balls': 1}
+2022-10-20 11:53:27,843 : INFO : ball_device.bd_top_vuk : State: idle
+2022-10-20 11:53:27,843 : INFO : EventManager : Event: ======'balldevice_ball_missing'====== Args={'balls': 1, 'name': 'bd_plunger'}
+2022-10-20 11:53:27,843 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2022-10-20 11:53:27,843 : INFO : ball_device.bd_plunger : State: idle
+2022-10-20 11:53:33,265 : INFO : SwitchController : <<<<<<< 's_pop_left' active >>>>>>>
+2022-10-20 11:53:33,421 : INFO : SwitchController : <<<<<<< 's_pop_left' inactive >>>>>>>
+2022-10-20 11:53:33,515 : INFO : SwitchController : <<<<<<< 's_pop_left' active >>>>>>>
+2022-10-20 11:53:33,638 : INFO : SwitchController : <<<<<<< 's_pop_left' inactive >>>>>>>
+2022-10-20 11:53:33,716 : INFO : SwitchController : <<<<<<< 's_pop_left' active >>>>>>>
+2022-10-20 11:53:33,825 : INFO : SwitchController : <<<<<<< 's_pop_left' inactive >>>>>>>
+2022-10-20 11:53:33,917 : INFO : SwitchController : <<<<<<< 's_pop_left' active >>>>>>>
+2022-10-20 11:53:34,026 : INFO : SwitchController : <<<<<<< 's_pop_left' inactive >>>>>>>
+2022-10-20 11:53:34,104 : INFO : SwitchController : <<<<<<< 's_pop_left' active >>>>>>>
+2022-10-20 11:53:34,217 : INFO : SwitchController : <<<<<<< 's_pop_left' inactive >>>>>>>
+2022-10-20 11:53:34,308 : INFO : SwitchController : <<<<<<< 's_pop_left' active >>>>>>>
+2022-10-20 11:53:34,463 : INFO : SwitchController : <<<<<<< 's_pop_left' inactive >>>>>>>
+2022-10-20 11:53:34,572 : INFO : SwitchController : <<<<<<< 's_pop_left' active >>>>>>>
+2022-10-20 11:53:34,823 : INFO : SwitchController : <<<<<<< 's_pop_left' inactive >>>>>>>
+2022-10-20 11:53:34,936 : INFO : SwitchController : <<<<<<< 's_pop_left' active >>>>>>>
+2022-10-20 11:53:35,123 : INFO : SwitchController : <<<<<<< 's_pop_left' inactive >>>>>>>
+2022-10-20 11:53:35,220 : INFO : SwitchController : <<<<<<< 's_pop_left' active >>>>>>>
+2022-10-20 11:53:35,439 : INFO : SwitchController : <<<<<<< 's_pop_left' inactive >>>>>>>
+2022-10-20 11:53:35,549 : INFO : SwitchController : <<<<<<< 's_pop_left' active >>>>>>>
+2022-10-20 11:53:35,735 : INFO : SwitchController : <<<<<<< 's_pop_left' inactive >>>>>>>
+2022-10-20 11:53:35,846 : INFO : SwitchController : <<<<<<< 's_pop_left' active >>>>>>>
+2022-10-20 11:53:36,001 : INFO : SwitchController : <<<<<<< 's_pop_left' inactive >>>>>>>
+2022-10-20 11:53:36,128 : INFO : SwitchController : <<<<<<< 's_pop_left' active >>>>>>>
+2022-10-20 11:53:36,285 : INFO : SwitchController : <<<<<<< 's_pop_left' inactive >>>>>>>
+2022-10-20 11:53:36,363 : INFO : SwitchController : <<<<<<< 's_pop_left' active >>>>>>>
+2022-10-20 11:53:36,596 : INFO : SwitchController : <<<<<<< 's_pop_left' inactive >>>>>>>
+2022-10-20 11:53:36,596 : INFO : SwitchController : <<<<<<< 's_pop_left' active >>>>>>>
+2022-10-20 11:53:36,596 : INFO : SwitchController : <<<<<<< 's_pop_left' inactive >>>>>>>
+2022-10-20 11:53:43,465 : INFO : SwitchController : <<<<<<< 's_upper_stationary' active >>>>>>>
+2022-10-20 11:53:43,575 : INFO : SwitchController : <<<<<<< 's_upper_stationary' inactive >>>>>>>
+2022-10-20 11:53:43,670 : INFO : SwitchController : <<<<<<< 's_upper_stationary' active >>>>>>>
+2022-10-20 11:53:43,872 : INFO : SwitchController : <<<<<<< 's_upper_stationary' inactive >>>>>>>
+2022-10-20 11:53:44,216 : INFO : SwitchController : <<<<<<< 's_upper_stationary' active >>>>>>>
+2022-10-20 11:53:44,354 : INFO : SwitchController : <<<<<<< 's_upper_stationary' inactive >>>>>>>
+2022-10-20 11:53:44,776 : INFO : SwitchController : <<<<<<< 's_upper_stationary' active >>>>>>>
+2022-10-20 11:53:44,884 : INFO : SwitchController : <<<<<<< 's_upper_stationary' inactive >>>>>>>
+2022-10-20 11:53:45,241 : INFO : SwitchController : <<<<<<< 's_upper_stationary' active >>>>>>>
+2022-10-20 11:53:45,288 : INFO : SwitchController : <<<<<<< 's_upper_stationary' inactive >>>>>>>
+2022-10-20 11:53:45,430 : INFO : SwitchController : <<<<<<< 's_upper_stationary' active >>>>>>>
+2022-10-20 11:53:45,600 : INFO : SwitchController : <<<<<<< 's_upper_stationary' inactive >>>>>>>
+2022-10-20 11:53:45,755 : INFO : SwitchController : <<<<<<< 's_upper_stationary' active >>>>>>>
+2022-10-20 11:53:45,925 : INFO : SwitchController : <<<<<<< 's_upper_stationary' inactive >>>>>>>
+2022-10-20 11:53:46,096 : INFO : SwitchController : <<<<<<< 's_upper_stationary' active >>>>>>>
+2022-10-20 11:53:46,267 : INFO : SwitchController : <<<<<<< 's_upper_stationary' inactive >>>>>>>
+2022-10-20 11:53:46,470 : INFO : SwitchController : <<<<<<< 's_upper_stationary' active >>>>>>>
+2022-10-20 11:53:46,627 : INFO : SwitchController : <<<<<<< 's_upper_stationary' inactive >>>>>>>
+2022-10-20 11:53:47,546 : INFO : SwitchController : <<<<<<< 's_upper_stationary' active >>>>>>>
+2022-10-20 11:53:47,551 : INFO : SwitchController : <<<<<<< 's_upper_stationary' inactive >>>>>>>
+2022-10-20 11:53:47,593 : INFO : SwitchController : <<<<<<< 's_upper_stationary' active >>>>>>>
+2022-10-20 11:53:47,718 : INFO : SwitchController : <<<<<<< 's_upper_stationary' inactive >>>>>>>
+2022-10-20 11:53:47,842 : INFO : SwitchController : <<<<<<< 's_upper_stationary' active >>>>>>>
+2022-10-20 11:53:48,029 : INFO : SwitchController : <<<<<<< 's_upper_stationary' inactive >>>>>>>
+2022-10-20 11:53:48,916 : INFO : SwitchController : <<<<<<< 's_upper_rollover' active >>>>>>>
+2022-10-20 11:53:48,980 : INFO : SwitchController : <<<<<<< 's_upper_rollover' inactive >>>>>>>
+2022-10-20 11:53:49,087 : INFO : SwitchController : <<<<<<< 's_upper_rollover' active >>>>>>>
+2022-10-20 11:53:49,226 : INFO : SwitchController : <<<<<<< 's_upper_rollover' inactive >>>>>>>
+2022-10-20 11:53:49,334 : INFO : SwitchController : <<<<<<< 's_upper_rollover' active >>>>>>>
+2022-10-20 11:53:49,411 : INFO : SwitchController : <<<<<<< 's_upper_rollover' inactive >>>>>>>
+2022-10-20 11:53:49,519 : INFO : SwitchController : <<<<<<< 's_upper_rollover' active >>>>>>>
+2022-10-20 11:53:49,691 : INFO : SwitchController : <<<<<<< 's_upper_rollover' inactive >>>>>>>
+2022-10-20 11:53:55,434 : INFO : SwitchController : <<<<<<< 's_upper_drop' inactive >>>>>>>
+2022-10-20 11:53:55,903 : INFO : SwitchController : <<<<<<< 's_upper_drop' active >>>>>>>
+2022-10-20 11:53:56,321 : INFO : SwitchController : <<<<<<< 's_upper_drop' inactive >>>>>>>
+2022-10-20 11:53:56,539 : INFO : SwitchController : <<<<<<< 's_upper_drop' active >>>>>>>
+2022-10-20 11:54:00,518 : INFO : SwitchController : <<<<<<< 's_transfer_rollover' active >>>>>>>
+2022-10-20 11:54:00,518 : INFO : SwitchController : <<<<<<< 's_transfer_rollover' inactive >>>>>>>
+2022-10-20 11:54:00,565 : INFO : SwitchController : <<<<<<< 's_transfer_rollover' active >>>>>>>
+2022-10-20 11:54:00,612 : INFO : SwitchController : <<<<<<< 's_transfer_rollover' inactive >>>>>>>
+2022-10-20 11:54:00,689 : INFO : SwitchController : <<<<<<< 's_transfer_rollover' active >>>>>>>
+2022-10-20 11:54:01,263 : INFO : SwitchController : <<<<<<< 's_transfer_rollover' inactive >>>>>>>
+2022-10-20 11:54:03,682 : INFO : SwitchController : <<<<<<< 's_pop_lower' active >>>>>>>
+2022-10-20 11:54:04,102 : INFO : SwitchController : <<<<<<< 's_pop_lower' inactive >>>>>>>
+2022-10-20 11:54:19,080 : INFO : SwitchController : <<<<<<< 's_bot_big' active >>>>>>>
+2022-10-20 11:54:19,110 : INFO : SwitchController : <<<<<<< 's_bot_big' inactive >>>>>>>
+2022-10-20 11:54:19,140 : INFO : SwitchController : <<<<<<< 's_bot_big' active >>>>>>>
+2022-10-20 11:54:19,206 : INFO : SwitchController : <<<<<<< 's_bot_big' inactive >>>>>>>
+2022-10-20 11:54:19,716 : INFO : SwitchController : <<<<<<< 's_bot_big' active >>>>>>>
+2022-10-20 11:54:19,856 : INFO : SwitchController : <<<<<<< 's_bot_big' inactive >>>>>>>
+2022-10-20 11:54:20,308 : INFO : SwitchController : <<<<<<< 's_bot_big' active >>>>>>>
+2022-10-20 11:54:20,355 : INFO : SwitchController : <<<<<<< 's_bot_big' inactive >>>>>>>
+2022-10-20 11:54:20,559 : INFO : SwitchController : <<<<<<< 's_bot_big' active >>>>>>>
+2022-10-20 11:54:20,746 : INFO : SwitchController : <<<<<<< 's_bot_big' inactive >>>>>>>
+2022-10-20 11:54:20,855 : INFO : SwitchController : <<<<<<< 's_bot_big' active >>>>>>>
+2022-10-20 11:54:21,055 : INFO : SwitchController : <<<<<<< 's_bot_big' inactive >>>>>>>
+2022-10-20 11:54:21,087 : INFO : SwitchController : <<<<<<< 's_bot_big' active >>>>>>>
+2022-10-20 11:54:21,307 : INFO : SwitchController : <<<<<<< 's_bot_big' inactive >>>>>>>
+2022-10-20 11:54:57,947 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:54:57,947 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:54:57,993 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:54:58,040 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:54:58,350 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:54:58,381 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:54:58,443 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:54:58,583 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:54:58,910 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:54:58,940 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:54:58,940 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-20 11:54:58,940 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 11:54:58,940 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-20 11:54:58,940 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 11:54:58,955 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:54:59,093 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:00,744 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:00,744 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:00,763 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:00,763 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:00,763 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:00,790 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:00,853 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:00,853 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:01,176 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:01,285 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:01,643 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:01,643 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:01,659 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:01,736 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:02,250 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:02,374 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:03,295 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:03,295 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:03,324 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:03,371 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:03,711 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:03,731 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:03,742 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:03,761 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:03,773 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:03,849 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:03,853 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:03,973 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:04,050 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:04,066 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:04,082 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:04,082 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:04,097 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:04,176 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:04,195 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:04,195 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:04,210 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:04,317 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:04,503 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:04,522 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:04,537 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:04,537 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-20 11:55:04,542 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-20 11:55:04,660 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:04,968 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:04,972 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:04,988 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:05,078 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:05,501 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:05,502 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:05,532 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:05,532 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:05,547 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:05,671 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:05,937 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:05,953 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:05,953 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:05,973 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 11:55:05,973 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 11:55:06,032 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:06,048 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:06,143 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:06,143 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:06,238 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:06,259 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:06,382 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:06,637 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:06,652 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:06,671 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:06,762 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:07,016 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:07,096 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:07,115 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:07,239 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:07,807 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:07,807 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:07,838 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:07,885 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:08,152 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:08,157 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:08,157 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:08,157 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:08,184 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:08,203 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:08,230 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:08,262 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:08,262 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:08,278 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:08,278 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:08,388 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:08,735 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:08,754 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:08,754 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:08,765 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-20 11:55:08,765 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 11:55:08,765 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-20 11:55:08,765 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 11:55:08,874 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:09,268 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:09,268 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:09,284 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:09,284 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:09,299 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:09,315 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:09,315 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:09,439 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:11,579 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:11,594 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:11,594 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:11,615 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 11:55:11,615 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 11:55:11,735 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:11,953 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:11,972 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:12,468 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:12,560 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:12,591 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:12,715 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:13,428 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:13,434 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:13,434 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 11:55:13,460 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 11:55:13,507 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:13,617 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:13,711 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:13,711 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:13,756 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:13,772 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:14,005 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:14,036 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:14,036 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:14,066 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:14,081 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:14,190 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:15,187 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:15,206 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:15,235 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:15,346 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:19,596 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:19,617 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:19,632 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:19,644 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:19,644 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:19,644 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:19,644 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:19,753 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:19,800 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:19,831 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:19,831 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:19,831 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:19,831 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:19,837 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:19,894 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:19,894 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:19,909 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:19,909 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:19,927 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:20,035 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:20,065 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:20,096 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:20,096 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:20,221 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:20,628 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:20,658 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:20,705 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:20,705 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:20,705 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:20,723 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:20,765 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:20,889 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:21,731 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-20 11:55:21,761 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-20 11:55:21,762 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 11:55:22,790 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-20 11:55:22,882 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-20 11:55:22,882 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 11:55:23,118 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-20 11:55:23,149 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 11:55:23,149 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-20 11:55:23,165 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:23,165 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:23,275 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-20 11:55:23,398 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-20 11:55:23,398 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 11:55:26,000 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-20 11:55:26,030 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 11:55:26,030 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-20 11:55:26,030 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:26,045 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:26,183 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-20 11:55:26,277 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-20 11:55:26,277 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 11:55:26,370 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:26,401 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:26,572 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:26,681 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:26,867 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:26,885 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:27,411 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:27,519 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:27,725 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:27,756 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:27,802 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:27,818 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:27,838 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:27,838 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:27,865 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:27,913 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:28,330 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:28,362 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:28,377 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:28,516 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:28,687 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:28,703 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:28,766 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:28,877 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:28,971 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:28,986 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:29,033 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:29,173 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:29,223 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:29,227 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:29,227 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 11:55:29,251 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 11:55:29,282 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:29,390 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:29,483 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:29,499 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:29,577 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:29,608 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:29,734 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:29,752 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:29,756 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:29,756 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:29,756 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:29,780 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:29,811 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:29,844 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:29,844 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:29,859 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:29,906 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:29,924 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:29,937 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:30,064 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:30,649 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:30,665 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:30,697 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 11:55:30,697 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 11:55:30,698 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:30,698 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:30,698 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:30,728 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:30,854 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:30,858 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:30,858 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:30,885 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:30,917 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:31,045 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:31,267 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:31,300 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:31,614 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-20 11:55:31,614 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2022-10-20 11:55:31,647 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 11:55:31,647 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-20 11:55:32,145 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:32,145 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2022-10-20 11:55:32,161 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-20 11:55:32,161 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2022-10-20 11:55:32,255 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:32,271 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-20 11:55:32,271 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 11:55:33,255 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2022-10-20 11:55:33,260 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:33,260 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2022-10-20 11:55:33,275 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 11:55:33,275 : INFO : SwitchController : <<<<<<< 's_eos_left_top' active >>>>>>>
+2022-10-20 11:55:33,275 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:33,301 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:33,305 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:33,425 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:33,425 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2022-10-20 11:55:33,425 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2022-10-20 11:55:33,425 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2022-10-20 11:55:33,519 : INFO : SwitchController : <<<<<<< 's_eos_left_top' inactive >>>>>>>
+2022-10-20 11:55:33,538 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 11:55:33,538 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:55:36,548 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2022-10-20 11:55:36,704 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2022-10-20 11:55:36,704 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2022-10-20 11:55:36,705 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2022-10-20 11:55:36,705 : INFO : BallController : Known balls: 3
+2022-10-20 11:55:36,705 : INFO : BallController : bd_trough contains 2 balls. Tags ['trough', 'home', 'drain']
+2022-10-20 11:55:36,705 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2022-10-20 11:55:36,705 : INFO : BallController : bd_top_vuk contains 0 balls. Tags []
+2022-10-20 11:55:36,705 : INFO : BallController : bd_right_vuk contains 0 balls. Tags []
+2022-10-20 11:55:36,705 : INFO : BallController : bd_bot_vuk contains 0 balls. Tags []
+2022-10-20 11:55:36,705 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2022-10-20 11:55:36,705 : WARNING : BallController : BallController denies game start. Balls are not in their home positions.
+2022-10-20 11:55:37,795 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2022-10-20 11:55:37,951 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2022-10-20 11:55:37,951 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2022-10-20 11:55:37,952 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2022-10-20 11:55:37,952 : INFO : BallController : Known balls: 3
+2022-10-20 11:55:37,952 : INFO : BallController : bd_trough contains 2 balls. Tags ['trough', 'home', 'drain']
+2022-10-20 11:55:37,952 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2022-10-20 11:55:37,952 : INFO : BallController : bd_top_vuk contains 0 balls. Tags []
+2022-10-20 11:55:37,952 : INFO : BallController : bd_right_vuk contains 0 balls. Tags []
+2022-10-20 11:55:37,952 : INFO : BallController : bd_bot_vuk contains 0 balls. Tags []
+2022-10-20 11:55:37,952 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2022-10-20 11:55:37,952 : WARNING : BallController : BallController denies game start. Balls are not in their home positions.
+2022-10-20 11:55:38,167 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2022-10-20 11:55:38,324 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2022-10-20 11:55:38,324 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2022-10-20 11:55:38,324 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2022-10-20 11:55:38,325 : INFO : BallController : Known balls: 3
+2022-10-20 11:55:38,325 : INFO : BallController : bd_trough contains 2 balls. Tags ['trough', 'home', 'drain']
+2022-10-20 11:55:38,325 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2022-10-20 11:55:38,325 : INFO : BallController : bd_top_vuk contains 0 balls. Tags []
+2022-10-20 11:55:38,325 : INFO : BallController : bd_right_vuk contains 0 balls. Tags []
+2022-10-20 11:55:38,325 : INFO : BallController : bd_bot_vuk contains 0 balls. Tags []
+2022-10-20 11:55:38,325 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2022-10-20 11:55:38,325 : WARNING : BallController : BallController denies game start. Balls are not in their home positions.
+2022-10-20 11:55:39,100 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2022-10-20 11:55:39,258 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2022-10-20 11:55:39,507 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2022-10-20 11:55:39,663 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2022-10-20 11:55:39,851 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2022-10-20 11:55:40,006 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2022-10-20 11:55:50,630 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 11:55:50,636 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 11:55:50,802 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 11:55:50,912 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>
+2022-10-20 11:57:57,337 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-20 11:57:57,337 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-20 11:57:57,366 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-20 11:57:57,383 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-20 11:57:57,445 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-20 11:57:57,445 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-20 11:57:57,507 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-20 11:57:57,507 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-20 11:57:57,570 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-20 11:57:57,570 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-20 11:57:57,633 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-20 11:57:57,651 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-20 11:57:57,913 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-20 11:57:57,933 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-20 11:57:58,069 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-20 11:57:58,085 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-20 11:57:58,552 : INFO : SwitchController : <<<<<<< 's_tilt' active >>>>>>>
+2022-10-20 11:57:58,567 : INFO : SwitchController : <<<<<<< 's_tilt' inactive >>>>>>>
+2022-10-20 11:58:12,312 : INFO : SwitchController : <<<<<<< 's_rollover_left' active >>>>>>>
+2022-10-20 11:58:12,312 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-10-20 11:58:12,343 : INFO : SwitchController : <<<<<<< 's_rollover_left' inactive >>>>>>>
+2022-10-20 11:58:12,359 : INFO : SwitchController : <<<<<<< 's_rollover_left' active >>>>>>>
+2022-10-20 11:58:12,359 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-10-20 11:58:12,374 : INFO : SwitchController : <<<<<<< 's_rollover_left' inactive >>>>>>>
+2022-10-20 11:58:12,374 : INFO : SwitchController : <<<<<<< 's_rollover_left' active >>>>>>>
+2022-10-20 11:58:12,374 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-10-20 11:58:12,503 : INFO : SwitchController : <<<<<<< 's_rollover_left' inactive >>>>>>>
+2022-10-20 11:58:12,503 : INFO : SwitchController : <<<<<<< 's_rollover_left' active >>>>>>>
+2022-10-20 11:58:12,503 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-10-20 11:58:12,519 : INFO : SwitchController : <<<<<<< 's_rollover_left' inactive >>>>>>>
+2022-10-20 11:58:12,644 : INFO : SwitchController : <<<<<<< 's_rollover_left' active >>>>>>>
+2022-10-20 11:58:12,644 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2022-10-20 11:58:12,770 : INFO : SwitchController : <<<<<<< 's_rollover_left' inactive >>>>>>>
+2022-10-20 11:58:33,312 : INFO : SwitchController : <<<<<<< 's_vuk_top' active >>>>>>>
+2022-10-20 11:58:33,824 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_count_changed'====== Args={'balls': 1}
+2022-10-20 11:58:33,824 : INFO : ball_device.bd_top_vuk : Received unexpected ball
+2022-10-20 11:58:33,824 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2022-10-20 11:58:33,825 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2022-10-20 11:58:33,825 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2022-10-20 11:58:33,825 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_top_vuk>}
+2022-10-20 11:58:33,826 : INFO : ball_device.bd_top_vuk : Ejecting 1 unexpected balls using path deque([<ball_device.bd_top_vuk>, <playfield.playfield>])
+2022-10-20 11:58:33,826 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2022-10-20 11:58:33,826 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2022-10-20 11:58:33,826 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_top_vuk>}
+2022-10-20 11:58:33,827 : INFO : ball_device.bd_top_vuk : State: waiting_for_target_ready
+2022-10-20 11:58:33,827 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-20 11:58:33,827 : INFO : ball_device.bd_top_vuk : State: ejecting
+2022-10-20 11:58:33,827 : INFO : ball_device.bd_top_vuk : Ejecting ball to <playfield.playfield>
+2022-10-20 11:58:33,827 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_top_vuk>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-20 11:58:33,828 : INFO : ball_device.bd_top_vuk : Wait for ball to leave device
+2022-10-20 11:58:33,828 : INFO : coil.c_top_vuk : Pulsing Driver for 70ms (1.0 pulse_power)
+2022-10-20 11:58:34,165 : INFO : SwitchController : <<<<<<< 's_vuk_top' inactive >>>>>>>
+2022-10-20 11:58:34,170 : INFO : ball_device.bd_top_vuk : State: ball_left
+2022-10-20 11:58:34,170 : INFO : ball_device.bd_top_vuk : Ball left
+2022-10-20 11:58:34,170 : INFO : ball_device.bd_top_vuk : Wait for confirm with timeout 2.0
+2022-10-20 11:58:36,173 : INFO : ball_device.bd_top_vuk : State: failed_confirm
+2022-10-20 11:58:36,173 : INFO : ball_device.bd_top_vuk : Got timeout (2.0s) before confirm from <playfield.playfield>
+2022-10-20 11:58:36,267 : INFO : ball_device.bd_top_vuk : Confirming eject because target is playfield and ball did not return.
+2022-10-20 11:58:36,267 : INFO : ball_device.bd_top_vuk : Eject successful
+2022-10-20 11:58:36,267 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2022-10-20 11:58:36,268 : INFO : SwitchController : <<<<<<< 's_vuk_right' active >>>>>>>
+2022-10-20 11:58:36,268 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-10-20 11:58:36,268 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2022-10-20 11:58:36,268 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2022-10-20 11:58:36,268 : INFO : EventManager : Event: ======'balldevice_bd_top_vuk_ball_count_changed'====== Args={'balls': 0}
+2022-10-20 11:58:36,268 : INFO : ball_device.bd_top_vuk : State: idle
+2022-10-20 11:58:36,764 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_count_changed'====== Args={'balls': 1}
+2022-10-20 11:58:36,764 : INFO : ball_device.bd_right_vuk : Received unexpected ball
+2022-10-20 11:58:36,764 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2022-10-20 11:58:36,765 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2022-10-20 11:58:36,765 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2022-10-20 11:58:36,765 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_right_vuk>}
+2022-10-20 11:58:36,765 : INFO : ball_device.bd_right_vuk : Ejecting 1 unexpected balls using path deque([<ball_device.bd_right_vuk>, <playfield.playfield>])
+2022-10-20 11:58:36,765 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2022-10-20 11:58:36,765 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2022-10-20 11:58:36,765 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_right_vuk>}
+2022-10-20 11:58:36,766 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-20 11:58:36,766 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-20 11:58:36,767 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-20 11:58:36,767 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-20 11:58:36,767 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-20 11:58:36,767 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-20 11:58:36,767 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-20 11:58:37,163 : INFO : SwitchController : <<<<<<< 's_vuk_right' inactive >>>>>>>
+2022-10-20 11:58:37,168 : INFO : ball_device.bd_right_vuk : State: ball_left
+2022-10-20 11:58:37,168 : INFO : ball_device.bd_right_vuk : Ball left
+2022-10-20 11:58:37,168 : INFO : ball_device.bd_right_vuk : Wait for confirm with timeout 2.0
+2022-10-20 11:58:39,154 : INFO : ball_device.bd_right_vuk : State: failed_confirm
+2022-10-20 11:58:39,154 : INFO : ball_device.bd_right_vuk : Got timeout (2.0s) before confirm from <playfield.playfield>
+2022-10-20 11:58:39,249 : INFO : ball_device.bd_right_vuk : Confirming eject because target is playfield and ball did not return.
+2022-10-20 11:58:39,249 : INFO : ball_device.bd_right_vuk : Eject successful
+2022-10-20 11:58:39,249 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2022-10-20 11:58:39,249 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2022-10-20 11:58:39,249 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2022-10-20 11:58:39,250 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_count_changed'====== Args={'balls': 0}
+2022-10-20 11:58:39,250 : INFO : ball_device.bd_right_vuk : State: idle
+2022-10-20 11:58:40,572 : INFO : SwitchController : <<<<<<< 's_vuk_right' active >>>>>>>
+2022-10-20 11:58:41,066 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_count_changed'====== Args={'balls': 1}
+2022-10-20 11:58:41,067 : INFO : ball_device.bd_right_vuk : Received unexpected ball
+2022-10-20 11:58:41,067 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2022-10-20 11:58:41,067 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2022-10-20 11:58:41,067 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2022-10-20 11:58:41,068 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_right_vuk>}
+2022-10-20 11:58:41,068 : INFO : ball_device.bd_right_vuk : Ejecting 1 unexpected balls using path deque([<ball_device.bd_right_vuk>, <playfield.playfield>])
+2022-10-20 11:58:41,068 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2022-10-20 11:58:41,068 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2022-10-20 11:58:41,068 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_right_vuk>}
+2022-10-20 11:58:41,069 : INFO : ball_device.bd_right_vuk : State: waiting_for_target_ready
+2022-10-20 11:58:41,069 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-20 11:58:41,070 : INFO : ball_device.bd_right_vuk : State: ejecting
+2022-10-20 11:58:41,070 : INFO : ball_device.bd_right_vuk : Ejecting ball to <playfield.playfield>
+2022-10-20 11:58:41,070 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_right_vuk>, 'mechanical_eject': False, 'num_attempts': 0}
+2022-10-20 11:58:41,070 : INFO : ball_device.bd_right_vuk : Wait for ball to leave device
+2022-10-20 11:58:41,070 : INFO : coil.c_right_vuk : Pulsing Driver for 10ms (1.0 pulse_power)
+2022-10-20 11:58:41,317 : INFO : SwitchController : <<<<<<< 's_trough_jam' inactive >>>>>>>
+2022-10-20 11:58:41,339 : INFO : SwitchController : <<<<<<< 's_trough_1' active >>>>>>>
+2022-10-20 11:58:41,410 : INFO : SwitchController : <<<<<<< 's_vuk_right' inactive >>>>>>>
+2022-10-20 11:58:41,414 : INFO : ball_device.bd_right_vuk : State: ball_left
+2022-10-20 11:58:41,414 : INFO : ball_device.bd_right_vuk : Ball left
+2022-10-20 11:58:41,415 : INFO : ball_device.bd_right_vuk : Wait for confirm with timeout 2.0
+2022-10-20 11:58:41,628 : INFO : SwitchController : <<<<<<< 's_trough_1' inactive >>>>>>>
+2022-10-20 11:58:43,411 : INFO : ball_device.bd_right_vuk : State: failed_confirm
+2022-10-20 11:58:43,411 : INFO : ball_device.bd_right_vuk : Got timeout (2.0s) before confirm from <playfield.playfield>
+2022-10-20 11:58:43,503 : INFO : ball_device.bd_right_vuk : Confirming eject because target is playfield and ball did not return.
+2022-10-20 11:58:43,503 : INFO : ball_device.bd_right_vuk : Eject successful
+2022-10-20 11:58:43,503 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2022-10-20 11:58:43,504 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2022-10-20 11:58:43,504 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2022-10-20 11:58:43,504 : INFO : EventManager : Event: ======'balldevice_bd_right_vuk_ball_count_changed'====== Args={'balls': 0}
+2022-10-20 11:58:43,504 : INFO : ball_device.bd_right_vuk : State: idle
+2022-10-20 11:58:47,129 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2022-10-20 11:58:47,129 : WARNING : ball_device.bd_trough : Ball disappeared while idle. This should not normally happen.
+2022-10-20 11:58:47,129 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2022-10-20 11:58:47,129 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 2, 'change': 1}
+2022-10-20 11:58:47,129 : INFO : ball_device.bd_trough : 1 ball(s) missing from device. Mechanical eject? False
+2022-10-20 11:58:47,130 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_missing'====== Args={'balls': 1}
+2022-10-20 11:58:47,130 : INFO : EventManager : Event: ======'balldevice_ball_missing'====== Args={'balls': 1, 'name': 'bd_trough'}
+2022-10-20 12:01:50,166 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2022-10-20 12:01:50,197 : INFO : SwitchController : <<<<<<< 's_eos_right' active >>>>>>>
+2022-10-20 12:01:50,197 : INFO : SwitchController : <<<<<<< 's_eos_left' active >>>>>>>
+2022-10-20 12:01:50,228 : INFO : SwitchController : <<<<<<< 's_eos_left' inactive >>>>>>>
+2022-10-20 12:01:50,336 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2022-10-20 12:01:50,446 : INFO : SwitchController : <<<<<<< 's_eos_right' inactive >>>>>>>

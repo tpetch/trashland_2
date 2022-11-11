@@ -1,0 +1,68 @@
+2022-10-21 09:26:14,977 : kivy : Factory: 186 symbols loaded
+2022-10-21 09:26:15,098 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-10-21 09:26:15,098 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-10-21 09:26:15,135 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-10-21 09:26:15,135 : kivy : Video: Provider: gstplayer
+2022-10-21 09:26:15,331 : kivy : Loading MPF-MC controller
+2022-10-21 09:26:15,334 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-10-21 09:26:15,334 : ConfigProcessor : Config file in cache changed: c:\trashland_2\config\config
+2022-10-21 09:26:15,336 : ConfigProcessor : Loading config from file c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-10-21 09:26:15,374 : ConfigProcessor : Loading config: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml
+2022-10-21 09:26:15,374 : ConfigProcessor : Loading config from file c:\trashland_2\config\config.
+2022-10-21 09:26:15,481 : ConfigProcessor : Loading config: c:\trashland_2\config\config
+2022-10-21 09:26:15,484 : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\af2f9975217aa24f0c3c7583f835539f.mpf_cache
+2022-10-21 09:26:15,484 : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-21 09:26:15,485 : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-10-21 09:26:15,485 : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\708062243e0edcfa77dd6b1521bd0d4e.mpf_cache
+2022-10-21 09:26:15,486 : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c4174472f67f7b070dd6fb437c6feb0c.mpf_cache
+2022-10-21 09:26:15,487 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2022-10-21 09:26:15,487 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2022-10-21 09:26:15,487 : mpfmc : Machine path: c:\trashland_2
+2022-10-21 09:26:15,487 : mpfmc : Starting clock at 60.0Hz
+2022-10-21 09:26:15,499 : kivy : Text: Provider: sdl2
+2022-10-21 09:26:15,535 : kivy : Window: Provider: sdl2
+2022-10-21 09:26:16,218 : kivy : GL: Using the "OpenGL" graphics system
+2022-10-21 09:26:16,222 : kivy : GL: GLEW initialization succeeded
+2022-10-21 09:26:16,222 : kivy : GL: Backend used <glew>
+2022-10-21 09:26:16,222 : kivy : GL: OpenGL version <b'4.6.0 NVIDIA 512.15'>
+2022-10-21 09:26:16,222 : kivy : GL: OpenGL vendor <b'NVIDIA Corporation'>
+2022-10-21 09:26:16,223 : kivy : GL: OpenGL renderer <b'NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2'>
+2022-10-21 09:26:16,223 : kivy : GL: OpenGL parsed version: 4, 6
+2022-10-21 09:26:16,223 : kivy : GL: Shading version <b'4.60 NVIDIA'>
+2022-10-21 09:26:16,223 : kivy : GL: Texture max size <32768>
+2022-10-21 09:26:16,223 : kivy : GL: Texture max units <32>
+2022-10-21 09:26:16,271 : kivy : Window: auto add sdl2 input provider
+2022-10-21 09:26:16,271 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2022-10-21 09:26:16,279 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2022-10-21 09:26:16,505 : AudioInterface : Initialized
+2022-10-21 09:26:16,505 : AudioInterface : Loaded SDL 2.0.12
+2022-10-21 09:26:16,505 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2022-10-21 09:26:16,505 : AudioInterface : Loaded GStreamer 1.18.0.0
+2022-10-21 09:26:16,506 : AudioInterface : Loaded GLib 2.62.6
+2022-10-21 09:26:16,506 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2022-10-21 09:26:16,506 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2022-10-21 09:26:16,506 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2022-10-21 09:26:16,506 : SoundSystem : Setting master volume to 0.0
+2022-10-21 09:26:16,506 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2022-10-21 09:26:16,506 : AudioInterface : Enabling audio playback
+2022-10-21 09:26:16,508 : kivy : Base: Start application main loop
+2022-10-21 09:26:16,508 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2022-10-21 09:26:16,520 : mpfmc : Display: Setting 'window' as default display
+2022-10-21 09:26:16,524 : EventManager : Event: ======'displays_initialized'====== Args={}
+2022-10-21 09:26:16,525 : EventManager : Event: ======'slide_window_blank_created'====== Args={}
+2022-10-21 09:26:16,525 : EventManager : Event: ======'display_window_ready'====== Args={}
+2022-10-21 09:26:16,535 : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-21 09:26:16,539 : EventManager : Event: ======'mc_ready'====== Args={}
+2022-10-21 09:26:16,539 : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-21 09:26:16,542 : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-10-21 09:26:16,544 : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-10-21 09:26:16,544 : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-10-21 09:26:16,544 : EventManager : Event: ======'init_done'====== Args={}
+2022-10-21 09:26:16,544 : MPF-MC BCP Server : Starting up on localhost port 5050
+2022-10-21 09:26:16,548 : MPF-MC BCP Server : Waiting for a connection...
+2022-10-21 09:26:16,548 : mpfmc : SlidePlayer: Play called with settings={'slides': {welcome_slide-None-None: {'priority': None, 'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'transition': None, 'transition_out': None}}}
+2022-10-21 09:26:16,565 : kivy : GL: NPOT texture support is available
+2022-10-21 09:26:16,566 : EventManager : Event: ======'slide_welcome_slide_created'====== Args={}
+2022-10-21 09:26:16,568 : EventManager : Event: ======'slide_welcome_slide_active'====== Args={}
+2022-10-21 09:26:16,570 : EventManager : Event: ======'client_disconnected'====== Args={'host': '127.0.0.1', 'port': 5050}
+2022-10-21 09:26:31,892 : kivy : Base: Leaving application in progress...

@@ -6,7 +6,7 @@ hardware:
   driverboards: fast
 
 fast:
-  ports: com14, com15
+  ports: com24, com25
   rgb_buffer: 3
   
 playfields:
@@ -587,16 +587,16 @@ coils:
 
   c_shaker:
     number: 0-0
-    default_pulse_ms: 1
-    default_hold_power: 0.125    # keep this low
+    default_pulse_ms: 3
+    default_hold_power: 0.145    # keep this low
 
 # Board 1 - Backbox and Upper Mini
 
   c_back_flipper_main:
     number: 1-2
     default_pulse_power: 1
-    default_pulse_ms: 80
-    default_hold_power: 0.3
+    default_pulse_ms: 70
+    default_hold_power: 0.1
   c_back_flipper_hold:
     number: 1-1
     allow_enable: true
@@ -626,7 +626,7 @@ coils:
    
   c_top_vuk:
    number: 2-10
-   default_pulse_ms: 120
+   default_pulse_ms: 100
    default_pulse_power: 1
   c_right_vuk:
    number: 2-13
@@ -669,8 +669,12 @@ coils:
    
   c_left_sling:
    number: 2-3
+   default_pulse_power: 0.7
+   default_pulse_ms: 20
   c_right_sling:
    number: 2-6
+   default_pulse_power: 0.7
+   default_pulse_ms: 20
   
 # Board 3 - Lower Third
 
@@ -684,7 +688,7 @@ coils:
     
   c_flipper_right:
     number: 3-2
-    default_pulse_ms: 90
+    default_pulse_ms: 220
   c_flipper_right_hold:
     number: 3-3
     allow_enable: true
@@ -802,6 +806,10 @@ flippers:
   left_flipper:
     main_coil: c_flipper_left
     hold_coil: c_flipper_left_hold
+    activation_switch: s_left_flipper
+    
+  shaker_test:
+    main_coil: c_shaker
     activation_switch: s_left_flipper
     
   left_top_flipper:

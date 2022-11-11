@@ -1,0 +1,65 @@
+2022-10-20 11:12:00,396 : INFO : root : Loading config.
+2022-10-20 11:12:00,403 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-20 11:12:00,404 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\a6762098cb994b55cb03a478b26022ee.mpf_cache
+2022-10-20 11:12:00,486 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9cf7ccc27b21f4d6162237fadfc53e5a.mpf_cache
+2022-10-20 11:12:00,490 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c215df352878fee5d54f1a5ec5b16e7c.mpf_cache
+2022-10-20 11:12:00,495 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\708062243e0edcfa77dd6b1521bd0d4e.mpf_cache
+2022-10-20 11:12:00,500 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\c4174472f67f7b070dd6fb437c6feb0c.mpf_cache
+2022-10-20 11:12:00,505 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\9e6b4d5e43fd00e219ba7c739d818ad6.mpf_cache
+2022-10-20 11:12:00,510 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\abaa92c43d134e3392cbb2346e6a16be.mpf_cache
+2022-10-20 11:12:00,514 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fc46d53fcb9fe6b8abf783d9c813390a.mpf_cache
+2022-10-20 11:12:00,519 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\b46de592c65b9a27a1f4965daee53c91.mpf_cache
+2022-10-20 11:12:00,524 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\5b50cb1d58cd4116013cda74c2923169.mpf_cache
+2022-10-20 11:12:00,530 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\2734ac1662e5e62f2e4cb2a8d902a8f2.mpf_cache
+2022-10-20 11:12:00,537 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\fe169133106b4804e097dca6b78afaf5.mpf_cache
+2022-10-20 11:12:00,541 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\d4f531e94c6a484dd08e4121f6e3a74e.mpf_cache
+2022-10-20 11:12:00,545 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\e9c431c8aa2f7ab7b37617b37185d68f.mpf_cache
+2022-10-20 11:12:00,551 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\07112933e6abcdb1819075df64aee3c0.mpf_cache
+2022-10-20 11:12:00,556 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-20 11:12:00,556 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-20-11-12-00-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-20 11:12:00,556 : INFO : Machine : MPF path: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-10-20 11:12:00,556 : INFO : Machine : Machine path: c:\trashland_2
+2022-10-20 11:12:00,556 : INFO : Machine : Platform: win32
+2022-10-20 11:12:00,556 : INFO : Machine : Python executable location: c:\users\tanner\appdata\local\programs\python\python37\python.exe
+2022-10-20 11:12:00,556 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-10-20 11:12:00,557 : INFO : Machine : Initialise MPF.
+2022-10-20 11:12:00,925 : INFO : FAST : Connecting to com9 at 921600bps
+2022-10-20 11:12:00,926 : INFO : Machine : Shutting down...
+2022-10-20 11:12:00,926 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-20 11:12:01,034 : ERROR : Machine : Failed to initialise MPF
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 311, in _connect_to_hardware
+    await comm.connect()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 45, in connect
+    await self._connect_to_hardware(self.port, self.baud, self.xonxoff)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 54, in _connect_to_hardware
+    self.reader, self.writer = await connector
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\clock.py", line 155, in open_serial_connection
+    **kwargs)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\asyncio\coroutines.py", line 120, in coro
+    res = func(*args, **kw)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 410, in create_serial_connection
+    ser = serial.serial_for_url(*args, **kwargs)
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\__init__.py", line 90, in serial_for_url
+    instance.open()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'com9': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 673, in initialise_mpf
+    raise init.exception()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 244, in initialise
+    await self.initialise_core_and_hardware()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 240, in initialise_core_and_hardware
+    await self._initialize_platforms()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 331, in _initialize_platforms
+    result.result()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 178, in initialize
+    await self._connect_to_hardware()
+  File "c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 315, in _connect_to_hardware
+    "port".format(port), 1, self.log.name) from e
+mpf.exceptions.runtime_error.MpfRuntimeError: Runtime Error in FAST: Could not open serial port com9. Check if you configured the correct port in the fast config section and if you got sufficient permissions to that port Error Code: RE-FAST-1 (https://docs.missionpinball.org/en/0.55/logs/RE-FAST-1.html)
+2022-10-20 11:12:18,930 : INFO : root : MPF run loop ended.
