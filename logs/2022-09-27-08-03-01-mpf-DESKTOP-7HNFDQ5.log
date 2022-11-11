@@ -1,5 +1,0 @@
-2022-09-27 08:03:01,113 : INFO : root : Loading config.
-2022-09-27 08:03:01,116 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
-2022-09-27 08:03:01,117 : INFO : ConfigProcessor : Loading config from file c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml.
-2022-09-27 08:03:01,188 : INFO : ConfigProcessor : Loading config: c:\users\tanner\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml
-2022-09-27 08:03:01,189 : INFO : ConfigProcessor : Loading config from file c:\trashland_2\config\config.yaml.

@@ -1,5 +1,0 @@
-2022-10-15 18:33:44,245 : kivy : Factory: 186 symbols loaded
-2022-10-15 18:33:54,245 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
-2022-10-15 18:33:54,245 : kivy : Image: Providers: img_tex, img_imageio, img_dds, img_sdl2, img_pil, img_ffpyplayer 
-2022-10-15 18:33:55,852 : kivy : VideoFFPy: Using ffpyplayer 4.3.2
-2022-10-15 18:33:55,853 : kivy : Video: Provider: ffpyplayer(['video_ffmpeg'] ignored)
